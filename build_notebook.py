@@ -8,10 +8,15 @@ recreates the whole project and reproduces every result.
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 
 ROOT = Path(__file__).parent
 NB_PATH = ROOT / "2025_ds_case_study_resume_platform.ipynb"
+
+# The brief asks for "the link to Streamlit app in the notebook". Set this to the hosted
+# Community Cloud URL once deployed; leave as None to document the local URL instead.
+APP_URL = os.getenv("STREAMLIT_APP_URL") or None
 
 
 def md(text: str) -> dict:
@@ -443,15 +448,23 @@ print(flat["years_experience"].describe().round(1))
 """))
 
 # ---------------------------------------------------------------- 7. the app
+APP_LINK_TEXT = (
+    f"the deployed application is live at **{APP_URL}**, running the exact code in this "
+    "notebook from the project repository."
+    if APP_URL
+    else "the application is published locally as the brief specifies, at "
+         "**http://localhost:8501**."
+)
+
 A(md("""
 ---
 ## 7. The Streamlit application
 
-**Link:** the app runs locally at **http://localhost:8501** after
-`streamlit run app.py`. It is published locally as the brief specifies; no candidate
-data leaves the machine, which is the right default for resume data even when it is
-synthetic. Deploying it to an internal host is a configuration change, not a code
-change - see section 9.
+**Link:** """ + APP_LINK_TEXT + """
+
+Run it locally with `streamlit run app.py` (defaults to http://localhost:8501). Nothing
+in the code differs between local and hosted execution; deploying to an internal host is
+a configuration change, not a code change - see section 9.
 
 ### Interface design
 
