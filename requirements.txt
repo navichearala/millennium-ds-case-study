@@ -1,0 +1,15 @@
+# Core
+pandas>=2.0
+pydantic>=2.0
+
+# Document parsing
+python-docx>=1.1
+pypdf>=4.0
+
+# LLM providers (install whichever you use)
+openai>=1.30
+anthropic>=0.30
+
+# App
+streamlit>=1.30
+plotly>=5.18

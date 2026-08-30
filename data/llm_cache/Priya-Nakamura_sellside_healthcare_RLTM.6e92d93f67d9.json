@@ -1,0 +1,258 @@
+{
+  "prompt_version": "v3",
+  "content_hash": "6e92d93f67d92dd5e6e07a763177a761ad3afc56cc73f4c7fbfee5b4d34e57de",
+  "source_file": "Priya-Nakamura_sellside_healthcare_RLTM.docx",
+  "provider": "reference",
+  "model": "reference-extraction",
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "profile": {
+    "source_file": "Priya-Nakamura_sellside_healthcare_RLTM.docx",
+    "source_agency": "Red Lane Talent Management",
+    "full_name": "Priya Nakamura",
+    "honorific": null,
+    "email": null,
+    "phone": null,
+    "location_city": null,
+    "location_country": null,
+    "region": "Asia-Pacific",
+    "current_employer": "ICICI Securities",
+    "current_title": "Lead Healthcare Analyst",
+    "primary_strategy_type": "Fundamental",
+    "primary_market_side": "Sell-Side",
+    "primary_firm_type": "Investment Bank - Sell-Side Research",
+    "seniority_level": "Lead Analyst",
+    "sectors_covered": [
+      "Healthcare",
+      "Materials"
+    ],
+    "sector_specialisation_detail": [
+      "Pharma, hospitals, diagnostics and medical devices across the listed Indian healthcare universe",
+      "USFDA, EMA and domestic regulatory compliance, API sourcing and patent cliff analysis",
+      "Indian mid- and small-cap pharmaceutical and specialty chemical names",
+      "US and European large-cap pharmaceutical names"
+    ],
+    "geographic_markets_covered": [
+      "India",
+      "United States",
+      "Europe"
+    ],
+    "self_reported_years_experience": 9.0,
+    "max_coverage_universe": 32,
+    "roles": [
+      {
+        "employer": "ICICI Securities",
+        "title": "Lead Healthcare Analyst",
+        "location": null,
+        "start_date": "2023-05",
+        "end_date": "present",
+        "duration_stated": null,
+        "is_current": true,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Sell-Side Research",
+        "market_side": "Sell-Side",
+        "seniority": "Lead Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare"
+        ],
+        "coverage_universe_size": 32,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Coverage of 32 companies across pharma, hospitals, diagnostics and medical devices in the listed Indian healthcare universe",
+          "Managed primary fund raises for Jupiter Hospital, Innova Captab, Entero Healthcare and AKUMS",
+          "Regular meetings with listed and unlisted industry participants"
+        ]
+      },
+      {
+        "employer": "J.P. Morgan Chase",
+        "title": "Lead Healthcare Analyst",
+        "location": null,
+        "start_date": "2021-09",
+        "end_date": "2023-05",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Sell-Side Research",
+        "market_side": "Sell-Side",
+        "seniority": "Lead Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare"
+        ],
+        "coverage_universe_size": 22,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Formal coverage of 22 companies across the healthcare value chain",
+          "Arranged corporate meetings and road shows connecting senior management with key investors"
+        ]
+      },
+      {
+        "employer": "Jardine Lloyd Thompson",
+        "title": "Lead Pharma Analyst",
+        "location": null,
+        "start_date": "2020-01",
+        "end_date": "2021-09",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Sell-Side Research",
+        "market_side": "Sell-Side",
+        "seniority": "Lead Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare"
+        ],
+        "coverage_universe_size": 17,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Started my journey as a Lead Analyst at Anand Rathi with 17 pharma companies under direct coverage, blending large and mid-cap names",
+          "Updated clients on corporate actions, news flow and global healthcare sector events"
+        ]
+      },
+      {
+        "employer": "Centrum Broking Ltd",
+        "title": "Research Analyst",
+        "location": null,
+        "start_date": "2017-01",
+        "end_date": "2019-12",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Sell-Side Research",
+        "market_side": "Sell-Side",
+        "seniority": "Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare"
+        ],
+        "coverage_universe_size": 12,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Recommended differentiated and undervalued opportunities to institutional clients and developed sectoral themes",
+          "Published initiation reports, sector outlooks, quarterly earnings analysis and thematic research",
+          "Monitored USFDA and EMA regulatory compliance, manufacturing capability, API sourcing and patent cliff risk"
+        ]
+      },
+      {
+        "employer": "Morgan Stanley",
+        "title": "Equity Research Analyst",
+        "location": null,
+        "start_date": "2015-10",
+        "end_date": "2016-12",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Sell-Side Research",
+        "market_side": "Sell-Side",
+        "seniority": "Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare",
+          "Materials"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Covered Indian mid- and small-cap pharmaceutical and specialty chemical companies",
+          "Built financial models from management interaction and ratio analysis, and prepared initiation and IPO reports"
+        ]
+      },
+      {
+        "employer": "Transparent Value",
+        "title": "Equity Research Analyst",
+        "location": null,
+        "start_date": "2013-10",
+        "end_date": "2015-10",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Asset Manager",
+        "market_side": "Buy-Side",
+        "seniority": "Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare"
+        ],
+        "coverage_universe_size": 25,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Built Required Business Performance probability models incorporating macroeconomic factors",
+          "Portfolio of 25 US and European large-cap pharmaceutical names including Gilead, Zimmer Biomet, HCA, GSK and Meda AB"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Mumbai Institute of Management Studies (MIMS)",
+        "degree": "MBA - Finance",
+        "field_of_study": "Finance",
+        "location": "Mumbai, India",
+        "start_year": 2011,
+        "end_year": 2013,
+        "gpa": null,
+        "honors": null
+      },
+      {
+        "institution": "University of Pune",
+        "degree": "MCOM",
+        "field_of_study": "Commerce",
+        "location": "Pune, India",
+        "start_year": null,
+        "end_year": 2013,
+        "gpa": null,
+        "honors": null
+      },
+      {
+        "institution": "Thakur College of Commerce",
+        "degree": "B.M.S",
+        "field_of_study": "Management Studies",
+        "location": "Mumbai, India",
+        "start_year": null,
+        "end_year": 2007,
+        "gpa": null,
+        "honors": null
+      },
+      {
+        "institution": "Jai Hind College",
+        "degree": "HSC",
+        "field_of_study": null,
+        "location": "Mumbai, India",
+        "start_year": null,
+        "end_year": 2004,
+        "gpa": null,
+        "honors": null
+      },
+      {
+        "institution": "Modern High School and Junior College",
+        "degree": "SSC",
+        "field_of_study": null,
+        "location": null,
+        "start_year": null,
+        "end_year": 2002,
+        "gpa": null,
+        "honors": null
+      }
+    ],
+    "certifications": [],
+    "has_cfa": false,
+    "cfa_status": null,
+    "has_medical_degree": false,
+    "licenses": [],
+    "programming_languages": [],
+    "tools_and_platforms": [],
+    "languages_spoken": [],
+    "publications": [],
+    "extraction_confidence": "low",
+    "extraction_notes": [
+      "The profile states 9 years of healthcare coverage, but the dated roles begin October 2013, implying roughly 13 years",
+      "The Jardine Lloyd Thompson entry says 'Started my journey as a Lead Analyst at Anand Rathi', naming a different employer inside the same role",
+      "Coverage counts are inconsistent within the current role: the summary says 25 healthcare stocks while the ICICI Securities bullet says 32 companies",
+      "No email address, phone number or location is present anywhere in the document",
+      "The document carries a 'RED LANE TALENT MANAGEMENT' header on multiple pages, indicating an agency-formatted resume rather than a candidate original",
+      "The J.P. Morgan Chase end date is written 'Mayr'23', an apparent typo read as May 2023",
+      "Education chronology is unusual: an MBA dated 2011-13 and an MCOM dated 2013 follow a B.M.S dated 2007",
+      "No degree-level dates overlap the earliest role, so the pre-2013 career history cannot be verified"
+    ]
+  }
+}

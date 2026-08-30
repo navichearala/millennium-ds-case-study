@@ -1,0 +1,2366 @@
+[
+  {
+    "source_file": "Chen-Li-Alex.docx",
+    "source_agency": null,
+    "full_name": "Chen Li (Alex)",
+    "honorific": null,
+    "email": "Alex_chen2024@gmail.com",
+    "phone": "+852 65478923",
+    "location_city": "Hong Kong",
+    "location_country": "Hong Kong",
+    "region": "Asia-Pacific",
+    "current_employer": null,
+    "current_title": null,
+    "primary_strategy_type": "Systematic / Quantitative",
+    "primary_market_side": "Buy-Side",
+    "primary_firm_type": "Commercial / Corporate Bank",
+    "seniority_level": "Analyst",
+    "sectors_covered": [
+      "Technology",
+      "Healthcare",
+      "Financial Services"
+    ],
+    "sector_specialisation_detail": [
+      "Multi-factor quantitative model on Greater China technology equities",
+      "Asian technology and healthcare sectors, 15+ sub-industries and 35+ companies",
+      "Chinese bond and equity markets"
+    ],
+    "geographic_markets_covered": [
+      "Greater China",
+      "Hong Kong",
+      "Asia (Asian equities)"
+    ],
+    "self_reported_years_experience": null,
+    "max_coverage_universe": 35,
+    "roles": [
+      {
+        "employer": "Bank of China",
+        "title": "Investment Analyst",
+        "location": "Hong Kong",
+        "start_date": "2021-06",
+        "end_date": "2023-09",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Commercial / Corporate Bank",
+        "market_side": "Buy-Side",
+        "seniority": "Analyst",
+        "strategy_type": "Systematic / Quantitative",
+        "sectors": [
+          "Technology",
+          "Financial Services"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Quantitative analysis on large-scale Asian equity datasets supporting portfolio managers, covering market trends, sector rotations and statistical anomalies",
+          "Independently built and managed a multi-factor quantitative model on Greater China technology equities, reported Sharpe ratio of 1.8+ over 12 months",
+          "Built an automated market surveillance system monitoring real-time conditions, news sentiment and macro events",
+          "Backtesting and performance attribution of systematic strategies using statistical methods and machine learning"
+        ]
+      },
+      {
+        "employer": "Bank of China",
+        "title": "Investment Intern",
+        "location": "Hong Kong",
+        "start_date": "2019-12",
+        "end_date": "2021-05",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": true,
+        "firm_type": "Commercial / Corporate Bank",
+        "market_side": "Buy-Side",
+        "seniority": "Intern",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Technology",
+          "Healthcare"
+        ],
+        "coverage_universe_size": 35,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Research on Asian technology and healthcare sectors across 15+ sub-industries and 35+ companies in Greater China",
+          "Expert interviews, financial statement analysis, DCF and relative valuation models, and investment research reports"
+        ]
+      },
+      {
+        "employer": "Chinese University of Hong Kong",
+        "title": "Research Assistant (Economics Area)",
+        "location": "Hong Kong",
+        "start_date": "2019-03",
+        "end_date": "2021-03",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Academic / Research",
+        "market_side": "Academic",
+        "seniority": "Other",
+        "strategy_type": "Systematic / Quantitative",
+        "sectors": [
+          "Multi-Sector / Generalist"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Processed and analysed 200,000+ historical Asian firm-level data points in Python and R, reporting a 25x improvement in team computational efficiency",
+          "Used Python and GIS mapping on satellite imagery to analyse regional economic activity, producing 400+ analytical outputs"
+        ]
+      },
+      {
+        "employer": "Meridian Asia Capital",
+        "title": "Finance Market Department Intern (Chinese Bond and Equity Market)",
+        "location": "Jiangxi, China",
+        "start_date": "2019-07",
+        "end_date": "2019-08",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": true,
+        "firm_type": "Other",
+        "market_side": "Unknown",
+        "seniority": "Intern",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Financial Services",
+          "Credit"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Prepared two Equity Pledge Business Investigation Reports",
+          "Supported company research and drafted Bill Credit Investigation Reports"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Hong Kong",
+        "degree": "Master of Science in Financial Technology",
+        "field_of_study": "Financial Technology",
+        "location": "Hong Kong",
+        "start_year": 2021,
+        "end_year": 2023,
+        "gpa": null,
+        "honors": "Related coursework: Algorithmic Trading, Quantitative Risk Management, Machine Learning in Trading and Finance"
+      },
+      {
+        "institution": "University of Hong Kong",
+        "degree": "Bachelor of Business Administration (Finance)",
+        "field_of_study": "Finance",
+        "location": "Hong Kong",
+        "start_year": 2017,
+        "end_year": 2021,
+        "gpa": null,
+        "honors": "Dean's List (4 semesters); Outstanding Academic Achievement Award"
+      }
+    ],
+    "certifications": [],
+    "has_cfa": false,
+    "cfa_status": null,
+    "has_medical_degree": false,
+    "licenses": [],
+    "programming_languages": [
+      "Python",
+      "R",
+      "SQL",
+      "VBA"
+    ],
+    "tools_and_platforms": [
+      "Bloomberg Terminal",
+      "WIND Database",
+      "Excel",
+      "PowerPoint",
+      "Word"
+    ],
+    "languages_spoken": [
+      "English (fluent)",
+      "Mandarin (native)",
+      "Cantonese (fluent)"
+    ],
+    "publications": [],
+    "extraction_confidence": "medium",
+    "extraction_notes": [
+      "No role recorded after September 2023; the most recent employer is Bank of China and no current position is stated",
+      "The MSc (Sept 2021 - Jul 2023) runs concurrently with the full-time Bank of China analyst role (June 2021 - Sep 2023)",
+      "The Investment Analyst role begins June 2021 while the Investment Intern role is listed to May 2021 and the CUHK research assistant role to March 2021, so several dates overlap",
+      "Sharpe ratio of 1.8+ is a self-reported performance claim that cannot be verified from the document"
+    ],
+    "candidate_id": "chen-li-alex",
+    "computed_years_experience": 4.4,
+    "computed_years_excluding_internships": 4.2,
+    "years_experience_source": "computed_from_dates",
+    "career_start_year": 2019,
+    "n_roles": 4,
+    "n_employers": 3,
+    "employer_list": [
+      "Bank of China",
+      "Chinese University of Hong Kong",
+      "Meridian Asia Capital"
+    ],
+    "highest_degree_tier": "Master's / MBA",
+    "highest_degree": "Master of Science in Financial Technology",
+    "is_currently_employed": false,
+    "months_since_last_role": 35,
+    "career_gaps": [
+      "Not currently employed - 35 months since 2023-09"
+    ],
+    "data_quality_flags": [
+      "Overlapping roles (different employers, ~15 months): Bank of China [2019-12-2021-05] and Chinese University of Hong Kong [2019-03-2021-03]",
+      "[model] No role recorded after September 2023; the most recent employer is Bank of China and no current position is stated",
+      "[model] The MSc (Sept 2021 - Jul 2023) runs concurrently with the full-time Bank of China analyst role (June 2021 - Sep 2023)",
+      "[model] The Investment Analyst role begins June 2021 while the Investment Intern role is listed to May 2021 and the CUHK research assistant role to March 2021, so several dates overlap",
+      "[model] Sharpe ratio of 1.8+ is a self-reported performance claim that cannot be verified from the document"
+    ],
+    "data_quality_score": 0.8,
+    "searchable_text": "chen li (alex)   bank of china chinese university of hong kong meridian asia capital investment analyst investment intern research assistant (economics area) finance market department intern (chinese bond and equity market) technology healthcare financial services multi-factor quantitative model on greater china technology equities asian technology and healthcare sectors, 15+ sub-industries and 35+ companies chinese bond and equity markets greater china hong kong asia (asian equities) python r sql vba bloomberg terminal wind database excel powerpoint word  university of hong kong university of hong kong master of science in financial technology bachelor of business administration (finance) quantitative analysis on large-scale asian equity datasets supporting portfolio managers, covering market trends, sector rotations and statistical anomalies independently built and managed a multi-factor quantitative model on greater china technology equities, reported sharpe ratio of 1.8+ over 12 months built an automated market surveillance system monitoring real-time conditions, news sentiment and macro events backtesting and performance attribution of systematic strategies using statistical methods and machine learning research on asian technology and healthcare sectors across 15+ sub-industries and 35+ companies in greater china expert interviews, financial statement analysis, dcf and relative valuation models, and investment research reports processed and analysed 200,000+ historical asian firm-level data points in python and r, reporting a 25x improvement in team computational efficiency used python and gis mapping on satellite imagery to analyse regional economic activity, producing 400+ analytical outputs prepared two equity pledge business investigation reports supported company research and drafted bill credit investigation reports"
+  },
+  {
+    "source_file": "MARINA-SILVA-COSTA.docx",
+    "source_agency": null,
+    "full_name": "Marina Silva Costa",
+    "honorific": null,
+    "email": "marina.costa.finance@gmail.com",
+    "phone": "+44 (785) 429-1673",
+    "location_city": "London",
+    "location_country": "United Kingdom",
+    "region": "Europe",
+    "current_employer": "Vanguard Group",
+    "current_title": "Equity Research Analyst",
+    "primary_strategy_type": "Fundamental",
+    "primary_market_side": "Buy-Side",
+    "primary_firm_type": "Asset Manager",
+    "seniority_level": "Analyst",
+    "sectors_covered": [
+      "Healthcare",
+      "Consumer",
+      "Media & Telecom",
+      "Industrials",
+      "Financial Services"
+    ],
+    "sector_specialisation_detail": [
+      "Healthcare, consumer discretionary and telecom equities in emerging LatAm and EMEA",
+      "Water technology equities (summer analyst project)",
+      "Consulting coverage of consumer, retail, e-commerce, grocery, aerospace, infrastructure and banking loyalty programmes"
+    ],
+    "geographic_markets_covered": [
+      "Latin America (emerging)",
+      "EMEA",
+      "Brazil",
+      "United States",
+      "United Kingdom"
+    ],
+    "self_reported_years_experience": null,
+    "max_coverage_universe": null,
+    "roles": [
+      {
+        "employer": "Vanguard Group",
+        "title": "Equity Research Analyst",
+        "location": "Boston, USA / London, United Kingdom",
+        "start_date": "2021-08",
+        "end_date": "present",
+        "duration_stated": null,
+        "is_current": true,
+        "is_internship": false,
+        "firm_type": "Asset Manager",
+        "market_side": "Buy-Side",
+        "seniority": "Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare",
+          "Consumer",
+          "Media & Telecom"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Develops investment recommendations on public companies through fundamental research, financial modelling and proprietary studies",
+          "Focus on healthcare, consumer discretionary and telecom companies operating primarily in emerging LatAm and EMEA"
+        ]
+      },
+      {
+        "employer": "Vanguard Group",
+        "title": "Equity Research Summer Analyst",
+        "location": "Boston, USA",
+        "start_date": "2020-06",
+        "end_date": "2020-08",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": true,
+        "firm_type": "Asset Manager",
+        "market_side": "Buy-Side",
+        "seniority": "Intern",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Industrials",
+          "Utilities"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Developed investment recommendations on publicly traded water technology companies using fundamental research and financial modelling"
+        ]
+      },
+      {
+        "employer": "Bain & Company",
+        "title": "Business Analyst",
+        "location": "Sao Paulo, Brazil",
+        "start_date": "2016",
+        "end_date": "2019",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Consulting",
+        "market_side": "Corporate",
+        "seniority": "Analyst",
+        "strategy_type": "Unclear",
+        "sectors": [
+          "Consumer",
+          "Industrials",
+          "Financial Services"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Built a dynamic pricing tool for a consumer electronics company covering 35 product categories, 4 distribution channels and 180+ regional markets",
+          "Led a strategic sourcing transformation at a grocery chain delivering roughly 4 percentage points of gross margin improvement",
+          "Managed progress of 200+ initiatives in a large-scale lean manufacturing engagement for an aerospace player",
+          "Led launch of McKinsey's first case competition, receiving 3,300 applications and mobilising 50+ consultants from McKinsey Brazil"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "MIT Sloan School of Management",
+        "degree": "Master of Business Administration (MBA)",
+        "field_of_study": "Business Administration",
+        "location": "Cambridge, MA, United States",
+        "start_year": 2019,
+        "end_year": 2021,
+        "gpa": null,
+        "honors": "Investment Management Club Co-President; Latin America Conference 2020 organiser"
+      },
+      {
+        "institution": "Fundacao Getulio Vargas",
+        "degree": "BS in Economics",
+        "field_of_study": "Economics",
+        "location": "Sao Paulo, Brazil",
+        "start_year": 2013,
+        "end_year": 2016,
+        "gpa": null,
+        "honors": "Manager of CJE-FF student-run equity fund and the Investment Committee"
+      }
+    ],
+    "certifications": [],
+    "has_cfa": false,
+    "cfa_status": null,
+    "has_medical_degree": false,
+    "licenses": [],
+    "programming_languages": [
+      "Python",
+      "R",
+      "VBA"
+    ],
+    "tools_and_platforms": [
+      "Advanced Excel"
+    ],
+    "languages_spoken": [
+      "Portuguese (fluent)",
+      "English (fluent)",
+      "Spanish (conversational)"
+    ],
+    "publications": [],
+    "extraction_confidence": "medium",
+    "extraction_notes": [
+      "The Bain & Company section contains a bullet crediting the launch of McKinsey's first case competition and mobilising McKinsey Brazil consultants, which contradicts the stated employer",
+      "The current Vanguard role lists two locations (Boston, USA and London, United Kingdom) without dates for the transfer, so the present base is ambiguous; the UK phone number suggests London",
+      "Bain dates are given as years only (2016 - 2019) with no months, so tenure is approximate",
+      "GMAT score of 740 (2019) stated under additional information"
+    ],
+    "candidate_id": "marina-silva-costa",
+    "computed_years_experience": 9.1,
+    "computed_years_excluding_internships": 8.9,
+    "years_experience_source": "computed_from_dates",
+    "career_start_year": 2016,
+    "n_roles": 3,
+    "n_employers": 2,
+    "employer_list": [
+      "Vanguard Group",
+      "Bain & Company"
+    ],
+    "highest_degree_tier": "Master's / MBA",
+    "highest_degree": "Master of Business Administration (MBA)",
+    "is_currently_employed": true,
+    "months_since_last_role": 0,
+    "career_gaps": [
+      "20 month gap between 2019-12 and 2021-08 - overlaps Master of Business Administration (MBA) at MIT Sloan School of Management"
+    ],
+    "data_quality_flags": [
+      "Role at Bain & Company contains a bullet referring to employment at 'mckinsey' - possible employer mismatch",
+      "[model] The Bain & Company section contains a bullet crediting the launch of McKinsey's first case competition and mobilising McKinsey Brazil consultants, which contradicts the stated employer",
+      "[model] The current Vanguard role lists two locations (Boston, USA and London, United Kingdom) without dates for the transfer, so the present base is ambiguous; the UK phone number suggests London",
+      "[model] Bain dates are given as years only (2016 - 2019) with no months, so tenure is approximate",
+      "[model] GMAT score of 740 (2019) stated under additional information"
+    ],
+    "data_quality_score": 0.8,
+    "searchable_text": "marina silva costa vanguard group equity research analyst vanguard group bain & company equity research analyst equity research summer analyst business analyst healthcare consumer media & telecom industrials financial services healthcare, consumer discretionary and telecom equities in emerging latam and emea water technology equities (summer analyst project) consulting coverage of consumer, retail, e-commerce, grocery, aerospace, infrastructure and banking loyalty programmes latin america (emerging) emea brazil united states united kingdom python r vba advanced excel  mit sloan school of management fundacao getulio vargas master of business administration (mba) bs in economics develops investment recommendations on public companies through fundamental research, financial modelling and proprietary studies focus on healthcare, consumer discretionary and telecom companies operating primarily in emerging latam and emea developed investment recommendations on publicly traded water technology companies using fundamental research and financial modelling built a dynamic pricing tool for a consumer electronics company covering 35 product categories, 4 distribution channels and 180+ regional markets led a strategic sourcing transformation at a grocery chain delivering roughly 4 percentage points of gross margin improvement managed progress of 200+ initiatives in a large-scale lean manufacturing engagement for an aerospace player led launch of mckinsey's first case competition, receiving 3,300 applications and mobilising 50+ consultants from mckinsey brazil"
+  },
+  {
+    "source_file": "Marcus-Chen-Rodriguez-Resume.docx",
+    "source_agency": null,
+    "full_name": "Marcus Chen-Rodriguez",
+    "honorific": null,
+    "email": "rchen@hotmail",
+    "phone": "(745) 156-1879",
+    "location_city": "New York",
+    "location_country": "United States",
+    "region": "North America",
+    "current_employer": "Coatue Management",
+    "current_title": "Healthcare Analyst, Investment Team",
+    "primary_strategy_type": "Fundamental",
+    "primary_market_side": "Buy-Side",
+    "primary_firm_type": "Hedge Fund",
+    "seniority_level": "Senior Analyst",
+    "sectors_covered": [
+      "Healthcare",
+      "Credit"
+    ],
+    "sector_specialisation_detail": [
+      "Life Sciences Tools & Diagnostics, MedTech, Therapeutics & Services",
+      "Primary specialisation in Digital Health and AI-enabled diagnostics (60% time allocation)",
+      "Structured credit, growth equity and royalty financings in healthcare"
+    ],
+    "geographic_markets_covered": [
+      "United States"
+    ],
+    "self_reported_years_experience": null,
+    "max_coverage_universe": null,
+    "roles": [
+      {
+        "employer": "Coatue Management",
+        "title": "Healthcare Analyst, Investment Team",
+        "location": "New York, NY",
+        "start_date": "2019-10",
+        "end_date": "present",
+        "duration_stated": null,
+        "is_current": true,
+        "is_internship": false,
+        "firm_type": "Hedge Fund",
+        "market_side": "Buy-Side",
+        "seniority": "Senior Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": "$40B multi-strategy platform",
+        "highlights": [
+          "Manages public long/short and private growth/venture healthcare investments at a $40B multi-strategy platform",
+          "Sector coverage across Life Sciences Tools & Diagnostics, MedTech and Therapeutics & Services, specialising in Digital Health and AI-enabled diagnostics",
+          "Reported 340bps of outperformance versus healthcare benchmarks with an 85% hit rate on long recommendations",
+          "Board Observer at two portfolio companies; sourced and co-led a $150M Series B; led diligence on 12 investments totalling $2.1B"
+        ]
+      },
+      {
+        "employer": "Goldman Sachs",
+        "title": "Senior Associate, Investment Team",
+        "location": "New York, NY",
+        "start_date": "2019-01",
+        "end_date": "2019-09",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Banking / Markets",
+        "market_side": "Private Markets",
+        "seniority": "Associate",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare",
+          "Credit"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": "$4.2B strategy within an $18B platform",
+        "highlights": [
+          "Investment diligence, underwriting and asset management for a $4.2B strategy in structured credit, growth equity and royalty financings",
+          "Reported 280bps of outperformance versus healthcare benchmarks across 9 active investments"
+        ]
+      },
+      {
+        "employer": "Goldman Sachs",
+        "title": "Associate, Investment Team",
+        "location": "New York, NY",
+        "start_date": "2017-04",
+        "end_date": "2018-12",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Banking / Markets",
+        "market_side": "Private Markets",
+        "seniority": "Associate",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare",
+          "Credit"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Built financial models, investment analyses and board presentations, working with third-party consultants, medical experts and regulatory advisors",
+          "Presented investment recommendations to the senior investment committee, portfolio managers and limited partner advisory boards"
+        ]
+      },
+      {
+        "employer": "Credit Suisse",
+        "title": "Analyst, Healthcare Investment Banking Group",
+        "location": "New York, NY",
+        "start_date": "2013-06",
+        "end_date": "2015-03",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Banking / Markets",
+        "market_side": "Sell-Side",
+        "seniority": "Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Client coverage in therapeutics, medical devices and healthcare services for mid- and large-cap M&A and financings",
+          "Executed 8 transactions with combined deal value of $12B+ across M&A, IPOs and follow-on offerings"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Harvard University",
+        "degree": "Bachelor of Arts in Economics, Secondary in Molecular Biology",
+        "field_of_study": "Economics; Molecular Biology",
+        "location": "Cambridge, MA",
+        "start_year": null,
+        "end_year": 2013,
+        "gpa": null,
+        "honors": "Magna Cum Laude; thesis on behavioural economics in clinical trial participation; NCAA Division I All-American swimming; Varsity team captain"
+      },
+      {
+        "institution": "Stanford University",
+        "degree": "Summer Program (non-degree)",
+        "field_of_study": "Healthcare Innovation; Biotechnology Commercialization",
+        "location": "Stanford, CA",
+        "start_year": null,
+        "end_year": null,
+        "gpa": null,
+        "honors": null
+      }
+    ],
+    "certifications": [],
+    "has_cfa": false,
+    "cfa_status": null,
+    "has_medical_degree": false,
+    "licenses": [],
+    "programming_languages": [],
+    "tools_and_platforms": [],
+    "languages_spoken": [],
+    "publications": [
+      "Undergraduate thesis: 'Behavioral Economics in Clinical Trial Participation: A Cross-Sectional Analysis'"
+    ],
+    "extraction_confidence": "medium",
+    "extraction_notes": [
+      "Email address 'rchen@hotmail' has no top-level domain and appears truncated; the local part also does not match the candidate's stated first name",
+      "Unexplained gap between the Credit Suisse role ending March 2015 and the Goldman Sachs role starting April 2017",
+      "Outperformance figures of 340bps and 280bps and an 85% hit rate are self-reported and unverifiable",
+      "No programming languages or technical tooling are listed anywhere in the document"
+    ],
+    "candidate_id": "marcus-chen-rodriguez",
+    "computed_years_experience": 10.9,
+    "computed_years_excluding_internships": 10.9,
+    "years_experience_source": "computed_from_dates",
+    "career_start_year": 2013,
+    "n_roles": 4,
+    "n_employers": 3,
+    "employer_list": [
+      "Coatue Management",
+      "Goldman Sachs",
+      "Credit Suisse"
+    ],
+    "highest_degree_tier": "Bachelor's",
+    "highest_degree": "Bachelor of Arts in Economics, Secondary in Molecular Biology",
+    "is_currently_employed": true,
+    "months_since_last_role": 0,
+    "career_gaps": [
+      "25 month gap between 2015-03 and 2017-04 - unexplained"
+    ],
+    "data_quality_flags": [
+      "Malformed email address: rchen@hotmail",
+      "[model] Email address 'rchen@hotmail' has no top-level domain and appears truncated; the local part also does not match the candidate's stated first name",
+      "[model] Unexplained gap between the Credit Suisse role ending March 2015 and the Goldman Sachs role starting April 2017",
+      "[model] Outperformance figures of 340bps and 280bps and an 85% hit rate are self-reported and unverifiable",
+      "[model] No programming languages or technical tooling are listed anywhere in the document"
+    ],
+    "data_quality_score": 0.8,
+    "searchable_text": "marcus chen-rodriguez coatue management healthcare analyst, investment team coatue management goldman sachs credit suisse healthcare analyst, investment team senior associate, investment team associate, investment team analyst, healthcare investment banking group healthcare credit life sciences tools & diagnostics, medtech, therapeutics & services primary specialisation in digital health and ai-enabled diagnostics (60% time allocation) structured credit, growth equity and royalty financings in healthcare united states    harvard university stanford university bachelor of arts in economics, secondary in molecular biology summer program (non-degree) manages public long/short and private growth/venture healthcare investments at a $40b multi-strategy platform sector coverage across life sciences tools & diagnostics, medtech and therapeutics & services, specialising in digital health and ai-enabled diagnostics reported 340bps of outperformance versus healthcare benchmarks with an 85% hit rate on long recommendations board observer at two portfolio companies; sourced and co-led a $150m series b; led diligence on 12 investments totalling $2.1b investment diligence, underwriting and asset management for a $4.2b strategy in structured credit, growth equity and royalty financings reported 280bps of outperformance versus healthcare benchmarks across 9 active investments built financial models, investment analyses and board presentations, working with third-party consultants, medical experts and regulatory advisors presented investment recommendations to the senior investment committee, portfolio managers and limited partner advisory boards client coverage in therapeutics, medical devices and healthcare services for mid- and large-cap m&a and financings executed 8 transactions with combined deal value of $12b+ across m&a, ipos and follow-on offerings"
+  },
+  {
+    "source_file": "Michael-Rodriguez-CFA.docx",
+    "source_agency": null,
+    "full_name": "Michael Rodriguez",
+    "honorific": null,
+    "email": "mrodriguez84@gmail.com",
+    "phone": "317.441.1999",
+    "location_city": "Boston",
+    "location_country": "United States",
+    "region": "North America",
+    "current_employer": "Fidelity Asset Management",
+    "current_title": "Analyst, Consumer Internet & Software",
+    "primary_strategy_type": "Fundamental",
+    "primary_market_side": "Buy-Side",
+    "primary_firm_type": "Asset Manager",
+    "seniority_level": "Analyst",
+    "sectors_covered": [
+      "Technology",
+      "Media & Telecom",
+      "Consumer",
+      "Credit",
+      "Industrials",
+      "Financial Services"
+    ],
+    "sector_specialisation_detail": [
+      "Consumer Internet & Software within TMT",
+      "Coverage initiation on 20+ TMT names",
+      "High yield, crossover and investment grade credit as a junior desk analyst",
+      "70+ page differentiated report on the 3D printing industry covering 29 competitors",
+      "Agency and non-agency residential mortgage securitisation and MBS hedging"
+    ],
+    "geographic_markets_covered": [
+      "United States"
+    ],
+    "self_reported_years_experience": null,
+    "max_coverage_universe": 20,
+    "roles": [
+      {
+        "employer": "Fidelity Asset Management",
+        "title": "Analyst, Consumer Internet & Software",
+        "location": "Boston, MA",
+        "start_date": "2022-05",
+        "end_date": "present",
+        "duration_stated": null,
+        "is_current": true,
+        "is_internship": false,
+        "firm_type": "Asset Manager",
+        "market_side": "Buy-Side",
+        "seniority": "Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Technology",
+          "Consumer",
+          "Media & Telecom"
+        ],
+        "coverage_universe_size": 20,
+        "aum_or_portfolio_size": "$1-2 billion AUM mutual fund",
+        "highlights": [
+          "Initiated on 20+ TMT names through diligence on public filings, industry experts and valuation analysis",
+          "Contributed to the weekly portfolio review committee determining equity allocation across a $1-2bn AUM mutual fund",
+          "Met directly with management teams to assess corporate strategy and initiatives"
+        ]
+      },
+      {
+        "employer": "William Blair",
+        "title": "Associate, TMT - Equity Research",
+        "location": "Chicago, IL",
+        "start_date": "2019-04",
+        "end_date": "2022-01",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Sell-Side Research",
+        "market_side": "Sell-Side",
+        "seniority": "Associate",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Technology",
+          "Media & Telecom",
+          "Industrials"
+        ],
+        "coverage_universe_size": 20,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Covered 20+ TMT names with quarterly earnings estimates and research reports",
+          "Wrote coverage initiation reports and built IPO syndicate models for 10+ consumer internet companies",
+          "Published a 70+ page report on the 3D printing industry analysing 29 competitors"
+        ]
+      },
+      {
+        "employer": "William Blair",
+        "title": "Jr. Desk Analyst, Fixed Income Sales & Trading",
+        "location": "Chicago, IL",
+        "start_date": "2018-04",
+        "end_date": "2019-04",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Banking / Markets",
+        "market_side": "Sell-Side",
+        "seniority": "Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Credit"
+        ],
+        "coverage_universe_size": 10,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Built three-statement valuation models to pitch relative value ideas across 10+ HY, crossover and IG credits",
+          "Priced 100+ corporate bonds daily for inventory on Bloomberg RUNZ and ALLQ",
+          "Made markets in odd lot high yield, investment grade and hybrid securities up to $500m"
+        ]
+      },
+      {
+        "employer": "Guaranteed Rate",
+        "title": "Capital Markets Analyst, Mortgage Trading",
+        "location": "Chicago, IL",
+        "start_date": "2017-07",
+        "end_date": "2018-03",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Commercial / Corporate Bank",
+        "market_side": "Corporate",
+        "seniority": "Analyst",
+        "strategy_type": "Systematic / Quantitative",
+        "sectors": [
+          "Credit",
+          "Financial Services"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Managed a mortgage origination pipeline using Excel, SQL and proprietary risk systems, hedging rate exposure through MBS forwards"
+        ]
+      },
+      {
+        "employer": "Magnetar Capital Management",
+        "title": "Summer Intern",
+        "location": "Evanston, IL",
+        "start_date": "2016-05",
+        "end_date": "2016-08",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": true,
+        "firm_type": "Hedge Fund",
+        "market_side": "Buy-Side",
+        "seniority": "Intern",
+        "strategy_type": "Systematic / Quantitative",
+        "sectors": [
+          "Credit"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Structured, pooled and delivered residential mortgage loans exceeding $30M weekly into agency and non-agency securitisations"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Michigan, Ross School of Business",
+        "degree": "Bachelor of Science in Business",
+        "field_of_study": "Finance",
+        "location": "Ann Arbor, MI",
+        "start_year": null,
+        "end_year": 2017,
+        "gpa": "3.5/4.0",
+        "honors": "Business Leadership Program (120 of 1,200 students); Merit Scholar Program"
+      }
+    ],
+    "certifications": [
+      "CFA Charterholder",
+      "FINRA Series 7",
+      "FINRA Series 63",
+      "FINRA Series 87"
+    ],
+    "has_cfa": true,
+    "cfa_status": "Charterholder - passed Level III in June 2021",
+    "has_medical_degree": false,
+    "licenses": [
+      "Series 7",
+      "Series 63",
+      "Series 87"
+    ],
+    "programming_languages": [
+      "SQL"
+    ],
+    "tools_and_platforms": [
+      "Bloomberg Terminal",
+      "Excel",
+      "FactSet",
+      "S&P Capital IQ",
+      "Advanced Financial Modeling",
+      "Statistical Analysis",
+      "Hypothesis Testing"
+    ],
+    "languages_spoken": [],
+    "publications": [
+      "70+ page sell-side industry report on the 3D printing industry covering 29 competitors"
+    ],
+    "extraction_confidence": "high",
+    "extraction_notes": [
+      "Postal code in the contact block reads 'Boston, MA 01125', which is not a Boston ZIP code range (Boston uses 021xx), so the address may be mistyped",
+      "The phone area code 317 is Indiana while the stated address is Massachusetts",
+      "FINRA licences are described as held 'during equity research tenure', so current registration status is unclear"
+    ],
+    "candidate_id": "michael-rodriguez",
+    "computed_years_experience": 8.9,
+    "computed_years_excluding_internships": 8.7,
+    "years_experience_source": "computed_from_dates",
+    "career_start_year": 2016,
+    "n_roles": 5,
+    "n_employers": 4,
+    "employer_list": [
+      "Fidelity Asset Management",
+      "William Blair",
+      "Guaranteed Rate",
+      "Magnetar Capital Management"
+    ],
+    "highest_degree_tier": "Bachelor's",
+    "highest_degree": "Bachelor of Science in Business",
+    "is_currently_employed": true,
+    "months_since_last_role": 0,
+    "career_gaps": [],
+    "data_quality_flags": [
+      "[model] Postal code in the contact block reads 'Boston, MA 01125', which is not a Boston ZIP code range (Boston uses 021xx), so the address may be mistyped",
+      "[model] The phone area code 317 is Indiana while the stated address is Massachusetts",
+      "[model] FINRA licences are described as held 'during equity research tenure', so current registration status is unclear"
+    ],
+    "data_quality_score": 0.91,
+    "searchable_text": "michael rodriguez fidelity asset management analyst, consumer internet & software fidelity asset management william blair guaranteed rate magnetar capital management analyst, consumer internet & software associate, tmt - equity research jr. desk analyst, fixed income sales & trading capital markets analyst, mortgage trading summer intern technology media & telecom consumer credit industrials financial services consumer internet & software within tmt coverage initiation on 20+ tmt names high yield, crossover and investment grade credit as a junior desk analyst 70+ page differentiated report on the 3d printing industry covering 29 competitors agency and non-agency residential mortgage securitisation and mbs hedging united states sql bloomberg terminal excel factset s&p capital iq advanced financial modeling statistical analysis hypothesis testing cfa charterholder finra series 7 finra series 63 finra series 87 university of michigan, ross school of business bachelor of science in business initiated on 20+ tmt names through diligence on public filings, industry experts and valuation analysis contributed to the weekly portfolio review committee determining equity allocation across a $1-2bn aum mutual fund met directly with management teams to assess corporate strategy and initiatives covered 20+ tmt names with quarterly earnings estimates and research reports wrote coverage initiation reports and built ipo syndicate models for 10+ consumer internet companies published a 70+ page report on the 3d printing industry analysing 29 competitors built three-statement valuation models to pitch relative value ideas across 10+ hy, crossover and ig credits priced 100+ corporate bonds daily for inventory on bloomberg runz and allq made markets in odd lot high yield, investment grade and hybrid securities up to $500m managed a mortgage origination pipeline using excel, sql and proprietary risk systems, hedging rate exposure through mbs forwards structured, pooled and delivered residential mortgage loans exceeding $30m weekly into agency and non-agency securitisations"
+  },
+  {
+    "source_file": "Omar-El-Hassan-202405.pdf",
+    "source_agency": null,
+    "full_name": "Omar El-Hassan",
+    "honorific": null,
+    "email": "o.elhassan15@gmail.com",
+    "phone": "+33678924531",
+    "location_city": "Paris",
+    "location_country": "France",
+    "region": "Europe",
+    "current_employer": "BNP Paribas CIB",
+    "current_title": "Quantitative Developer",
+    "primary_strategy_type": "Systematic / Quantitative",
+    "primary_market_side": "Sell-Side",
+    "primary_firm_type": "Investment Bank - Banking / Markets",
+    "seniority_level": "Analyst",
+    "sectors_covered": [
+      "Macro / Rates & FX",
+      "Credit"
+    ],
+    "sector_specialisation_detail": [
+      "R&D Front Office Fixed Income pricing library development in C++",
+      "One-factor Gaussian copula model implementation",
+      "Exotic payoffs (local spread option), scenario analysis and Greeks computation for trading desks",
+      "Momentum-based systematic strategy development and backtesting",
+      "Yield curve construction algorithm performance optimisation"
+    ],
+    "geographic_markets_covered": [
+      "France",
+      "Europe",
+      "Morocco"
+    ],
+    "self_reported_years_experience": null,
+    "max_coverage_universe": null,
+    "roles": [
+      {
+        "employer": "BNP Paribas CIB",
+        "title": "Quantitative Developer",
+        "location": "Paris, France",
+        "start_date": "2022-05",
+        "end_date": "present",
+        "duration_stated": "Since May 2022",
+        "is_current": true,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Banking / Markets",
+        "market_side": "Sell-Side",
+        "seniority": "Analyst",
+        "strategy_type": "Systematic / Quantitative",
+        "sectors": [
+          "Macro / Rates & FX",
+          "Credit"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Quantitative development in the C++ pricing library for the R&D Front Office Fixed Income team",
+          "Introduced a new one-factor Gaussian copula model",
+          "Implemented a new exotic payoff (local spread option)",
+          "Delivered trading desk features including scenario analysis and Greeks computation"
+        ]
+      },
+      {
+        "employer": "BNP Paribas CIB",
+        "title": "Internship - Quantitative Development",
+        "location": "Paris, France",
+        "start_date": "2022-04",
+        "end_date": "2022-08",
+        "duration_stated": "April 2022 to August 2022",
+        "is_current": false,
+        "is_internship": true,
+        "firm_type": "Investment Bank - Banking / Markets",
+        "market_side": "Sell-Side",
+        "seniority": "Intern",
+        "strategy_type": "Systematic / Quantitative",
+        "sectors": [
+          "Macro / Rates & FX"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Built an automated testing framework in C# for derivatives pricing validation"
+        ]
+      },
+      {
+        "employer": "Societe Generale - SGATS (SGCIB)",
+        "title": "Quantitative Strategist - Intern",
+        "location": "Rabat, Morocco",
+        "start_date": "2021-06",
+        "end_date": "2021-08",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": true,
+        "firm_type": "Investment Bank - Banking / Markets",
+        "market_side": "Sell-Side",
+        "seniority": "Intern",
+        "strategy_type": "Systematic / Quantitative",
+        "sectors": [
+          "Macro / Rates & FX"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Developed and backtested momentum-based trading strategies",
+          "Optimised the performance of yield curve construction algorithms"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "INSA Lyon",
+        "degree": "Diplome d'Ingenieur",
+        "field_of_study": "Financial Engineering",
+        "location": "France",
+        "start_year": 2019,
+        "end_year": 2022,
+        "gpa": null,
+        "honors": "Academic projects: Monte Carlo pricer for European and American options (C++); systematic strategy backtester (C#); neural network implemented with gradient descent (C#)"
+      },
+      {
+        "institution": "Universite Lyon",
+        "degree": "Master's degree",
+        "field_of_study": "Quantitative Finance",
+        "location": "France",
+        "start_year": 2021,
+        "end_year": 2022,
+        "gpa": null,
+        "honors": "Coursework: stochastic calculus, differential equations, probability theory, statistics, Monte Carlo, Modern Portfolio Theory"
+      },
+      {
+        "institution": "Ecole Royale Navale",
+        "degree": "Preparatory Classes",
+        "field_of_study": "Mathematics and Physics",
+        "location": "Casablanca, Morocco",
+        "start_year": 2017,
+        "end_year": 2019,
+        "gpa": null,
+        "honors": null
+      }
+    ],
+    "certifications": [],
+    "has_cfa": false,
+    "cfa_status": null,
+    "has_medical_degree": false,
+    "licenses": [],
+    "programming_languages": [
+      "C++",
+      "C#",
+      ".NET",
+      "Python",
+      "Java",
+      "R",
+      "SQL",
+      "MongoDB"
+    ],
+    "tools_and_platforms": [
+      "Machine Learning",
+      "Excel"
+    ],
+    "languages_spoken": [
+      "English",
+      "Arabic"
+    ],
+    "publications": [],
+    "extraction_confidence": "medium",
+    "extraction_notes": [
+      "The full-time role is stated as beginning May 2022 while an internship at the same employer runs April 2022 to August 2022, which is contradictory",
+      "The source PDF lost the 'ti' ligature throughout, so job titles and skills required character repair before parsing",
+      "The document is single-column visually but the PDF text layer interleaves the skills sidebar into the experience section, so skills and roles had to be separated by context",
+      "French is not listed among languages despite the candidate being based in Paris; no inference was made",
+      "The INSA Lyon engineering degree (2019-2022) and the Universite Lyon master's (2021-2022) overlap, which is normal for a French double-degree track but is not explained in the document"
+    ],
+    "candidate_id": "omar-el-hassan",
+    "computed_years_experience": 4.5,
+    "computed_years_excluding_internships": 4.2,
+    "years_experience_source": "computed_from_dates",
+    "career_start_year": 2021,
+    "n_roles": 3,
+    "n_employers": 2,
+    "employer_list": [
+      "BNP Paribas CIB",
+      "Societe Generale - SGATS (SGCIB)"
+    ],
+    "highest_degree_tier": "Master's / MBA",
+    "highest_degree": "Diplome d'Ingenieur",
+    "is_currently_employed": true,
+    "months_since_last_role": 0,
+    "career_gaps": [],
+    "data_quality_flags": [
+      "Overlapping roles (same employer, ~3 months): BNP Paribas CIB [2022-05-present] and BNP Paribas CIB [2022-04-2022-08]",
+      "[model] The full-time role is stated as beginning May 2022 while an internship at the same employer runs April 2022 to August 2022, which is contradictory",
+      "[model] The source PDF lost the 'ti' ligature throughout, so job titles and skills required character repair before parsing",
+      "[model] The document is single-column visually but the PDF text layer interleaves the skills sidebar into the experience section, so skills and roles had to be separated by context",
+      "[model] French is not listed among languages despite the candidate being based in Paris; no inference was made",
+      "[model] The INSA Lyon engineering degree (2019-2022) and the Universite Lyon master's (2021-2022) overlap, which is normal for a French double-degree track but is not explained in the document"
+    ],
+    "data_quality_score": 0.77,
+    "searchable_text": "omar el-hassan bnp paribas cib quantitative developer bnp paribas cib societe generale - sgats (sgcib) quantitative developer internship - quantitative development quantitative strategist - intern macro / rates & fx credit r&d front office fixed income pricing library development in c++ one-factor gaussian copula model implementation exotic payoffs (local spread option), scenario analysis and greeks computation for trading desks momentum-based systematic strategy development and backtesting yield curve construction algorithm performance optimisation france europe morocco c++ c# .net python java r sql mongodb machine learning excel  insa lyon universite lyon ecole royale navale diplome d'ingenieur master's degree preparatory classes quantitative development in the c++ pricing library for the r&d front office fixed income team introduced a new one-factor gaussian copula model implemented a new exotic payoff (local spread option) delivered trading desk features including scenario analysis and greeks computation built an automated testing framework in c# for derivatives pricing validation developed and backtested momentum-based trading strategies optimised the performance of yield curve construction algorithms"
+  },
+  {
+    "source_file": "Priya-Nakamura_sellside_healthcare_RLTM.docx",
+    "source_agency": "Red Lane Talent Management",
+    "full_name": "Priya Nakamura",
+    "honorific": null,
+    "email": null,
+    "phone": null,
+    "location_city": null,
+    "location_country": null,
+    "region": "Asia-Pacific",
+    "current_employer": "ICICI Securities",
+    "current_title": "Lead Healthcare Analyst",
+    "primary_strategy_type": "Fundamental",
+    "primary_market_side": "Sell-Side",
+    "primary_firm_type": "Investment Bank - Sell-Side Research",
+    "seniority_level": "Lead Analyst",
+    "sectors_covered": [
+      "Healthcare",
+      "Materials"
+    ],
+    "sector_specialisation_detail": [
+      "Pharma, hospitals, diagnostics and medical devices across the listed Indian healthcare universe",
+      "USFDA, EMA and domestic regulatory compliance, API sourcing and patent cliff analysis",
+      "Indian mid- and small-cap pharmaceutical and specialty chemical names",
+      "US and European large-cap pharmaceutical names"
+    ],
+    "geographic_markets_covered": [
+      "India",
+      "United States",
+      "Europe"
+    ],
+    "self_reported_years_experience": 9.0,
+    "max_coverage_universe": 32,
+    "roles": [
+      {
+        "employer": "ICICI Securities",
+        "title": "Lead Healthcare Analyst",
+        "location": null,
+        "start_date": "2023-05",
+        "end_date": "present",
+        "duration_stated": null,
+        "is_current": true,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Sell-Side Research",
+        "market_side": "Sell-Side",
+        "seniority": "Lead Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare"
+        ],
+        "coverage_universe_size": 32,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Coverage of 32 companies across pharma, hospitals, diagnostics and medical devices in the listed Indian healthcare universe",
+          "Managed primary fund raises for Jupiter Hospital, Innova Captab, Entero Healthcare and AKUMS",
+          "Regular meetings with listed and unlisted industry participants"
+        ]
+      },
+      {
+        "employer": "J.P. Morgan Chase",
+        "title": "Lead Healthcare Analyst",
+        "location": null,
+        "start_date": "2021-09",
+        "end_date": "2023-05",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Sell-Side Research",
+        "market_side": "Sell-Side",
+        "seniority": "Lead Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare"
+        ],
+        "coverage_universe_size": 22,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Formal coverage of 22 companies across the healthcare value chain",
+          "Arranged corporate meetings and road shows connecting senior management with key investors"
+        ]
+      },
+      {
+        "employer": "Jardine Lloyd Thompson",
+        "title": "Lead Pharma Analyst",
+        "location": null,
+        "start_date": "2020-01",
+        "end_date": "2021-09",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Sell-Side Research",
+        "market_side": "Sell-Side",
+        "seniority": "Lead Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare"
+        ],
+        "coverage_universe_size": 17,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Started my journey as a Lead Analyst at Anand Rathi with 17 pharma companies under direct coverage, blending large and mid-cap names",
+          "Updated clients on corporate actions, news flow and global healthcare sector events"
+        ]
+      },
+      {
+        "employer": "Centrum Broking Ltd",
+        "title": "Research Analyst",
+        "location": null,
+        "start_date": "2017-01",
+        "end_date": "2019-12",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Sell-Side Research",
+        "market_side": "Sell-Side",
+        "seniority": "Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare"
+        ],
+        "coverage_universe_size": 12,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Recommended differentiated and undervalued opportunities to institutional clients and developed sectoral themes",
+          "Published initiation reports, sector outlooks, quarterly earnings analysis and thematic research",
+          "Monitored USFDA and EMA regulatory compliance, manufacturing capability, API sourcing and patent cliff risk"
+        ]
+      },
+      {
+        "employer": "Morgan Stanley",
+        "title": "Equity Research Analyst",
+        "location": null,
+        "start_date": "2015-10",
+        "end_date": "2016-12",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Sell-Side Research",
+        "market_side": "Sell-Side",
+        "seniority": "Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare",
+          "Materials"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Covered Indian mid- and small-cap pharmaceutical and specialty chemical companies",
+          "Built financial models from management interaction and ratio analysis, and prepared initiation and IPO reports"
+        ]
+      },
+      {
+        "employer": "Transparent Value",
+        "title": "Equity Research Analyst",
+        "location": null,
+        "start_date": "2013-10",
+        "end_date": "2015-10",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Asset Manager",
+        "market_side": "Buy-Side",
+        "seniority": "Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare"
+        ],
+        "coverage_universe_size": 25,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Built Required Business Performance probability models incorporating macroeconomic factors",
+          "Portfolio of 25 US and European large-cap pharmaceutical names including Gilead, Zimmer Biomet, HCA, GSK and Meda AB"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Mumbai Institute of Management Studies (MIMS)",
+        "degree": "MBA - Finance",
+        "field_of_study": "Finance",
+        "location": "Mumbai, India",
+        "start_year": 2011,
+        "end_year": 2013,
+        "gpa": null,
+        "honors": null
+      },
+      {
+        "institution": "University of Pune",
+        "degree": "MCOM",
+        "field_of_study": "Commerce",
+        "location": "Pune, India",
+        "start_year": null,
+        "end_year": 2013,
+        "gpa": null,
+        "honors": null
+      },
+      {
+        "institution": "Thakur College of Commerce",
+        "degree": "B.M.S",
+        "field_of_study": "Management Studies",
+        "location": "Mumbai, India",
+        "start_year": null,
+        "end_year": 2007,
+        "gpa": null,
+        "honors": null
+      },
+      {
+        "institution": "Jai Hind College",
+        "degree": "HSC",
+        "field_of_study": null,
+        "location": "Mumbai, India",
+        "start_year": null,
+        "end_year": 2004,
+        "gpa": null,
+        "honors": null
+      },
+      {
+        "institution": "Modern High School and Junior College",
+        "degree": "SSC",
+        "field_of_study": null,
+        "location": null,
+        "start_year": null,
+        "end_year": 2002,
+        "gpa": null,
+        "honors": null
+      }
+    ],
+    "certifications": [],
+    "has_cfa": false,
+    "cfa_status": null,
+    "has_medical_degree": false,
+    "licenses": [],
+    "programming_languages": [],
+    "tools_and_platforms": [],
+    "languages_spoken": [],
+    "publications": [],
+    "extraction_confidence": "low",
+    "extraction_notes": [
+      "The profile states 9 years of healthcare coverage, but the dated roles begin October 2013, implying roughly 13 years",
+      "The Jardine Lloyd Thompson entry says 'Started my journey as a Lead Analyst at Anand Rathi', naming a different employer inside the same role",
+      "Coverage counts are inconsistent within the current role: the summary says 25 healthcare stocks while the ICICI Securities bullet says 32 companies",
+      "No email address, phone number or location is present anywhere in the document",
+      "The document carries a 'RED LANE TALENT MANAGEMENT' header on multiple pages, indicating an agency-formatted resume rather than a candidate original",
+      "The J.P. Morgan Chase end date is written 'Mayr'23', an apparent typo read as May 2023",
+      "Education chronology is unusual: an MBA dated 2011-13 and an MCOM dated 2013 follow a B.M.S dated 2007",
+      "No degree-level dates overlap the earliest role, so the pre-2013 career history cannot be verified"
+    ],
+    "candidate_id": "priya-nakamura",
+    "computed_years_experience": 12.7,
+    "computed_years_excluding_internships": 12.7,
+    "years_experience_source": "computed_from_dates (self-report disputed)",
+    "career_start_year": 2013,
+    "n_roles": 6,
+    "n_employers": 6,
+    "employer_list": [
+      "ICICI Securities",
+      "J.P. Morgan Chase",
+      "Jardine Lloyd Thompson",
+      "Centrum Broking Ltd",
+      "Morgan Stanley",
+      "Transparent Value"
+    ],
+    "highest_degree_tier": "Master's / MBA",
+    "highest_degree": "MBA - Finance",
+    "is_currently_employed": true,
+    "months_since_last_role": 0,
+    "career_gaps": [],
+    "data_quality_flags": [
+      "Self-reported experience (9 yrs) disagrees with experience computed from dates (12.7 yrs) by 3.7 yrs",
+      "No email address found",
+      "No phone number found",
+      "Role at Jardine Lloyd Thompson contains a bullet referring to employment at 'anand rathi' - possible employer mismatch",
+      "[model] The profile states 9 years of healthcare coverage, but the dated roles begin October 2013, implying roughly 13 years",
+      "[model] The Jardine Lloyd Thompson entry says 'Started my journey as a Lead Analyst at Anand Rathi', naming a different employer inside the same role",
+      "[model] Coverage counts are inconsistent within the current role: the summary says 25 healthcare stocks while the ICICI Securities bullet says 32 companies",
+      "[model] No email address, phone number or location is present anywhere in the document",
+      "[model] The document carries a 'RED LANE TALENT MANAGEMENT' header on multiple pages, indicating an agency-formatted resume rather than a candidate original",
+      "[model] The J.P. Morgan Chase end date is written 'Mayr'23', an apparent typo read as May 2023",
+      "[model] Education chronology is unusual: an MBA dated 2011-13 and an MCOM dated 2013 follow a B.M.S dated 2007",
+      "[model] No degree-level dates overlap the earliest role, so the pre-2013 career history cannot be verified",
+      "Model reported low extraction confidence"
+    ],
+    "data_quality_score": 0.36,
+    "searchable_text": "priya nakamura icici securities lead healthcare analyst icici securities j.p. morgan chase jardine lloyd thompson centrum broking ltd morgan stanley transparent value lead healthcare analyst lead healthcare analyst lead pharma analyst research analyst equity research analyst equity research analyst healthcare materials pharma, hospitals, diagnostics and medical devices across the listed indian healthcare universe usfda, ema and domestic regulatory compliance, api sourcing and patent cliff analysis indian mid- and small-cap pharmaceutical and specialty chemical names us and european large-cap pharmaceutical names india united states europe    mumbai institute of management studies (mims) university of pune thakur college of commerce jai hind college modern high school and junior college mba - finance mcom b.m.s hsc ssc coverage of 32 companies across pharma, hospitals, diagnostics and medical devices in the listed indian healthcare universe managed primary fund raises for jupiter hospital, innova captab, entero healthcare and akums regular meetings with listed and unlisted industry participants formal coverage of 22 companies across the healthcare value chain arranged corporate meetings and road shows connecting senior management with key investors started my journey as a lead analyst at anand rathi with 17 pharma companies under direct coverage, blending large and mid-cap names updated clients on corporate actions, news flow and global healthcare sector events recommended differentiated and undervalued opportunities to institutional clients and developed sectoral themes published initiation reports, sector outlooks, quarterly earnings analysis and thematic research monitored usfda and ema regulatory compliance, manufacturing capability, api sourcing and patent cliff risk covered indian mid- and small-cap pharmaceutical and specialty chemical companies built financial models from management interaction and ratio analysis, and prepared initiation and ipo reports built required business performance probability models incorporating macroeconomic factors portfolio of 25 us and european large-cap pharmaceutical names including gilead, zimmer biomet, hca, gsk and meda ab"
+  },
+  {
+    "source_file": "RYAN-PATEL-Resume.pdf",
+    "source_agency": null,
+    "full_name": "Ryan Patel",
+    "honorific": null,
+    "email": "ryan.patel0403@gmail.com",
+    "phone": "+1 (516) 523-3113",
+    "location_city": "Brooklyn, New York",
+    "location_country": "United States",
+    "region": "North America",
+    "current_employer": "Meridian Capital Partners",
+    "current_title": "Investment Professional, Generalist - Soft Catalyst & Fundamental Long/Short",
+    "primary_strategy_type": "Fundamental",
+    "primary_market_side": "Buy-Side",
+    "primary_firm_type": "Hedge Fund",
+    "seniority_level": "Portfolio Manager",
+    "sectors_covered": [
+      "Multi-Sector / Generalist",
+      "Consumer",
+      "Technology",
+      "Media & Telecom",
+      "Healthcare",
+      "Industrials"
+    ],
+    "sector_specialisation_detail": [
+      "Generalist soft catalyst and fundamental long/short mandate",
+      "Consumer and Technology sub-portfolio within a $4.2bn gross book",
+      "Private equity across Business & Technology Services, Consumer and Healthcare",
+      "Healthcare investment banking M&A and financings"
+    ],
+    "geographic_markets_covered": [
+      "United States"
+    ],
+    "self_reported_years_experience": null,
+    "max_coverage_universe": null,
+    "roles": [
+      {
+        "employer": "Meridian Capital Partners",
+        "title": "Investment Professional, Generalist - Soft Catalyst & Fundamental Long/Short",
+        "location": "Greenwich, CT",
+        "start_date": "2023-03",
+        "end_date": "present",
+        "duration_stated": null,
+        "is_current": true,
+        "is_internship": false,
+        "firm_type": "Hedge Fund",
+        "market_side": "Buy-Side",
+        "seniority": "Portfolio Manager",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Multi-Sector / Generalist"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Primary investor responsible for the firm's only long/short fundamental equity portfolio",
+          "Leads position sizing based on conviction and idiosyncratic volatility, hedging with peers and sector ETFs, and entry/exit timing",
+          "Generates ideas through C-suite and IR meetings, third-party expert calls, industry conferences and alternative data analysis",
+          "Reports to the Founder/CIO and CRO bi-weekly with formal quarterly performance, hit rate and risk attribution reviews"
+        ]
+      },
+      {
+        "employer": "Millennium Management",
+        "title": "Investment Analyst, Consumer & TMT - North53 Capital",
+        "location": "New York, NY",
+        "start_date": "2021-09",
+        "end_date": "2022-08",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Hedge Fund",
+        "market_side": "Buy-Side",
+        "seniority": "Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Consumer",
+          "Technology",
+          "Media & Telecom"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": "$4.2bn gross portfolio",
+        "highlights": [
+          "Principal analyst for the Consumer and Technology portfolio within a $4.2bn gross portfolio for Vertex Capital",
+          "Co-managed risk exposures with the Senior Portfolio Manager including sizing, alpha/factor hedges and entry/exit timing",
+          "Presented ideas from fundamental and primary research, expert consultations and management meetings via written memos",
+          "Built operating models, DCF, comparable company, LBO and precedent transaction analyses for core positions"
+        ]
+      },
+      {
+        "employer": "Apollo Global Management",
+        "title": "Associate - Private Equity",
+        "location": "New York, NY",
+        "start_date": "2019-08",
+        "end_date": "2021-08",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Private Equity / Venture Capital",
+        "market_side": "Private Markets",
+        "seniority": "Associate",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Technology",
+          "Consumer",
+          "Healthcare",
+          "Industrials"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Evaluated and executed private equity investments across Business & Technology Services, Consumer and Healthcare",
+          "Performed diligence on competitive advantage, growth drivers, addressable markets and risks",
+          "Worked with portfolio company management on operational and liquidity risk during COVID",
+          "Board observer at an industrial consulting firm and a medical device contract manufacturer"
+        ]
+      },
+      {
+        "employer": "J.P.Mogan",
+        "title": "Analyst - Healthcare Investment Banking",
+        "location": "New York, NY",
+        "start_date": "2017-07",
+        "end_date": "2019-07",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Banking / Markets",
+        "market_side": "Sell-Side",
+        "seniority": "Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Ranked top tier of the analyst class in both years; winner of the Firmwide Summer Analyst Financial Modeling Competition",
+          "Participated in M&A, equity and debt transactions from idea generation through diligence and valuation",
+          "Exclusive financial advisor on an $8.5bn pharmaceutical acquisition and lead-left arranger on a life sciences acquisition financing"
+        ]
+      },
+      {
+        "employer": "J.P.Mogan",
+        "title": "Summer Analyst - Healthcare Investment Banking",
+        "location": "New York, NY",
+        "start_date": null,
+        "end_date": null,
+        "duration_stated": "Summer 2016",
+        "is_current": false,
+        "is_internship": true,
+        "firm_type": "Investment Bank - Banking / Markets",
+        "market_side": "Sell-Side",
+        "seniority": "Intern",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": []
+      }
+    ],
+    "education": [
+      {
+        "institution": "Columbia Business School, Columbia University",
+        "degree": "Bachelor of Science in Business",
+        "field_of_study": "Finance and International Business; Minor in Statistics",
+        "location": "New York, NY",
+        "start_year": 2013,
+        "end_year": 2017,
+        "gpa": "3.61/4.00",
+        "honors": "Dean's Merit Scholarship all four years; Student Leadership Excellence Award (top 3 graduating seniors); SAT 1480/1600"
+      }
+    ],
+    "certifications": [],
+    "has_cfa": false,
+    "cfa_status": null,
+    "has_medical_degree": false,
+    "licenses": [],
+    "programming_languages": [],
+    "tools_and_platforms": [
+      "Alternative datasets"
+    ],
+    "languages_spoken": [],
+    "publications": [],
+    "extraction_confidence": "medium",
+    "extraction_notes": [
+      "The employer name is printed as 'J.P.Mogan', an apparent misspelling of J.P. Morgan, retained verbatim rather than silently corrected",
+      "The Millennium Management role names two different entities: the title says 'North53 Capital' while the first bullet says the portfolio was 'for Vertex Capital'",
+      "Gap between the Millennium role ending August 2022 and the Meridian role starting March 2023",
+      "A Bachelor of Science in Business is attributed to Columbia Business School, which is a graduate-only school; the undergraduate business programme is not at CBS",
+      "The summer analyst stint is dated only as 'Summer 2016' with no months",
+      "Volunteer and leadership entries (Global Education Alliance co-founder, Beta Alpha Psi) were not treated as professional roles",
+      "This candidate previously worked at Millennium Management, which is directly relevant context for a Millennium search"
+    ],
+    "candidate_id": "ryan-patel",
+    "computed_years_experience": 8.3,
+    "computed_years_excluding_internships": 8.3,
+    "years_experience_source": "computed_from_dates",
+    "career_start_year": 2017,
+    "n_roles": 5,
+    "n_employers": 4,
+    "employer_list": [
+      "Meridian Capital Partners",
+      "Millennium Management",
+      "Apollo Global Management",
+      "J.P.Mogan"
+    ],
+    "highest_degree_tier": "Bachelor's",
+    "highest_degree": "Bachelor of Science in Business",
+    "is_currently_employed": true,
+    "months_since_last_role": 0,
+    "career_gaps": [
+      "7 month gap between 2022-08 and 2023-03 - unexplained"
+    ],
+    "data_quality_flags": [
+      "No usable dates for role at J.P.Mogan",
+      "Undergraduate degree attributed to a graduate-only school: Bachelor of Science in Business at Columbia Business School, Columbia University",
+      "Role at Millennium Management contains a bullet referring to employment at 'vertex capital' - possible employer mismatch",
+      "[model] The employer name is printed as 'J.P.Mogan', an apparent misspelling of J.P. Morgan, retained verbatim rather than silently corrected",
+      "[model] The Millennium Management role names two different entities: the title says 'North53 Capital' while the first bullet says the portfolio was 'for Vertex Capital'",
+      "[model] Gap between the Millennium role ending August 2022 and the Meridian role starting March 2023",
+      "[model] A Bachelor of Science in Business is attributed to Columbia Business School, which is a graduate-only school; the undergraduate business programme is not at CBS",
+      "[model] The summer analyst stint is dated only as 'Summer 2016' with no months",
+      "[model] Volunteer and leadership entries (Global Education Alliance co-founder, Beta Alpha Psi) were not treated as professional roles",
+      "[model] This candidate previously worked at Millennium Management, which is directly relevant context for a Millennium search"
+    ],
+    "data_quality_score": 0.55,
+    "searchable_text": "ryan patel meridian capital partners investment professional, generalist - soft catalyst & fundamental long/short meridian capital partners millennium management apollo global management j.p.mogan investment professional, generalist - soft catalyst & fundamental long/short investment analyst, consumer & tmt - north53 capital associate - private equity analyst - healthcare investment banking summer analyst - healthcare investment banking multi-sector / generalist consumer technology media & telecom healthcare industrials generalist soft catalyst and fundamental long/short mandate consumer and technology sub-portfolio within a $4.2bn gross book private equity across business & technology services, consumer and healthcare healthcare investment banking m&a and financings united states  alternative datasets  columbia business school, columbia university bachelor of science in business primary investor responsible for the firm's only long/short fundamental equity portfolio leads position sizing based on conviction and idiosyncratic volatility, hedging with peers and sector etfs, and entry/exit timing generates ideas through c-suite and ir meetings, third-party expert calls, industry conferences and alternative data analysis reports to the founder/cio and cro bi-weekly with formal quarterly performance, hit rate and risk attribution reviews principal analyst for the consumer and technology portfolio within a $4.2bn gross portfolio for vertex capital co-managed risk exposures with the senior portfolio manager including sizing, alpha/factor hedges and entry/exit timing presented ideas from fundamental and primary research, expert consultations and management meetings via written memos built operating models, dcf, comparable company, lbo and precedent transaction analyses for core positions evaluated and executed private equity investments across business & technology services, consumer and healthcare performed diligence on competitive advantage, growth drivers, addressable markets and risks worked with portfolio company management on operational and liquidity risk during covid board observer at an industrial consulting firm and a medical device contract manufacturer ranked top tier of the analyst class in both years; winner of the firmwide summer analyst financial modeling competition participated in m&a, equity and debt transactions from idea generation through diligence and valuation exclusive financial advisor on an $8.5bn pharmaceutical acquisition and lead-left arranger on a life sciences acquisition financing"
+  },
+  {
+    "source_file": "Vikram-Shah.docx",
+    "source_agency": null,
+    "full_name": "Vikram Shah",
+    "honorific": null,
+    "email": "Vshah@gmail.com",
+    "phone": "267-328-0909",
+    "location_city": "New York",
+    "location_country": "United States",
+    "region": "North America",
+    "current_employer": "Cinctive Capital Management",
+    "current_title": "Investment Analyst",
+    "primary_strategy_type": "Fundamental",
+    "primary_market_side": "Buy-Side",
+    "primary_firm_type": "Hedge Fund",
+    "seniority_level": "Analyst",
+    "sectors_covered": [
+      "Technology",
+      "Media & Telecom",
+      "Consumer",
+      "Financial Services"
+    ],
+    "sector_specialisation_detail": [
+      "Long/short equity across ~75 Technology and Media names, focused on cloud computing and digital advertising",
+      "Coverage spans cloud infrastructure, e-commerce, digital advertising, streaming, enterprise software, mobility, online marketplaces, social media and digital entertainment",
+      "Sell-side coverage of US Internet & Interactive Entertainment"
+    ],
+    "geographic_markets_covered": [
+      "United States"
+    ],
+    "self_reported_years_experience": null,
+    "max_coverage_universe": 75,
+    "roles": [
+      {
+        "employer": "Cinctive Capital Management",
+        "title": "Investment Analyst",
+        "location": "New York, NY",
+        "start_date": "2021-09",
+        "end_date": "present",
+        "duration_stated": null,
+        "is_current": true,
+        "is_internship": false,
+        "firm_type": "Hedge Fund",
+        "market_side": "Buy-Side",
+        "seniority": "Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Technology",
+          "Media & Telecom"
+        ],
+        "coverage_universe_size": 75,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Works directly with portfolio managers on a long/short equity strategy across ~75 Technology and Media names, focused on cloud computing and digital advertising",
+          "Sources ideas through fundamental research, KPI analysis, alternative data tracking and macro trend analysis",
+          "Runs quarterly management meetings on strategic initiatives, growth, operational efficiency and competitive positioning",
+          "Develops tactical trading strategies around earnings events and writes investment previews with recommended actions"
+        ]
+      },
+      {
+        "employer": "Goldman Sachs",
+        "title": "Associate, Equity Research - U.S. Internet & Interactive Entertainment",
+        "location": "New York, NY",
+        "start_date": "2019-02",
+        "end_date": "2021-09",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Sell-Side Research",
+        "market_side": "Sell-Side",
+        "seniority": "Associate",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Technology",
+          "Media & Telecom"
+        ],
+        "coverage_universe_size": 40,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Supported an Institutional Investor ranked team covering 40+ stocks with over $4.5 trillion in combined market capitalisation",
+          "Built financial models using DCF, comparable company and sum-of-the-parts valuation",
+          "Maintained relationships with hedge fund and mutual fund clients, providing sector and company research",
+          "Supported IPO due diligence on eight banking transactions including investor education and coverage initiation"
+        ]
+      },
+      {
+        "employer": "J.P. Morgan Asset Management",
+        "title": "Associate, U.S. Equity - Business Management",
+        "location": "New York, NY",
+        "start_date": "2017-07",
+        "end_date": "2019-02",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Asset Manager",
+        "market_side": "Buy-Side",
+        "seniority": "Associate",
+        "strategy_type": "Unclear",
+        "sectors": [
+          "Financial Services"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Coordinated research vendor relationships for 120+ portfolio managers and analysts across 180+ external providers following regulatory change",
+          "Analysed AUM and capital flows with CIOs to set capacity targets across 50+ active strategies"
+        ]
+      },
+      {
+        "employer": "J.P. Morgan Chase & Co.",
+        "title": "Analyst, Office of the CFO - Strategy and Analytics",
+        "location": "New York, NY",
+        "start_date": "2016-05",
+        "end_date": "2017-07",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Banking / Markets",
+        "market_side": "Corporate",
+        "seniority": "Analyst",
+        "strategy_type": "Unclear",
+        "sectors": [
+          "Financial Services"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Analysed firm expense drivers and built a three-year budget forecast with business lines aligned to CFO priorities"
+        ]
+      },
+      {
+        "employer": "PwC",
+        "title": "Analyst, Corporate Development & Transaction Services",
+        "location": "New York, NY",
+        "start_date": "2014-08",
+        "end_date": "2016-05",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Consulting",
+        "market_side": "Corporate",
+        "seniority": "Analyst",
+        "strategy_type": "Unclear",
+        "sectors": [
+          "Financial Services"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Built P&L, balance sheet and cash flow models supporting origination of transaction advisory engagements"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Northwestern University - Kellogg School of Management",
+        "degree": "Bachelor of Science in Business Administration",
+        "field_of_study": "Business Administration",
+        "location": "Evanston, IL",
+        "start_year": null,
+        "end_year": 2014,
+        "gpa": "3.44/4.00",
+        "honors": "Dean's Honor List (Fall 2012 - Spring 2014); Greek Award of Distinction (2011, 2012)"
+      },
+      {
+        "institution": "Northwestern University - Kellogg School of Management",
+        "degree": "Bachelor of Science in Business Administration",
+        "field_of_study": "Business Administration",
+        "location": "Evanston, IL",
+        "start_year": null,
+        "end_year": 2014,
+        "gpa": null,
+        "honors": null
+      }
+    ],
+    "certifications": [
+      "CFA Charterholder"
+    ],
+    "has_cfa": true,
+    "cfa_status": "Charterholder - issued March 2019",
+    "has_medical_degree": false,
+    "licenses": [],
+    "programming_languages": [],
+    "tools_and_platforms": [
+      "Bloomberg",
+      "FactSet",
+      "Microsoft Office",
+      "Financial Modeling"
+    ],
+    "languages_spoken": [
+      "Mandarin (fluent)",
+      "Cantonese (conversational)"
+    ],
+    "publications": [],
+    "extraction_confidence": "medium",
+    "extraction_notes": [
+      "The education section lists Northwestern University - Kellogg School of Management twice with the same graduation date, apparently a formatting duplication",
+      "A Bachelor of Science in Business Administration is attributed to the Kellogg School of Management, which is a graduate-only school; Northwestern's undergraduate business programme is not Kellogg",
+      "The Goldman Sachs role ends September 2021 in the same month the Cinctive role begins, so there may be a one-month overlap",
+      "No programming languages are listed despite alternative data work being described"
+    ],
+    "candidate_id": "vikram-shah",
+    "computed_years_experience": 12.0,
+    "computed_years_excluding_internships": 12.0,
+    "years_experience_source": "computed_from_dates",
+    "career_start_year": 2014,
+    "n_roles": 5,
+    "n_employers": 5,
+    "employer_list": [
+      "Cinctive Capital Management",
+      "Goldman Sachs",
+      "J.P. Morgan Asset Management",
+      "J.P. Morgan Chase & Co.",
+      "PwC"
+    ],
+    "highest_degree_tier": "Bachelor's",
+    "highest_degree": "Bachelor of Science in Business Administration",
+    "is_currently_employed": true,
+    "months_since_last_role": 0,
+    "career_gaps": [],
+    "data_quality_flags": [
+      "Undergraduate degree attributed to a graduate-only school: Bachelor of Science in Business Administration at Northwestern University - Kellogg School of Management",
+      "Duplicate education entry: Bachelor of Science in Business Administration at Northwestern University - Kellogg School of Management",
+      "[model] The education section lists Northwestern University - Kellogg School of Management twice with the same graduation date, apparently a formatting duplication",
+      "[model] A Bachelor of Science in Business Administration is attributed to the Kellogg School of Management, which is a graduate-only school; Northwestern's undergraduate business programme is not Kellogg",
+      "[model] The Goldman Sachs role ends September 2021 in the same month the Cinctive role begins, so there may be a one-month overlap",
+      "[model] No programming languages are listed despite alternative data work being described"
+    ],
+    "data_quality_score": 0.72,
+    "searchable_text": "vikram shah cinctive capital management investment analyst cinctive capital management goldman sachs j.p. morgan asset management j.p. morgan chase & co. pwc investment analyst associate, equity research - u.s. internet & interactive entertainment associate, u.s. equity - business management analyst, office of the cfo - strategy and analytics analyst, corporate development & transaction services technology media & telecom consumer financial services long/short equity across ~75 technology and media names, focused on cloud computing and digital advertising coverage spans cloud infrastructure, e-commerce, digital advertising, streaming, enterprise software, mobility, online marketplaces, social media and digital entertainment sell-side coverage of us internet & interactive entertainment united states  bloomberg factset microsoft office financial modeling cfa charterholder northwestern university - kellogg school of management northwestern university - kellogg school of management bachelor of science in business administration bachelor of science in business administration works directly with portfolio managers on a long/short equity strategy across ~75 technology and media names, focused on cloud computing and digital advertising sources ideas through fundamental research, kpi analysis, alternative data tracking and macro trend analysis runs quarterly management meetings on strategic initiatives, growth, operational efficiency and competitive positioning develops tactical trading strategies around earnings events and writes investment previews with recommended actions supported an institutional investor ranked team covering 40+ stocks with over $4.5 trillion in combined market capitalisation built financial models using dcf, comparable company and sum-of-the-parts valuation maintained relationships with hedge fund and mutual fund clients, providing sector and company research supported ipo due diligence on eight banking transactions including investor education and coverage initiation coordinated research vendor relationships for 120+ portfolio managers and analysts across 180+ external providers following regulatory change analysed aum and capital flows with cios to set capacity targets across 50+ active strategies analysed firm expense drivers and built a three-year budget forecast with business lines aligned to cfo priorities built p&l, balance sheet and cash flow models supporting origination of transaction advisory engagements"
+  },
+  {
+    "source_file": "Viktor-Sharat.docx",
+    "source_agency": null,
+    "full_name": "Viktor Sharat",
+    "honorific": null,
+    "email": null,
+    "phone": null,
+    "location_city": "Navi Mumbai",
+    "location_country": "India",
+    "region": "Asia-Pacific",
+    "current_employer": null,
+    "current_title": null,
+    "primary_strategy_type": "Fundamental",
+    "primary_market_side": "Sell-Side",
+    "primary_firm_type": "Investment Bank - Sell-Side Research",
+    "seniority_level": "Lead Analyst",
+    "sectors_covered": [
+      "Healthcare",
+      "Energy",
+      "Industrials",
+      "Consumer",
+      "Materials",
+      "Multi-Sector / Generalist"
+    ],
+    "sector_specialisation_detail": [
+      "Healthcare, Oil & Gas, Logistics and Alcobev coverage at ICICI Securities",
+      "Pharmaceuticals and Specialty Chemicals in a healthcare fund portfolio",
+      "Indian renewable energy and infrastructure sector reports",
+      "Mid and small cap sector-agnostic research",
+      "AI-based drug target identification and biomarker discovery"
+    ],
+    "geographic_markets_covered": [
+      "India"
+    ],
+    "self_reported_years_experience": null,
+    "max_coverage_universe": 42,
+    "roles": [
+      {
+        "employer": "Axis Mutual Fund",
+        "title": "Research Analyst",
+        "location": "India",
+        "start_date": null,
+        "end_date": null,
+        "duration_stated": "2 months",
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Asset Manager",
+        "market_side": "Buy-Side",
+        "seniority": "Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare",
+          "Materials"
+        ],
+        "coverage_universe_size": 38,
+        "aum_or_portfolio_size": "US$1.2 billion+",
+        "highlights": [
+          "Covered Pharmaceuticals and Specialty Chemicals, tracking 38 companies within the healthcare fund portfolio",
+          "Met management teams and buy-side analysts to provide strategic input to senior fund managers"
+        ]
+      },
+      {
+        "employer": "Meridian Capital",
+        "title": "Research Analyst",
+        "location": "India",
+        "start_date": null,
+        "end_date": null,
+        "duration_stated": "10 months",
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Asset Manager",
+        "market_side": "Buy-Side",
+        "seniority": "Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Energy",
+          "Industrials",
+          "Multi-Sector / Generalist"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Completed a ~120 page renewable energy sector report within three months of joining and began receiving institutional votes in the first quarter",
+          "Published detailed analysis on the Indian infrastructure sector",
+          "Applied a sector-agnostic approach focused on company fundamentals regardless of market capitalisation"
+        ]
+      },
+      {
+        "employer": "ICICI Securities Limited",
+        "title": "Research Analyst",
+        "location": "India",
+        "start_date": null,
+        "end_date": null,
+        "duration_stated": "8 years 10 months",
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Sell-Side Research",
+        "market_side": "Sell-Side",
+        "seniority": "Lead Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare",
+          "Energy",
+          "Industrials",
+          "Consumer"
+        ],
+        "coverage_universe_size": 42,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Maintained active coverage of 42 stocks across Healthcare, Oil & Gas, Logistics and Alcobev",
+          "Advanced from research associate to lead analyst within three years with consistently top performance ratings",
+          "Initiated coverage on digital health platforms and renewable energy companies"
+        ]
+      },
+      {
+        "employer": "BioAnalytics Research India Ltd.",
+        "title": "Biomodeller Trainee",
+        "location": "India",
+        "start_date": null,
+        "end_date": null,
+        "duration_stated": "7 months",
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Corporate / Industry",
+        "market_side": "Corporate",
+        "seniority": "Other",
+        "strategy_type": "Systematic / Quantitative",
+        "sectors": [
+          "Healthcare"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Contributing member of a team developing an AI-based drug target identification system for precision medicine, focused on lung and colorectal cancer"
+        ]
+      },
+      {
+        "employer": "Mumbai Cancer Research Institute (MCRI)",
+        "title": "Research Associate",
+        "location": "Mumbai, India",
+        "start_date": null,
+        "end_date": null,
+        "duration_stated": "8 months",
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Academic / Research",
+        "market_side": "Academic",
+        "seniority": "Other",
+        "strategy_type": "Systematic / Quantitative",
+        "sectors": [
+          "Healthcare"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Research experience contributing to machine learning work in biomarker discovery for targeted cancer therapy"
+        ]
+      },
+      {
+        "employer": "Prism Asset Management Pvt Ltd.",
+        "title": "Summer Internship Project",
+        "location": "India",
+        "start_date": null,
+        "end_date": null,
+        "duration_stated": "3 months",
+        "is_current": false,
+        "is_internship": true,
+        "firm_type": "Asset Manager",
+        "market_side": "Buy-Side",
+        "seniority": "Intern",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Technology"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Comprehensive equity analysis of the Indian Technology sector"
+        ]
+      },
+      {
+        "employer": "Reliance Infrastructure Ltd.",
+        "title": "Concurrent Project",
+        "location": "India",
+        "start_date": null,
+        "end_date": null,
+        "duration_stated": "8 weeks",
+        "is_current": false,
+        "is_internship": true,
+        "firm_type": "Corporate / Industry",
+        "market_side": "Corporate",
+        "seniority": "Intern",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Energy"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Strategic market analysis of Indian renewable energy companies"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Mumbai Institute of Management Studies and Research",
+        "degree": "PGDM",
+        "field_of_study": "Management",
+        "location": "Mumbai, India",
+        "start_year": null,
+        "end_year": 2015,
+        "gpa": "2.5/4",
+        "honors": "University of Mumbai"
+      },
+      {
+        "institution": "Padmashree Dr. D.Y. Patil Institute of Biotechnology and Bioinformatics",
+        "degree": "M.Tech (Integrated)",
+        "field_of_study": "Biotechnology and Bioinformatics",
+        "location": "Navi Mumbai, India",
+        "start_year": null,
+        "end_year": 2010,
+        "gpa": "68%",
+        "honors": null
+      },
+      {
+        "institution": "Bharti Vidyapeeth Junior College",
+        "degree": "HSC",
+        "field_of_study": null,
+        "location": "Navi Mumbai, India",
+        "start_year": null,
+        "end_year": 2006,
+        "gpa": "72%",
+        "honors": "Maharashtra board"
+      },
+      {
+        "institution": "Don Bosco High School",
+        "degree": "SSC",
+        "field_of_study": null,
+        "location": "Navi Mumbai, India",
+        "start_year": null,
+        "end_year": 2004,
+        "gpa": "73%",
+        "honors": "Maharashtra board"
+      }
+    ],
+    "certifications": [
+      "CFA Level III completed (CFA Institute, USA)"
+    ],
+    "has_cfa": false,
+    "cfa_status": "Level III passed; charter award not stated",
+    "has_medical_degree": false,
+    "licenses": [],
+    "programming_languages": [],
+    "tools_and_platforms": [],
+    "languages_spoken": [],
+    "publications": [
+      "Co-author, 'Machine Learning Applications in Biomarker Discovery for Targeted Cancer Therapy', Journal of Computational Biology and Bioinformatics (ISSN 2456-7891)"
+    ],
+    "extraction_confidence": "low",
+    "extraction_notes": [
+      "The resume gives tenure as durations only ('8 years 10 months', '10 months', '2 months') with no start or end dates anywhere, so chronology, current employment status and gaps cannot be determined",
+      "No email address, phone number or contact details are present",
+      "Experience is stored in Word tables with horizontally merged cells, so every row was duplicated up to four times in raw extraction and required de-duplication",
+      "The order of roles in the document is assumed to be reverse-chronological but this is not stated",
+      "CFA Level III is described as completed but charterholder status is not claimed, so has_cfa is recorded as false",
+      "The PGDM grade of 2.5/4 is comparatively low and worth noting for screening",
+      "The candidate has an unusual biotech and bioinformatics background (M.Tech, cancer research, ML publication) alongside sell-side equity research"
+    ],
+    "candidate_id": "viktor-sharat",
+    "computed_years_experience": 11.5,
+    "computed_years_excluding_internships": 11.1,
+    "years_experience_source": "computed_from_dates",
+    "career_start_year": null,
+    "n_roles": 7,
+    "n_employers": 7,
+    "employer_list": [
+      "Axis Mutual Fund",
+      "Meridian Capital",
+      "ICICI Securities Limited",
+      "BioAnalytics Research India Ltd.",
+      "Mumbai Cancer Research Institute (MCRI)",
+      "Prism Asset Management Pvt Ltd.",
+      "Reliance Infrastructure Ltd."
+    ],
+    "highest_degree_tier": "Master's / MBA",
+    "highest_degree": "PGDM",
+    "is_currently_employed": false,
+    "months_since_last_role": null,
+    "career_gaps": [],
+    "data_quality_flags": [
+      "No email address found",
+      "No phone number found",
+      "[model] The resume gives tenure as durations only ('8 years 10 months', '10 months', '2 months') with no start or end dates anywhere, so chronology, current employment status and gaps cannot be determined",
+      "[model] No email address, phone number or contact details are present",
+      "[model] Experience is stored in Word tables with horizontally merged cells, so every row was duplicated up to four times in raw extraction and required de-duplication",
+      "[model] The order of roles in the document is assumed to be reverse-chronological but this is not stated",
+      "[model] CFA Level III is described as completed but charterholder status is not claimed, so has_cfa is recorded as false",
+      "[model] The PGDM grade of 2.5/4 is comparatively low and worth noting for screening",
+      "[model] The candidate has an unusual biotech and bioinformatics background (M.Tech, cancer research, ML publication) alongside sell-side equity research",
+      "Model reported low extraction confidence"
+    ],
+    "data_quality_score": 0.55,
+    "searchable_text": "viktor sharat   axis mutual fund meridian capital icici securities limited bioanalytics research india ltd. mumbai cancer research institute (mcri) prism asset management pvt ltd. reliance infrastructure ltd. research analyst research analyst research analyst biomodeller trainee research associate summer internship project concurrent project healthcare energy industrials consumer materials multi-sector / generalist healthcare, oil & gas, logistics and alcobev coverage at icici securities pharmaceuticals and specialty chemicals in a healthcare fund portfolio indian renewable energy and infrastructure sector reports mid and small cap sector-agnostic research ai-based drug target identification and biomarker discovery india   cfa level iii completed (cfa institute, usa) mumbai institute of management studies and research padmashree dr. d.y. patil institute of biotechnology and bioinformatics bharti vidyapeeth junior college don bosco high school pgdm m.tech (integrated) hsc ssc covered pharmaceuticals and specialty chemicals, tracking 38 companies within the healthcare fund portfolio met management teams and buy-side analysts to provide strategic input to senior fund managers completed a ~120 page renewable energy sector report within three months of joining and began receiving institutional votes in the first quarter published detailed analysis on the indian infrastructure sector applied a sector-agnostic approach focused on company fundamentals regardless of market capitalisation maintained active coverage of 42 stocks across healthcare, oil & gas, logistics and alcobev advanced from research associate to lead analyst within three years with consistently top performance ratings initiated coverage on digital health platforms and renewable energy companies contributing member of a team developing an ai-based drug target identification system for precision medicine, focused on lung and colorectal cancer research experience contributing to machine learning work in biomarker discovery for targeted cancer therapy comprehensive equity analysis of the indian technology sector strategic market analysis of indian renewable energy companies"
+  },
+  {
+    "source_file": "Zara-Al-Rashid.docx",
+    "source_agency": null,
+    "full_name": "Zara Al-Rashid",
+    "honorific": "Dr.",
+    "email": null,
+    "phone": null,
+    "location_city": "Mumbai",
+    "location_country": "India",
+    "region": "Asia-Pacific",
+    "current_employer": "Meridian Research Partners",
+    "current_title": "Lead Analyst - Pharmaceuticals and Healthcare",
+    "primary_strategy_type": "Fundamental",
+    "primary_market_side": "Sell-Side",
+    "primary_firm_type": "Investment Bank - Sell-Side Research",
+    "seniority_level": "Lead Analyst",
+    "sectors_covered": [
+      "Healthcare"
+    ],
+    "sector_specialisation_detail": [
+      "Indian healthcare and pharmaceuticals equity research, 28 stocks under coverage",
+      "Indian generics expansion, digital health, respiratory drug market and healthcare policy reform themes",
+      "U.S. Healthcare Services equity research team support",
+      "Healthcare databases: FDA, MedPAC, CMS, WHO, German DRG, USRDS, PubMed"
+    ],
+    "geographic_markets_covered": [
+      "India",
+      "United States",
+      "United Kingdom"
+    ],
+    "self_reported_years_experience": null,
+    "max_coverage_universe": 28,
+    "roles": [
+      {
+        "employer": "Meridian Research Partners",
+        "title": "Lead Analyst - Pharmaceuticals and Healthcare",
+        "location": "India",
+        "start_date": "2022-05",
+        "end_date": "present",
+        "duration_stated": null,
+        "is_current": true,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Sell-Side Research",
+        "market_side": "Sell-Side",
+        "seniority": "Lead Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare"
+        ],
+        "coverage_universe_size": 28,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Generates investment ideas and publishes equity research ratings with price targets on 28 Indian healthcare stocks"
+        ]
+      },
+      {
+        "employer": "Prism Financial Services",
+        "title": "Lead Analyst - Pharmaceuticals and Healthcare",
+        "location": "India",
+        "start_date": "2020-10",
+        "end_date": "2022-04",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Sell-Side Research",
+        "market_side": "Sell-Side",
+        "seniority": "Lead Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Voted by leading domestic institutional investors including Axis, SBI, Nippon Life, ICICI Prudential, Aditya Birla Sun Life, Reliance, LIC, Mirae, Invesco and Sundaram mutual funds",
+          "An investment recommendation adopted by a major institutional client was credited with a 35% increase in brokerage commission revenue"
+        ]
+      },
+      {
+        "employer": "Kotak Securities",
+        "title": "Lead Analyst - Pharmaceuticals and Healthcare",
+        "location": "India",
+        "start_date": "2018-04",
+        "end_date": "2020-04",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Sell-Side Research",
+        "market_side": "Sell-Side",
+        "seniority": "Lead Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Published sector thematic reports on Indian generics expansion, digital health, the respiratory drug market and healthcare policy reform",
+          "Organised a healthcare policy conference in Mumbai with key policymakers"
+        ]
+      },
+      {
+        "employer": "DataFlow Research India Pvt. Limited",
+        "title": "Manager - Equity Research",
+        "location": "Noida, India",
+        "start_date": "2015-05",
+        "end_date": "2018-03",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Sell-Side Research",
+        "market_side": "Sell-Side",
+        "seniority": "Senior Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Member of the U.S. Healthcare Services equity research team (Institutional Investor runner-up) at Leerink Partners",
+          "Awarded 'Excellence in Research' recognition for analytical work and report quality in 2015"
+        ]
+      },
+      {
+        "employer": "J.P. Morgan Securities",
+        "title": "Equity Research Associate",
+        "location": "London, United Kingdom",
+        "start_date": null,
+        "end_date": null,
+        "duration_stated": "Sep'13, Dec'13 and Nov'14 - three short assignments",
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Sell-Side Research",
+        "market_side": "Sell-Side",
+        "seniority": "Associate",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Assisted team transition during replacement of a research associate",
+          "Attended meetings and calls with company IR, institutional investors and industry experts",
+          "Attended a company investor day at the LSE and prepared a key takeaways note for publication"
+        ]
+      },
+      {
+        "employer": "Cipla Pharmaceuticals",
+        "title": "Summer Intern",
+        "location": "Mumbai, India",
+        "start_date": "2011-04",
+        "end_date": "2011-05",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": true,
+        "firm_type": "Corporate / Industry",
+        "market_side": "Corporate",
+        "seniority": "Intern",
+        "strategy_type": "Unclear",
+        "sectors": [
+          "Healthcare"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Built a competitive positioning strategy for a newly launched generic using perceptual mapping; the brand subsequently ranked second in its category"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Indian School of Business Management (ISBM), Pune",
+        "degree": "PGDM (Finance)",
+        "field_of_study": "Finance",
+        "location": "Pune, India",
+        "start_year": null,
+        "end_year": 2012,
+        "gpa": "7.2/10",
+        "honors": null
+      },
+      {
+        "institution": "K.J. Somaiya Medical College",
+        "degree": "M.B.B.S",
+        "field_of_study": "Medicine",
+        "location": "Mumbai, India",
+        "start_year": null,
+        "end_year": 2010,
+        "gpa": "63.87%",
+        "honors": null
+      },
+      {
+        "institution": "Mithibai College",
+        "degree": "XII Std. (PCMB)",
+        "field_of_study": "Physics, Chemistry, Maths, Biology",
+        "location": "Mumbai, India",
+        "start_year": null,
+        "end_year": 2004,
+        "gpa": "89.00%",
+        "honors": "Top 0.2% Maharashtra state board"
+      },
+      {
+        "institution": "St. Xavier's High School",
+        "degree": "X Std.",
+        "field_of_study": null,
+        "location": "Mumbai, India",
+        "start_year": null,
+        "end_year": 2002,
+        "gpa": "90.43%",
+        "honors": "Top 5% Maharashtra state board"
+      }
+    ],
+    "certifications": [],
+    "has_cfa": false,
+    "cfa_status": null,
+    "has_medical_degree": true,
+    "licenses": [],
+    "programming_languages": [],
+    "tools_and_platforms": [
+      "Bloomberg",
+      "FactSet",
+      "Reuters",
+      "MS Office",
+      "FDA",
+      "MedPAC",
+      "CMS",
+      "WHO",
+      "German DRG",
+      "USRDS",
+      "PubMed"
+    ],
+    "languages_spoken": [],
+    "publications": [],
+    "extraction_confidence": "medium",
+    "extraction_notes": [
+      "The DataFlow Research India entry states membership of a U.S. Healthcare Services research team 'at Leerink Partners', naming a second firm inside one role, so the true employer relationship is ambiguous",
+      "No email address or phone number is present anywhere in the document",
+      "Gap between the Kotak Securities role ending April 2020 and the Prism Financial Services role starting October 2020",
+      "A long gap sits between the 2011 Cipla internship and the 2015 DataFlow role, partly covered by the MBBS (2010) and PGDM (2012) qualifications",
+      "The J.P. Morgan Securities entry lists three discrete short assignments (Sep'13, Dec'13, Nov'14) rather than continuous employment, so it cannot be treated as a normal tenure",
+      "The candidate holds an M.B.B.S medical degree alongside a finance PGDM, which is a distinctive healthcare research profile",
+      "The 35% brokerage commission uplift attributed to one recommendation is a self-reported and unverifiable claim"
+    ],
+    "candidate_id": "zara-al-rashid",
+    "computed_years_experience": 10.7,
+    "computed_years_excluding_internships": 10.6,
+    "years_experience_source": "computed_from_dates",
+    "career_start_year": 2011,
+    "n_roles": 6,
+    "n_employers": 6,
+    "employer_list": [
+      "Meridian Research Partners",
+      "Prism Financial Services",
+      "Kotak Securities",
+      "DataFlow Research India Pvt. Limited",
+      "J.P. Morgan Securities",
+      "Cipla Pharmaceuticals"
+    ],
+    "highest_degree_tier": "Doctorate / Medical",
+    "highest_degree": "M.B.B.S",
+    "is_currently_employed": true,
+    "months_since_last_role": 0,
+    "career_gaps": [
+      "6 month gap between 2020-04 and 2020-10 - unexplained"
+    ],
+    "data_quality_flags": [
+      "No usable dates for role at J.P. Morgan Securities",
+      "No email address found",
+      "No phone number found",
+      "Role at DataFlow Research India Pvt. Limited contains a bullet referring to employment at 'leerink' - possible employer mismatch",
+      "[model] The DataFlow Research India entry states membership of a U.S. Healthcare Services research team 'at Leerink Partners', naming a second firm inside one role, so the true employer relationship is ambiguous",
+      "[model] No email address or phone number is present anywhere in the document",
+      "[model] Gap between the Kotak Securities role ending April 2020 and the Prism Financial Services role starting October 2020",
+      "[model] A long gap sits between the 2011 Cipla internship and the 2015 DataFlow role, partly covered by the MBBS (2010) and PGDM (2012) qualifications",
+      "[model] The J.P. Morgan Securities entry lists three discrete short assignments (Sep'13, Dec'13, Nov'14) rather than continuous employment, so it cannot be treated as a normal tenure",
+      "[model] The candidate holds an M.B.B.S medical degree alongside a finance PGDM, which is a distinctive healthcare research profile",
+      "[model] The 35% brokerage commission uplift attributed to one recommendation is a self-reported and unverifiable claim"
+    ],
+    "data_quality_score": 0.47,
+    "searchable_text": "zara al-rashid meridian research partners lead analyst - pharmaceuticals and healthcare meridian research partners prism financial services kotak securities dataflow research india pvt. limited j.p. morgan securities cipla pharmaceuticals lead analyst - pharmaceuticals and healthcare lead analyst - pharmaceuticals and healthcare lead analyst - pharmaceuticals and healthcare manager - equity research equity research associate summer intern healthcare indian healthcare and pharmaceuticals equity research, 28 stocks under coverage indian generics expansion, digital health, respiratory drug market and healthcare policy reform themes u.s. healthcare services equity research team support healthcare databases: fda, medpac, cms, who, german drg, usrds, pubmed india united states united kingdom  bloomberg factset reuters ms office fda medpac cms who german drg usrds pubmed  indian school of business management (isbm), pune k.j. somaiya medical college mithibai college st. xavier's high school pgdm (finance) m.b.b.s xii std. (pcmb) x std. generates investment ideas and publishes equity research ratings with price targets on 28 indian healthcare stocks voted by leading domestic institutional investors including axis, sbi, nippon life, icici prudential, aditya birla sun life, reliance, lic, mirae, invesco and sundaram mutual funds an investment recommendation adopted by a major institutional client was credited with a 35% increase in brokerage commission revenue published sector thematic reports on indian generics expansion, digital health, the respiratory drug market and healthcare policy reform organised a healthcare policy conference in mumbai with key policymakers member of the u.s. healthcare services equity research team (institutional investor runner-up) at leerink partners awarded 'excellence in research' recognition for analytical work and report quality in 2015 assisted team transition during replacement of a research associate attended meetings and calls with company ir, institutional investors and industry experts attended a company investor day at the lse and prepared a key takeaways note for publication built a competitive positioning strategy for a newly launched generic using perceptual mapping; the brand subsequently ranked second in its category"
+  }
+]

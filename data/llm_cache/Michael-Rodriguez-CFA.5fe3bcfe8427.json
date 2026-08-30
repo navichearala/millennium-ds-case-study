@@ -1,0 +1,217 @@
+{
+  "prompt_version": "v3",
+  "content_hash": "5fe3bcfe84278ead0f45478fd529e8dfb7e01c6c778055b26b9c3d665a0d663e",
+  "source_file": "Michael-Rodriguez-CFA.docx",
+  "provider": "reference",
+  "model": "reference-extraction",
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "profile": {
+    "source_file": "Michael-Rodriguez-CFA.docx",
+    "source_agency": null,
+    "full_name": "Michael Rodriguez",
+    "honorific": null,
+    "email": "mrodriguez84@gmail.com",
+    "phone": "317.441.1999",
+    "location_city": "Boston",
+    "location_country": "United States",
+    "region": "North America",
+    "current_employer": "Fidelity Asset Management",
+    "current_title": "Analyst, Consumer Internet & Software",
+    "primary_strategy_type": "Fundamental",
+    "primary_market_side": "Buy-Side",
+    "primary_firm_type": "Asset Manager",
+    "seniority_level": "Analyst",
+    "sectors_covered": [
+      "Technology",
+      "Media & Telecom",
+      "Consumer",
+      "Credit",
+      "Industrials",
+      "Financial Services"
+    ],
+    "sector_specialisation_detail": [
+      "Consumer Internet & Software within TMT",
+      "Coverage initiation on 20+ TMT names",
+      "High yield, crossover and investment grade credit as a junior desk analyst",
+      "70+ page differentiated report on the 3D printing industry covering 29 competitors",
+      "Agency and non-agency residential mortgage securitisation and MBS hedging"
+    ],
+    "geographic_markets_covered": [
+      "United States"
+    ],
+    "self_reported_years_experience": null,
+    "max_coverage_universe": 20,
+    "roles": [
+      {
+        "employer": "Fidelity Asset Management",
+        "title": "Analyst, Consumer Internet & Software",
+        "location": "Boston, MA",
+        "start_date": "2022-05",
+        "end_date": "present",
+        "duration_stated": null,
+        "is_current": true,
+        "is_internship": false,
+        "firm_type": "Asset Manager",
+        "market_side": "Buy-Side",
+        "seniority": "Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Technology",
+          "Consumer",
+          "Media & Telecom"
+        ],
+        "coverage_universe_size": 20,
+        "aum_or_portfolio_size": "$1-2 billion AUM mutual fund",
+        "highlights": [
+          "Initiated on 20+ TMT names through diligence on public filings, industry experts and valuation analysis",
+          "Contributed to the weekly portfolio review committee determining equity allocation across a $1-2bn AUM mutual fund",
+          "Met directly with management teams to assess corporate strategy and initiatives"
+        ]
+      },
+      {
+        "employer": "William Blair",
+        "title": "Associate, TMT - Equity Research",
+        "location": "Chicago, IL",
+        "start_date": "2019-04",
+        "end_date": "2022-01",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Sell-Side Research",
+        "market_side": "Sell-Side",
+        "seniority": "Associate",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Technology",
+          "Media & Telecom",
+          "Industrials"
+        ],
+        "coverage_universe_size": 20,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Covered 20+ TMT names with quarterly earnings estimates and research reports",
+          "Wrote coverage initiation reports and built IPO syndicate models for 10+ consumer internet companies",
+          "Published a 70+ page report on the 3D printing industry analysing 29 competitors"
+        ]
+      },
+      {
+        "employer": "William Blair",
+        "title": "Jr. Desk Analyst, Fixed Income Sales & Trading",
+        "location": "Chicago, IL",
+        "start_date": "2018-04",
+        "end_date": "2019-04",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Banking / Markets",
+        "market_side": "Sell-Side",
+        "seniority": "Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Credit"
+        ],
+        "coverage_universe_size": 10,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Built three-statement valuation models to pitch relative value ideas across 10+ HY, crossover and IG credits",
+          "Priced 100+ corporate bonds daily for inventory on Bloomberg RUNZ and ALLQ",
+          "Made markets in odd lot high yield, investment grade and hybrid securities up to $500m"
+        ]
+      },
+      {
+        "employer": "Guaranteed Rate",
+        "title": "Capital Markets Analyst, Mortgage Trading",
+        "location": "Chicago, IL",
+        "start_date": "2017-07",
+        "end_date": "2018-03",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Commercial / Corporate Bank",
+        "market_side": "Corporate",
+        "seniority": "Analyst",
+        "strategy_type": "Systematic / Quantitative",
+        "sectors": [
+          "Credit",
+          "Financial Services"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Managed a mortgage origination pipeline using Excel, SQL and proprietary risk systems, hedging rate exposure through MBS forwards"
+        ]
+      },
+      {
+        "employer": "Magnetar Capital Management",
+        "title": "Summer Intern",
+        "location": "Evanston, IL",
+        "start_date": "2016-05",
+        "end_date": "2016-08",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": true,
+        "firm_type": "Hedge Fund",
+        "market_side": "Buy-Side",
+        "seniority": "Intern",
+        "strategy_type": "Systematic / Quantitative",
+        "sectors": [
+          "Credit"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Structured, pooled and delivered residential mortgage loans exceeding $30M weekly into agency and non-agency securitisations"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Michigan, Ross School of Business",
+        "degree": "Bachelor of Science in Business",
+        "field_of_study": "Finance",
+        "location": "Ann Arbor, MI",
+        "start_year": null,
+        "end_year": 2017,
+        "gpa": "3.5/4.0",
+        "honors": "Business Leadership Program (120 of 1,200 students); Merit Scholar Program"
+      }
+    ],
+    "certifications": [
+      "CFA Charterholder",
+      "FINRA Series 7",
+      "FINRA Series 63",
+      "FINRA Series 87"
+    ],
+    "has_cfa": true,
+    "cfa_status": "Charterholder - passed Level III in June 2021",
+    "has_medical_degree": false,
+    "licenses": [
+      "Series 7",
+      "Series 63",
+      "Series 87"
+    ],
+    "programming_languages": [
+      "SQL"
+    ],
+    "tools_and_platforms": [
+      "Bloomberg Terminal",
+      "Excel",
+      "FactSet",
+      "S&P Capital IQ",
+      "Advanced Financial Modeling",
+      "Statistical Analysis",
+      "Hypothesis Testing"
+    ],
+    "languages_spoken": [],
+    "publications": [
+      "70+ page sell-side industry report on the 3D printing industry covering 29 competitors"
+    ],
+    "extraction_confidence": "high",
+    "extraction_notes": [
+      "Postal code in the contact block reads 'Boston, MA 01125', which is not a Boston ZIP code range (Boston uses 021xx), so the address may be mistyped",
+      "The phone area code 317 is Indiana while the stated address is Massachusetts",
+      "FINRA licences are described as held 'during equity research tenure', so current registration status is unclear"
+    ]
+  }
+}

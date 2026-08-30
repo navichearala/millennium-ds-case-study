@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Candidate Resume Search Platform — Business Development</title>
+    <meta
+      name="description"
+      content="Requisition-driven search, scoring and analytics over LLM-parsed candidate resumes."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23123a52'/%3E%3Cg fill='none' stroke='%234aa3c7' stroke-width='2.6' stroke-linecap='round'%3E%3Cpath d='M9 22V17'/%3E%3Cpath d='M16 22V12'/%3E%3Cpath d='M23 22V15'/%3E%3C/g%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <div class="app">
+      <!-- ------------------------------------------------ sidebar -->
+      <aside class="sidebar">
+        <div class="brand">
+          <svg width="30" height="30" viewBox="0 0 32 32" aria-label="Platform logo">
+            <rect x="0.5" y="0.5" width="31" height="31" rx="7.5" fill="none" stroke="currentColor" stroke-opacity="0.55" />
+            <g fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round">
+              <path d="M9 23V17" />
+              <path d="M16 23V10" />
+              <path d="M23 23V14" />
+            </g>
+          </svg>
+          <div class="brand-text">
+            <div class="brand-name">Candidate Search</div>
+            <div class="brand-sub">Business Development</div>
+          </div>
+        </div>
+
+        <div class="side-section">
+          <span class="side-label">Requisition</span>
+
+          <div class="field">
+            <label for="preset">Preset mandate</label>
+            <select id="preset" class="control"></select>
+          </div>
+
+          <div class="field">
+            <label for="region">Target region</label>
+            <select id="region" class="control"></select>
+          </div>
+
+          <div class="field">
+            <label for="strategy">Investment approach</label>
+            <select id="strategy" class="control"></select>
+          </div>
+
+          <div class="field">
+            <label>Sector coverage</label>
+            <div class="chips" id="sectors"></div>
+          </div>
+
+          <div class="field">
+            <label>Sector match</label>
+            <div class="seg" id="sectorLogic" role="group" aria-label="Sector match logic">
+              <button type="button" data-value="any" aria-pressed="true">Any of these</button>
+              <button type="button" data-value="all" aria-pressed="false">All of these</button>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="yearsMin">Target years of experience</label>
+            <div class="range-row">
+              <span class="range-val" id="yearsMinVal">0</span>
+              <input id="yearsMin" class="range" type="range" min="0" max="20" step="0.5" value="0" />
+            </div>
+            <div class="range-row">
+              <span class="range-val" id="yearsMaxVal">20</span>
+              <input id="yearsMax" class="range" type="range" min="0" max="20" step="0.5" value="20" />
+            </div>
+            <label class="check" style="margin-top: var(--space-2)">
+              <input type="checkbox" id="enforceYears" />
+              Enforce band as a hard filter
+            </label>
+          </div>
+        </div>
+
+        <details class="side-fold">
+          <summary>Additional filters</summary>
+          <div>
+            <p class="side-note" style="margin-top: 0; margin-bottom: var(--space-4)">
+              The mandate's target seniority feeds the match score. Filter here only to exclude
+              other levels outright.
+            </p>
+            <div class="field">
+              <label>Seniority (hard filter)</label>
+              <div class="chips" id="seniority"></div>
+            </div>
+            <div class="field">
+              <label>Market side</label>
+              <div class="chips" id="side"></div>
+            </div>
+            <div class="field">
+              <label>Highest degree</label>
+              <div class="chips" id="degree"></div>
+            </div>
+            <div class="field">
+              <label for="keyword">Keyword search</label>
+              <input
+                id="keyword"
+                class="control"
+                type="search"
+                placeholder="long/short, backtesting, USFDA"
+              />
+            </div>
+            <label class="check"><input type="checkbox" id="cfa" /> CFA charterholder only</label>
+            <label class="check"><input type="checkbox" id="md" /> Medical degree only</label>
+            <label class="check"><input type="checkbox" id="employed" /> Currently employed only</label>
+            <div class="field" style="margin-top: var(--space-4)">
+              <label for="quality">Minimum data-quality score</label>
+              <div class="range-row">
+                <span class="range-val" id="qualityVal">0.0</span>
+                <input id="quality" type="range" min="0" max="1" step="0.05" value="0" />
+              </div>
+            </div>
+          </div>
+        </details>
+
+        <details class="side-fold">
+          <summary>Scoring weights</summary>
+          <div>
+            <p class="side-note" style="margin-top: 0; margin-bottom: var(--space-4)">
+              The match score is a visible weighted sum. Adjust to reflect what the mandate really
+              values.
+            </p>
+            <div id="weights"></div>
+          </div>
+        </details>
+
+        <button class="btn-reset" id="reset" type="button">Reset all filters</button>
+
+        <p class="side-note" style="margin-top: var(--space-5)">
+          Browser mirror of the Streamlit submission. Data comes from
+          <code>outputs/candidates.json</code>, produced by the parsing pipeline.
+        </p>
+      </aside>
+
+      <!-- ------------------------------------------------ header -->
+      <header class="header">
+        <div class="header-top">
+          <div>
+            <h1 class="page-title">Candidate Resume Search Platform</h1>
+            <p class="page-sub">
+              Requisition-driven sourcing over LLM-parsed resumes — search, score, compare, review.
+            </p>
+          </div>
+        </div>
+        <div id="mandateTag"></div>
+
+        <div class="kpis">
+          <div>
+            <div class="kpi-label">Candidates in pool</div>
+            <div class="kpi-value" id="kpiPool">—</div>
+          </div>
+          <div>
+            <div class="kpi-label">Matching filters</div>
+            <div class="kpi-value" id="kpiMatch">—</div>
+          </div>
+          <div>
+            <div class="kpi-label">Mean experience</div>
+            <div class="kpi-value" id="kpiYears">—</div>
+          </div>
+          <div>
+            <div class="kpi-label">Top match</div>
+            <div class="kpi-value" id="kpiTop">—</div>
+          </div>
+          <div>
+            <div class="kpi-label">Records with flags</div>
+            <div class="kpi-value" id="kpiFlags">—</div>
+          </div>
+        </div>
+
+        <nav class="tabs" role="tablist">
+          <button class="tab" role="tab" aria-selected="true" data-panel="results">
+            Search results
+          </button>
+          <button class="tab" role="tab" aria-selected="false" data-panel="compare">
+            Compare candidates
+          </button>
+          <button class="tab" role="tab" aria-selected="false" data-panel="insights">
+            Talent pool insights
+          </button>
+          <button class="tab" role="tab" aria-selected="false" data-panel="quality">
+            Data quality
+          </button>
+        </nav>
+      </header>
+
+      <!-- ------------------------------------------------ main -->
+      <main class="main">
+        <section class="panel" id="panel-results" role="tabpanel">
+          <div class="toolbar">
+            <div class="seg" id="viewMode" role="group" aria-label="Result view" style="width: fit-content">
+              <button type="button" data-value="cards" aria-pressed="true">Cards</button>
+              <button type="button" data-value="table" aria-pressed="false">Table</button>
+            </div>
+            <button class="btn" id="exportShortlist" type="button">Download shortlist (CSV)</button>
+          </div>
+          <p class="toolbar-note" id="resultsNote"></p>
+          <div id="results"></div>
+          <div id="detail"></div>
+        </section>
+
+        <section class="panel" id="panel-compare" role="tabpanel" hidden>
+          <div class="section-head">
+            <h3>Side-by-side comparison</h3>
+            <p>
+              Pre-populated with the current shortlist and drawn from the whole pool, because
+              benchmarking a shortlisted candidate against someone the filters excluded is a normal
+              request. Select two to four.
+            </p>
+          </div>
+          <div class="compare-picker" id="comparePicker"></div>
+          <div id="compareBody"></div>
+        </section>
+
+        <section class="panel" id="panel-insights" role="tabpanel" hidden>
+          <div class="section-head">
+            <h3>Talent pool composition</h3>
+            <p>
+              Ten records is directional, not statistical. The value here is spotting where the
+              pipeline is thin for a given mandate.
+            </p>
+          </div>
+          <div class="toolbar">
+            <div class="seg" id="scopeMode" role="group" aria-label="Chart scope" style="width: fit-content">
+              <button type="button" data-value="pool" aria-pressed="true">Full pool</button>
+              <button type="button" data-value="filtered" aria-pressed="false">Filtered results</button>
+            </div>
+          </div>
+          <div class="chart-grid" id="charts"></div>
+          <div class="section-head">
+            <h3>Coverage gaps against this requisition</h3>
+            <p>
+              Where "matching full requisition" is zero or low, sourcing effort should be
+              redirected.
+            </p>
+          </div>
+          <div id="gaps"></div>
+        </section>
+
+        <section class="panel" id="panel-quality" role="tabpanel" hidden>
+          <div class="section-head">
+            <h3>Extraction and data-quality review</h3>
+            <p>
+              Every finding is raised by a documented validation rule or reported by the extraction
+              model. Nothing is auto-corrected, so a reviewer always sees the original discrepancy.
+            </p>
+          </div>
+          <div class="chart-grid" id="qualityCharts" style="margin-bottom: var(--space-6)"></div>
+          <div class="toolbar">
+            <div class="seg" id="originMode" role="group" aria-label="Finding origin" style="width: fit-content">
+              <button type="button" data-value="all" aria-pressed="true">All findings</button>
+              <button type="button" data-value="rule" aria-pressed="false">Validation rules</button>
+              <button type="button" data-value="model" aria-pressed="false">Model-reported</button>
+            </div>
+            <button class="btn" id="exportQuality" type="button">Download report (CSV)</button>
+          </div>
+          <div id="qualityTable"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>

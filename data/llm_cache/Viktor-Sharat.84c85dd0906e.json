@@ -1,0 +1,278 @@
+{
+  "prompt_version": "v3",
+  "content_hash": "84c85dd0906ef705dec9d3b01eb420a1cf6fd1f961283f10bc45cf037507844d",
+  "source_file": "Viktor-Sharat.docx",
+  "provider": "reference",
+  "model": "reference-extraction",
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "profile": {
+    "source_file": "Viktor-Sharat.docx",
+    "source_agency": null,
+    "full_name": "Viktor Sharat",
+    "honorific": null,
+    "email": null,
+    "phone": null,
+    "location_city": "Navi Mumbai",
+    "location_country": "India",
+    "region": "Asia-Pacific",
+    "current_employer": null,
+    "current_title": null,
+    "primary_strategy_type": "Fundamental",
+    "primary_market_side": "Sell-Side",
+    "primary_firm_type": "Investment Bank - Sell-Side Research",
+    "seniority_level": "Lead Analyst",
+    "sectors_covered": [
+      "Healthcare",
+      "Energy",
+      "Industrials",
+      "Consumer",
+      "Materials",
+      "Multi-Sector / Generalist"
+    ],
+    "sector_specialisation_detail": [
+      "Healthcare, Oil & Gas, Logistics and Alcobev coverage at ICICI Securities",
+      "Pharmaceuticals and Specialty Chemicals in a healthcare fund portfolio",
+      "Indian renewable energy and infrastructure sector reports",
+      "Mid and small cap sector-agnostic research",
+      "AI-based drug target identification and biomarker discovery"
+    ],
+    "geographic_markets_covered": [
+      "India"
+    ],
+    "self_reported_years_experience": null,
+    "max_coverage_universe": 42,
+    "roles": [
+      {
+        "employer": "Axis Mutual Fund",
+        "title": "Research Analyst",
+        "location": "India",
+        "start_date": null,
+        "end_date": null,
+        "duration_stated": "2 months",
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Asset Manager",
+        "market_side": "Buy-Side",
+        "seniority": "Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare",
+          "Materials"
+        ],
+        "coverage_universe_size": 38,
+        "aum_or_portfolio_size": "US$1.2 billion+",
+        "highlights": [
+          "Covered Pharmaceuticals and Specialty Chemicals, tracking 38 companies within the healthcare fund portfolio",
+          "Met management teams and buy-side analysts to provide strategic input to senior fund managers"
+        ]
+      },
+      {
+        "employer": "Meridian Capital",
+        "title": "Research Analyst",
+        "location": "India",
+        "start_date": null,
+        "end_date": null,
+        "duration_stated": "10 months",
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Asset Manager",
+        "market_side": "Buy-Side",
+        "seniority": "Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Energy",
+          "Industrials",
+          "Multi-Sector / Generalist"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Completed a ~120 page renewable energy sector report within three months of joining and began receiving institutional votes in the first quarter",
+          "Published detailed analysis on the Indian infrastructure sector",
+          "Applied a sector-agnostic approach focused on company fundamentals regardless of market capitalisation"
+        ]
+      },
+      {
+        "employer": "ICICI Securities Limited",
+        "title": "Research Analyst",
+        "location": "India",
+        "start_date": null,
+        "end_date": null,
+        "duration_stated": "8 years 10 months",
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Sell-Side Research",
+        "market_side": "Sell-Side",
+        "seniority": "Lead Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare",
+          "Energy",
+          "Industrials",
+          "Consumer"
+        ],
+        "coverage_universe_size": 42,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Maintained active coverage of 42 stocks across Healthcare, Oil & Gas, Logistics and Alcobev",
+          "Advanced from research associate to lead analyst within three years with consistently top performance ratings",
+          "Initiated coverage on digital health platforms and renewable energy companies"
+        ]
+      },
+      {
+        "employer": "BioAnalytics Research India Ltd.",
+        "title": "Biomodeller Trainee",
+        "location": "India",
+        "start_date": null,
+        "end_date": null,
+        "duration_stated": "7 months",
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Corporate / Industry",
+        "market_side": "Corporate",
+        "seniority": "Other",
+        "strategy_type": "Systematic / Quantitative",
+        "sectors": [
+          "Healthcare"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Contributing member of a team developing an AI-based drug target identification system for precision medicine, focused on lung and colorectal cancer"
+        ]
+      },
+      {
+        "employer": "Mumbai Cancer Research Institute (MCRI)",
+        "title": "Research Associate",
+        "location": "Mumbai, India",
+        "start_date": null,
+        "end_date": null,
+        "duration_stated": "8 months",
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Academic / Research",
+        "market_side": "Academic",
+        "seniority": "Other",
+        "strategy_type": "Systematic / Quantitative",
+        "sectors": [
+          "Healthcare"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Research experience contributing to machine learning work in biomarker discovery for targeted cancer therapy"
+        ]
+      },
+      {
+        "employer": "Prism Asset Management Pvt Ltd.",
+        "title": "Summer Internship Project",
+        "location": "India",
+        "start_date": null,
+        "end_date": null,
+        "duration_stated": "3 months",
+        "is_current": false,
+        "is_internship": true,
+        "firm_type": "Asset Manager",
+        "market_side": "Buy-Side",
+        "seniority": "Intern",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Technology"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Comprehensive equity analysis of the Indian Technology sector"
+        ]
+      },
+      {
+        "employer": "Reliance Infrastructure Ltd.",
+        "title": "Concurrent Project",
+        "location": "India",
+        "start_date": null,
+        "end_date": null,
+        "duration_stated": "8 weeks",
+        "is_current": false,
+        "is_internship": true,
+        "firm_type": "Corporate / Industry",
+        "market_side": "Corporate",
+        "seniority": "Intern",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Energy"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Strategic market analysis of Indian renewable energy companies"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Mumbai Institute of Management Studies and Research",
+        "degree": "PGDM",
+        "field_of_study": "Management",
+        "location": "Mumbai, India",
+        "start_year": null,
+        "end_year": 2015,
+        "gpa": "2.5/4",
+        "honors": "University of Mumbai"
+      },
+      {
+        "institution": "Padmashree Dr. D.Y. Patil Institute of Biotechnology and Bioinformatics",
+        "degree": "M.Tech (Integrated)",
+        "field_of_study": "Biotechnology and Bioinformatics",
+        "location": "Navi Mumbai, India",
+        "start_year": null,
+        "end_year": 2010,
+        "gpa": "68%",
+        "honors": null
+      },
+      {
+        "institution": "Bharti Vidyapeeth Junior College",
+        "degree": "HSC",
+        "field_of_study": null,
+        "location": "Navi Mumbai, India",
+        "start_year": null,
+        "end_year": 2006,
+        "gpa": "72%",
+        "honors": "Maharashtra board"
+      },
+      {
+        "institution": "Don Bosco High School",
+        "degree": "SSC",
+        "field_of_study": null,
+        "location": "Navi Mumbai, India",
+        "start_year": null,
+        "end_year": 2004,
+        "gpa": "73%",
+        "honors": "Maharashtra board"
+      }
+    ],
+    "certifications": [
+      "CFA Level III completed (CFA Institute, USA)"
+    ],
+    "has_cfa": false,
+    "cfa_status": "Level III passed; charter award not stated",
+    "has_medical_degree": false,
+    "licenses": [],
+    "programming_languages": [],
+    "tools_and_platforms": [],
+    "languages_spoken": [],
+    "publications": [
+      "Co-author, 'Machine Learning Applications in Biomarker Discovery for Targeted Cancer Therapy', Journal of Computational Biology and Bioinformatics (ISSN 2456-7891)"
+    ],
+    "extraction_confidence": "low",
+    "extraction_notes": [
+      "The resume gives tenure as durations only ('8 years 10 months', '10 months', '2 months') with no start or end dates anywhere, so chronology, current employment status and gaps cannot be determined",
+      "No email address, phone number or contact details are present",
+      "Experience is stored in Word tables with horizontally merged cells, so every row was duplicated up to four times in raw extraction and required de-duplication",
+      "The order of roles in the document is assumed to be reverse-chronological but this is not stated",
+      "CFA Level III is described as completed but charterholder status is not claimed, so has_cfa is recorded as false",
+      "The PGDM grade of 2.5/4 is comparatively low and worth noting for screening",
+      "The candidate has an unusual biotech and bioinformatics background (M.Tech, cancer research, ML publication) alongside sell-side equity research"
+    ]
+  }
+}

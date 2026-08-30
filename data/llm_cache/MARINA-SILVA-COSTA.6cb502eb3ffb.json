@@ -1,0 +1,172 @@
+{
+  "prompt_version": "v3",
+  "content_hash": "6cb502eb3ffb69dbdd5e0150a7a9860e9f0ecc527732f3216a4bd696c78131f8",
+  "source_file": "MARINA-SILVA-COSTA.docx",
+  "provider": "reference",
+  "model": "reference-extraction",
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "profile": {
+    "source_file": "MARINA-SILVA-COSTA.docx",
+    "source_agency": null,
+    "full_name": "Marina Silva Costa",
+    "honorific": null,
+    "email": "marina.costa.finance@gmail.com",
+    "phone": "+44 (785) 429-1673",
+    "location_city": "London",
+    "location_country": "United Kingdom",
+    "region": "Europe",
+    "current_employer": "Vanguard Group",
+    "current_title": "Equity Research Analyst",
+    "primary_strategy_type": "Fundamental",
+    "primary_market_side": "Buy-Side",
+    "primary_firm_type": "Asset Manager",
+    "seniority_level": "Analyst",
+    "sectors_covered": [
+      "Healthcare",
+      "Consumer",
+      "Media & Telecom",
+      "Industrials",
+      "Financial Services"
+    ],
+    "sector_specialisation_detail": [
+      "Healthcare, consumer discretionary and telecom equities in emerging LatAm and EMEA",
+      "Water technology equities (summer analyst project)",
+      "Consulting coverage of consumer, retail, e-commerce, grocery, aerospace, infrastructure and banking loyalty programmes"
+    ],
+    "geographic_markets_covered": [
+      "Latin America (emerging)",
+      "EMEA",
+      "Brazil",
+      "United States",
+      "United Kingdom"
+    ],
+    "self_reported_years_experience": null,
+    "max_coverage_universe": null,
+    "roles": [
+      {
+        "employer": "Vanguard Group",
+        "title": "Equity Research Analyst",
+        "location": "Boston, USA / London, United Kingdom",
+        "start_date": "2021-08",
+        "end_date": "present",
+        "duration_stated": null,
+        "is_current": true,
+        "is_internship": false,
+        "firm_type": "Asset Manager",
+        "market_side": "Buy-Side",
+        "seniority": "Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare",
+          "Consumer",
+          "Media & Telecom"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Develops investment recommendations on public companies through fundamental research, financial modelling and proprietary studies",
+          "Focus on healthcare, consumer discretionary and telecom companies operating primarily in emerging LatAm and EMEA"
+        ]
+      },
+      {
+        "employer": "Vanguard Group",
+        "title": "Equity Research Summer Analyst",
+        "location": "Boston, USA",
+        "start_date": "2020-06",
+        "end_date": "2020-08",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": true,
+        "firm_type": "Asset Manager",
+        "market_side": "Buy-Side",
+        "seniority": "Intern",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Industrials",
+          "Utilities"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Developed investment recommendations on publicly traded water technology companies using fundamental research and financial modelling"
+        ]
+      },
+      {
+        "employer": "Bain & Company",
+        "title": "Business Analyst",
+        "location": "Sao Paulo, Brazil",
+        "start_date": "2016",
+        "end_date": "2019",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Consulting",
+        "market_side": "Corporate",
+        "seniority": "Analyst",
+        "strategy_type": "Unclear",
+        "sectors": [
+          "Consumer",
+          "Industrials",
+          "Financial Services"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Built a dynamic pricing tool for a consumer electronics company covering 35 product categories, 4 distribution channels and 180+ regional markets",
+          "Led a strategic sourcing transformation at a grocery chain delivering roughly 4 percentage points of gross margin improvement",
+          "Managed progress of 200+ initiatives in a large-scale lean manufacturing engagement for an aerospace player",
+          "Led launch of McKinsey's first case competition, receiving 3,300 applications and mobilising 50+ consultants from McKinsey Brazil"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "MIT Sloan School of Management",
+        "degree": "Master of Business Administration (MBA)",
+        "field_of_study": "Business Administration",
+        "location": "Cambridge, MA, United States",
+        "start_year": 2019,
+        "end_year": 2021,
+        "gpa": null,
+        "honors": "Investment Management Club Co-President; Latin America Conference 2020 organiser"
+      },
+      {
+        "institution": "Fundacao Getulio Vargas",
+        "degree": "BS in Economics",
+        "field_of_study": "Economics",
+        "location": "Sao Paulo, Brazil",
+        "start_year": 2013,
+        "end_year": 2016,
+        "gpa": null,
+        "honors": "Manager of CJE-FF student-run equity fund and the Investment Committee"
+      }
+    ],
+    "certifications": [],
+    "has_cfa": false,
+    "cfa_status": null,
+    "has_medical_degree": false,
+    "licenses": [],
+    "programming_languages": [
+      "Python",
+      "R",
+      "VBA"
+    ],
+    "tools_and_platforms": [
+      "Advanced Excel"
+    ],
+    "languages_spoken": [
+      "Portuguese (fluent)",
+      "English (fluent)",
+      "Spanish (conversational)"
+    ],
+    "publications": [],
+    "extraction_confidence": "medium",
+    "extraction_notes": [
+      "The Bain & Company section contains a bullet crediting the launch of McKinsey's first case competition and mobilising McKinsey Brazil consultants, which contradicts the stated employer",
+      "The current Vanguard role lists two locations (Boston, USA and London, United Kingdom) without dates for the transfer, so the present base is ambiguous; the UK phone number suggests London",
+      "Bain dates are given as years only (2016 - 2019) with no months, so tenure is approximate",
+      "GMAT score of 740 (2019) stated under additional information"
+    ]
+  }
+}
