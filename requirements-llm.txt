@@ -1,0 +1,5 @@
+# Optional: only needed to run the live LLM extraction path
+#   python src/pipeline.py --refresh
+# Install one provider, or both.
+openai>=1.30
+anthropic>=0.30

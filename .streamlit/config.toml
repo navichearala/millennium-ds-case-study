@@ -1,0 +1,15 @@
+# Streamlit theme, matched to the application's own palette so the hosted app looks
+# identical to the local one.
+#
+# Deliberately no [server] overrides: Streamlit Community Cloud sets its own proxy,
+# port and TLS configuration, and relaxing CORS or XSRF here would weaken
+# cross-origin protection for no benefit.
+[theme]
+primaryColor = "#328CC1"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F4F7F9"
+textColor = "#1F2A33"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false

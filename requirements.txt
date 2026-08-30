@@ -1,15 +1,14 @@
-# Core
+# Runtime dependencies for the Streamlit application and the parsing pipeline.
+# Kept deliberately small so a hosted build is fast and cannot fail on an
+# unnecessary transitive dependency.
+streamlit>=1.30
 pandas>=2.0
+plotly>=5.18
 pydantic>=2.0
-
-# Document parsing
 python-docx>=1.1
 pypdf>=4.0
 
-# LLM providers (install whichever you use)
-openai>=1.30
-anthropic>=0.30
-
-# App
-streamlit>=1.30
-plotly>=5.18
+# LLM providers are imported lazily, only when the pipeline actually calls an API
+# (`python src/pipeline.py --refresh`). The application and the cached pipeline run
+# without them, so they are optional extras rather than hard requirements:
+#   pip install -r requirements-llm.txt
