@@ -99,7 +99,7 @@ app.py                     Streamlit requisition search, scoring, comparison, an
 | `tests/test_pipeline.py` | 30 unit tests over the validation and document-cleaning rules |
 | `build_notebook.py` | Generates the submission notebook from the live source files, so the code shown to a reviewer is byte-identical to the code that produced the outputs |
 | `tools/capture_screenshots.py` | Regenerates the app screenshots from a running instance, so documentation cannot drift from the data |
-| `INTERVIEW_NOTES.md` | Design decisions and defence of every trade-off |
+| `tools/build_web_mirror_data.py` | Rebuilds the browser mirror's embedded dataset from the pipeline output |
 
 ## Design decisions
 
@@ -153,6 +153,7 @@ outputs/                                   JSON + CSV exports and app screenshot
 web-mirror/                                static browser port of the app (no backend)
 build_notebook.py                          regenerates the notebook from the source files
 tools/capture_screenshots.py               regenerates the app screenshots from a running app
+tools/build_web_mirror_data.py             rebuilds the browser mirror's embedded dataset
 ```
 
 ## Running the browser mirror
