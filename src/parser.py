@@ -32,7 +32,7 @@ from document_loader import LoadedDocument
 from pydantic import ValidationError
 from schema import CandidateProfile, llm_json_schema
 
-PROMPT_VERSION = "v3"
+PROMPT_VERSION = "v4"
 
 SYSTEM_PROMPT = """You are a precise resume-parsing engine for the Business Development \
 team of a global multi-strategy hedge fund. The team sources junior-to-mid investment \
@@ -82,11 +82,26 @@ null and put the verbatim string in `duration_stated`.
 `self_reported_years_experience` only when the resume explicitly states a number of \
 years of experience. Downstream code computes totals from the dates you extract.
 
-6. FLAG PROBLEMS. Use `extraction_notes` for contradictions, impossible or \
-overlapping dates, missing sections, malformed contact details, employer names that \
-disagree within one entry, and self-reported claims that look inconsistent with the \
-dates. Set `extraction_confidence` to "low" when the document is substantially \
-ambiguous, "medium" when there are notable gaps, "high" when it is clean and complete.
+6. FLAG PROBLEMS. `extraction_notes` is a required part of the job, not an optional \
+extra. Before returning, re-read the document and record every observation a reviewer \
+would want flagged, as a short factual sentence each. Look specifically for:
+   - contradictions, and employer names that disagree within one entry
+   - impossible dates, and roles or study periods that run concurrently
+   - date ranges given as years only, so tenure is approximate
+   - missing sections: no email, no phone, no education, no location for the candidate \
+(a location stated for an employer is not the candidate's location)
+   - malformed contact details
+   - self-reported claims that the dates do not support
+   - unverifiable performance claims (returns, Sharpe ratios, P&L, rankings, test scores)
+   - any classification you had to make on thin evidence, naming the evidence you used
+   Do not resolve these yourself and do not omit one because it seems minor. An empty \
+`extraction_notes` list asserts that the document is completely unambiguous, which is \
+rare; only return an empty list if you genuinely found nothing.
+
+   Calibrate `extraction_confidence` against that list: "low" when the document is \
+substantially ambiguous or key sections are missing, "medium" when there are notable \
+gaps or several notes, "high" only when the document is clean, complete and produced \
+no more than one minor note.
 
 7. PROVENANCE. If a recruiting agency name appears in a header, footer or watermark, \
 record it in `source_agency`. It is metadata, not an employer.

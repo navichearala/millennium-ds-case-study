@@ -1,80 +1,94 @@
 candidate_id,full_name,source_file,flag_origin,flag
 chen-li-alex,Chen Li (Alex),Chen-Li-Alex.docx,rule,"Overlapping roles (different employers, ~15 months): Bank of China [2019-12-2021-05] and Chinese University of Hong Kong [2019-03-2021-03]"
-chen-li-alex,Chen Li (Alex),Chen-Li-Alex.docx,model,No role recorded after September 2023; the most recent employer is Bank of China and no current position is stated
-chen-li-alex,Chen Li (Alex),Chen-Li-Alex.docx,model,The MSc (Sept 2021 - Jul 2023) runs concurrently with the full-time Bank of China analyst role (June 2021 - Sep 2023)
-chen-li-alex,Chen Li (Alex),Chen-Li-Alex.docx,model,"The Investment Analyst role begins June 2021 while the Investment Intern role is listed to May 2021 and the CUHK research assistant role to March 2021, so several dates overlap"
-chen-li-alex,Chen Li (Alex),Chen-Li-Alex.docx,model,Sharpe ratio of 1.8+ is a self-reported performance claim that cannot be verified from the document
+chen-li-alex,Chen Li (Alex),Chen-Li-Alex.docx,model,"Date ranges given as year and month, no day precision, so tenure is approximate."
+chen-li-alex,Chen Li (Alex),Chen-Li-Alex.docx,model,No explicit self-reported years of experience stated in the resume.
+chen-li-alex,Chen Li (Alex),Chen-Li-Alex.docx,model,"Primary strategy classification as Systematic / Quantitative based on quantitative analysis, multi-factor model development, backtesting, and machine learning references."
+chen-li-alex,Chen Li (Alex),Chen-Li-Alex.docx,model,Internship roles classified as such based on title and description.
+chen-li-alex,Chen Li (Alex),Chen-Li-Alex.docx,model,Sector classification for Meridian Asia Capital as Financial Services due to bond and equity market focus.
+chen-li-alex,Chen Li (Alex),Chen-Li-Alex.docx,model,No explicit candidate location stated; only employer locations are given.
+chen-li-alex,Chen Li (Alex),Chen-Li-Alex.docx,model,No education GPA or honors details provided.
+chen-li-alex,Chen Li (Alex),Chen-Li-Alex.docx,model,No current location city for candidate provided.
 marina-silva-costa,Marina Silva Costa,MARINA-SILVA-COSTA.docx,rule,Role at Bain & Company contains a bullet referring to employment at 'mckinsey' - possible employer mismatch
-marina-silva-costa,Marina Silva Costa,MARINA-SILVA-COSTA.docx,model,"The Bain & Company section contains a bullet crediting the launch of McKinsey's first case competition and mobilising McKinsey Brazil consultants, which contradicts the stated employer"
-marina-silva-costa,Marina Silva Costa,MARINA-SILVA-COSTA.docx,model,"The current Vanguard role lists two locations (Boston, USA and London, United Kingdom) without dates for the transfer, so the present base is ambiguous; the UK phone number suggests London"
-marina-silva-costa,Marina Silva Costa,MARINA-SILVA-COSTA.docx,model,"Bain dates are given as years only (2016 - 2019) with no months, so tenure is approximate"
-marina-silva-costa,Marina Silva Costa,MARINA-SILVA-COSTA.docx,model,GMAT score of 740 (2019) stated under additional information
+marina-silva-costa,Marina Silva Costa,MARINA-SILVA-COSTA.docx,rule,"Region not stated on the resume - inferred as 'North America' from role location 'Boston, USA / London, United Kingdom' at Vanguard Group; confirm against the source document"
+marina-silva-costa,Marina Silva Costa,MARINA-SILVA-COSTA.docx,model,No candidate location city or country stated explicitly
+marina-silva-costa,Marina Silva Costa,MARINA-SILVA-COSTA.docx,model,Region set to Unknown due to lack of explicit location
+marina-silva-costa,Marina Silva Costa,MARINA-SILVA-COSTA.docx,model,Bain & Company role strategy type classified as Unclear due to consulting nature and lack of investment focus
+marina-silva-costa,Marina Silva Costa,MARINA-SILVA-COSTA.docx,model,"Sector classification for Bain & Company role includes Consumer, Industrials, Financial Services based on described projects"
+marina-silva-costa,Marina Silva Costa,MARINA-SILVA-COSTA.docx,model,"Duration for Bain & Company role given as years only, so tenure is approximate"
 marcus-chen-rodriguez,Marcus Chen-Rodriguez,Marcus-Chen-Rodriguez-Resume.docx,rule,Malformed email address: rchen@hotmail
-marcus-chen-rodriguez,Marcus Chen-Rodriguez,Marcus-Chen-Rodriguez-Resume.docx,model,Email address 'rchen@hotmail' has no top-level domain and appears truncated; the local part also does not match the candidate's stated first name
-marcus-chen-rodriguez,Marcus Chen-Rodriguez,Marcus-Chen-Rodriguez-Resume.docx,model,Unexplained gap between the Credit Suisse role ending March 2015 and the Goldman Sachs role starting April 2017
-marcus-chen-rodriguez,Marcus Chen-Rodriguez,Marcus-Chen-Rodriguez-Resume.docx,model,Outperformance figures of 340bps and 280bps and an 85% hit rate are self-reported and unverifiable
-marcus-chen-rodriguez,Marcus Chen-Rodriguez,Marcus-Chen-Rodriguez-Resume.docx,model,No programming languages or technical tooling are listed anywhere in the document
-michael-rodriguez,Michael Rodriguez,Michael-Rodriguez-CFA.docx,model,"Postal code in the contact block reads 'Boston, MA 01125', which is not a Boston ZIP code range (Boston uses 021xx), so the address may be mistyped"
-michael-rodriguez,Michael Rodriguez,Michael-Rodriguez-CFA.docx,model,The phone area code 317 is Indiana while the stated address is Massachusetts
-michael-rodriguez,Michael Rodriguez,Michael-Rodriguez-CFA.docx,model,"FINRA licences are described as held 'during equity research tenure', so current registration status is unclear"
+marcus-chen-rodriguez,Marcus Chen-Rodriguez,Marcus-Chen-Rodriguez-Resume.docx,model,Email address appears malformed (missing domain suffix)
+marcus-chen-rodriguez,Marcus Chen-Rodriguez,Marcus-Chen-Rodriguez-Resume.docx,model,No location city or country stated for candidate
+marcus-chen-rodriguez,Marcus Chen-Rodriguez,Marcus-Chen-Rodriguez-Resume.docx,model,Goldman Sachs roles overlap in dates but likely represent promotions within the same team
+marcus-chen-rodriguez,Marcus Chen-Rodriguez,Marcus-Chen-Rodriguez-Resume.docx,model,"Goldman Sachs roles have same coverage universe size and AUM, suggesting same strategy focus"
+marcus-chen-rodriguez,Marcus Chen-Rodriguez,Marcus-Chen-Rodriguez-Resume.docx,model,No explicit self-reported years of experience found
+marcus-chen-rodriguez,Marcus Chen-Rodriguez,Marcus-Chen-Rodriguez-Resume.docx,model,Sector specialisation detail includes sub-sectors explicitly stated in resume
+marcus-chen-rodriguez,Marcus Chen-Rodriguez,Marcus-Chen-Rodriguez-Resume.docx,model,"Primary strategy type classified as Fundamental based on investment diligence, financial modeling, long/short public and private investing"
+marcus-chen-rodriguez,Marcus Chen-Rodriguez,Marcus-Chen-Rodriguez-Resume.docx,model,Primary market side classified as Buy-Side based on investment team roles at Coatue and Goldman Sachs
+marcus-chen-rodriguez,Marcus Chen-Rodriguez,Marcus-Chen-Rodriguez-Resume.docx,model,Primary firm type classified as Hedge Fund due to current employer Coatue Management
+michael-rodriguez,Michael Rodriguez,Michael-Rodriguez-CFA.docx,model,"Location city and country inferred from employer location, not explicitly stated for candidate"
+michael-rodriguez,Michael Rodriguez,Michael-Rodriguez-CFA.docx,model,No explicit self-reported years of experience stated
+michael-rodriguez,Michael Rodriguez,Michael-Rodriguez-CFA.docx,model,"Some date ranges given as year and month, others only as year for education"
+michael-rodriguez,Michael Rodriguez,Michael-Rodriguez-CFA.docx,model,"Primary strategy type classified as Fundamental based on evidence of financial modeling, company research, management meetings, and equity research roles"
+michael-rodriguez,Michael Rodriguez,Michael-Rodriguez-CFA.docx,model,Sector classification for TMT split into Technology and Media & Telecom as per guidance
+michael-rodriguez,Michael Rodriguez,Michael-Rodriguez-CFA.docx,model,"Role at William Blair Fixed Income Sales & Trading classified under Credit sector due to HY, IG, and bond coverage"
+michael-rodriguez,Michael Rodriguez,Michael-Rodriguez-CFA.docx,model,Internship at Magnetar Capital classified as Hedge Fund buy-side with Fundamental strategy based on mortgage securitization work
 omar-el-hassan,Omar El-Hassan,Omar-El-Hassan-202405.pdf,rule,"Overlapping roles (same employer, ~3 months): BNP Paribas CIB [2022-05-present] and BNP Paribas CIB [2022-04-2022-08]"
-omar-el-hassan,Omar El-Hassan,Omar-El-Hassan-202405.pdf,model,"The full-time role is stated as beginning May 2022 while an internship at the same employer runs April 2022 to August 2022, which is contradictory"
-omar-el-hassan,Omar El-Hassan,Omar-El-Hassan-202405.pdf,model,"The source PDF lost the 'ti' ligature throughout, so job titles and skills required character repair before parsing"
-omar-el-hassan,Omar El-Hassan,Omar-El-Hassan-202405.pdf,model,"The document is single-column visually but the PDF text layer interleaves the skills sidebar into the experience section, so skills and roles had to be separated by context"
-omar-el-hassan,Omar El-Hassan,Omar-El-Hassan-202405.pdf,model,French is not listed among languages despite the candidate being based in Paris; no inference was made
-omar-el-hassan,Omar El-Hassan,Omar-El-Hassan-202405.pdf,model,"The INSA Lyon engineering degree (2019-2022) and the Universite Lyon master's (2021-2022) overlap, which is normal for a French double-degree track but is not explained in the document"
+omar-el-hassan,Omar El-Hassan,Omar-El-Hassan-202405.pdf,model,No explicit candidate location provided
+omar-el-hassan,Omar El-Hassan,Omar-El-Hassan-202405.pdf,model,Region inferred as Europe based on employer locations
+omar-el-hassan,Omar El-Hassan,Omar-El-Hassan-202405.pdf,model,"Strategy type classified as Systematic / Quantitative based on quantitative development, backtesting, and model implementation"
+omar-el-hassan,Omar El-Hassan,Omar-El-Hassan-202405.pdf,model,Sectors classified as Multi-Sector / Generalist due to lack of explicit sector focus
+omar-el-hassan,Omar El-Hassan,Omar-El-Hassan-202405.pdf,model,No self-reported years of experience stated
+omar-el-hassan,Omar El-Hassan,Omar-El-Hassan-202405.pdf,model,"Some date ranges given as months and years, no contradictions found"
 priya-nakamura,Priya Nakamura,Priya-Nakamura_sellside_healthcare_RLTM.docx,rule,Self-reported experience (9 yrs) disagrees with experience computed from dates (12.7 yrs) by 3.7 yrs
 priya-nakamura,Priya Nakamura,Priya-Nakamura_sellside_healthcare_RLTM.docx,rule,No email address found
 priya-nakamura,Priya Nakamura,Priya-Nakamura_sellside_healthcare_RLTM.docx,rule,No phone number found
-priya-nakamura,Priya Nakamura,Priya-Nakamura_sellside_healthcare_RLTM.docx,rule,Role at Jardine Lloyd Thompson contains a bullet referring to employment at 'anand rathi' - possible employer mismatch
-priya-nakamura,Priya Nakamura,Priya-Nakamura_sellside_healthcare_RLTM.docx,model,"The profile states 9 years of healthcare coverage, but the dated roles begin October 2013, implying roughly 13 years"
-priya-nakamura,Priya Nakamura,Priya-Nakamura_sellside_healthcare_RLTM.docx,model,"The Jardine Lloyd Thompson entry says 'Started my journey as a Lead Analyst at Anand Rathi', naming a different employer inside the same role"
-priya-nakamura,Priya Nakamura,Priya-Nakamura_sellside_healthcare_RLTM.docx,model,Coverage counts are inconsistent within the current role: the summary says 25 healthcare stocks while the ICICI Securities bullet says 32 companies
-priya-nakamura,Priya Nakamura,Priya-Nakamura_sellside_healthcare_RLTM.docx,model,"No email address, phone number or location is present anywhere in the document"
-priya-nakamura,Priya Nakamura,Priya-Nakamura_sellside_healthcare_RLTM.docx,model,"The document carries a 'RED LANE TALENT MANAGEMENT' header on multiple pages, indicating an agency-formatted resume rather than a candidate original"
-priya-nakamura,Priya Nakamura,Priya-Nakamura_sellside_healthcare_RLTM.docx,model,"The J.P. Morgan Chase end date is written 'Mayr'23', an apparent typo read as May 2023"
-priya-nakamura,Priya Nakamura,Priya-Nakamura_sellside_healthcare_RLTM.docx,model,Education chronology is unusual: an MBA dated 2011-13 and an MCOM dated 2013 follow a B.M.S dated 2007
-priya-nakamura,Priya Nakamura,Priya-Nakamura_sellside_healthcare_RLTM.docx,model,"No degree-level dates overlap the earliest role, so the pre-2013 career history cannot be verified"
-priya-nakamura,Priya Nakamura,Priya-Nakamura_sellside_healthcare_RLTM.docx,rule,Model reported low extraction confidence
-ryan-patel,Ryan Patel,RYAN-PATEL-Resume.pdf,rule,No usable dates for role at J.P.Mogan
+priya-nakamura,Priya Nakamura,Priya-Nakamura_sellside_healthcare_RLTM.docx,rule,Region not stated on the resume - inferred as 'Asia-Pacific' from education entry 'Mumbai Institute of Management Studies (MIMS)'; confirm against the source document
+priya-nakamura,Priya Nakamura,Priya-Nakamura_sellside_healthcare_RLTM.docx,model,No email or phone contact details provided.
+priya-nakamura,Priya Nakamura,Priya-Nakamura_sellside_healthcare_RLTM.docx,model,Candidate location not stated explicitly.
+priya-nakamura,Priya Nakamura,Priya-Nakamura_sellside_healthcare_RLTM.docx,model,"Date ranges given as year and month only, no exact day."
+priya-nakamura,Priya Nakamura,Priya-Nakamura_sellside_healthcare_RLTM.docx,model,"Some employer firm types inferred as 'Other' due to lack of explicit classification (e.g. Jardine Lloyd Thompson, Transparent Value)."
+priya-nakamura,Priya Nakamura,Priya-Nakamura_sellside_healthcare_RLTM.docx,model,"Geographic markets covered inferred from portfolio companies mentioned (India, US, Europe)."
+priya-nakamura,Priya Nakamura,Priya-Nakamura_sellside_healthcare_RLTM.docx,model,Self-reported 9 years experience matches dates from 2013 to present.
+priya-nakamura,Priya Nakamura,Priya-Nakamura_sellside_healthcare_RLTM.docx,model,Coverage universe sizes are approximate based on stated number of companies covered.
+priya-nakamura,Priya Nakamura,Priya-Nakamura_sellside_healthcare_RLTM.docx,model,"No explicit strategy type stated; classified as Fundamental based on descriptions of company research, financial modeling, management meetings, and report writing."
 ryan-patel,Ryan Patel,RYAN-PATEL-Resume.pdf,rule,"Undergraduate degree attributed to a graduate-only school: Bachelor of Science in Business at Columbia Business School, Columbia University"
 ryan-patel,Ryan Patel,RYAN-PATEL-Resume.pdf,rule,Role at Millennium Management contains a bullet referring to employment at 'vertex capital' - possible employer mismatch
-ryan-patel,Ryan Patel,RYAN-PATEL-Resume.pdf,model,"The employer name is printed as 'J.P.Mogan', an apparent misspelling of J.P. Morgan, retained verbatim rather than silently corrected"
-ryan-patel,Ryan Patel,RYAN-PATEL-Resume.pdf,model,The Millennium Management role names two different entities: the title says 'North53 Capital' while the first bullet says the portfolio was 'for Vertex Capital'
-ryan-patel,Ryan Patel,RYAN-PATEL-Resume.pdf,model,Gap between the Millennium role ending August 2022 and the Meridian role starting March 2023
-ryan-patel,Ryan Patel,RYAN-PATEL-Resume.pdf,model,"A Bachelor of Science in Business is attributed to Columbia Business School, which is a graduate-only school; the undergraduate business programme is not at CBS"
-ryan-patel,Ryan Patel,RYAN-PATEL-Resume.pdf,model,The summer analyst stint is dated only as 'Summer 2016' with no months
-ryan-patel,Ryan Patel,RYAN-PATEL-Resume.pdf,model,"Volunteer and leadership entries (Global Education Alliance co-founder, Beta Alpha Psi) were not treated as professional roles"
-ryan-patel,Ryan Patel,RYAN-PATEL-Resume.pdf,model,"This candidate previously worked at Millennium Management, which is directly relevant context for a Millennium search"
+ryan-patel,Ryan Patel,RYAN-PATEL-Resume.pdf,rule,Role at J.P.Mogan contains a bullet referring to employment at 'j.p. morgan' - possible employer mismatch
+ryan-patel,Ryan Patel,RYAN-PATEL-Resume.pdf,model,Employer name misspelled as 'J.P.Mogan' instead of 'J.P. Morgan'
+ryan-patel,Ryan Patel,RYAN-PATEL-Resume.pdf,model,"Date range for J.P. Morgan internship and analyst role overlaps summer 2016 and July 2017 - July 2019, but likely continuous employment"
+ryan-patel,Ryan Patel,RYAN-PATEL-Resume.pdf,model,No explicit self-reported years of experience stated
+ryan-patel,Ryan Patel,RYAN-PATEL-Resume.pdf,model,No explicit geographic market coverage stated except Maharashtra region for volunteer work and implied North America for roles
+ryan-patel,Ryan Patel,RYAN-PATEL-Resume.pdf,model,No explicit programming languages or tools mentioned
+ryan-patel,Ryan Patel,RYAN-PATEL-Resume.pdf,model,No explicit certifications or licenses mentioned
 vikram-shah,Vikram Shah,Vikram-Shah.docx,rule,Undergraduate degree attributed to a graduate-only school: Bachelor of Science in Business Administration at Northwestern University - Kellogg School of Management
-vikram-shah,Vikram Shah,Vikram-Shah.docx,rule,Duplicate education entry: Bachelor of Science in Business Administration at Northwestern University - Kellogg School of Management
-vikram-shah,Vikram Shah,Vikram-Shah.docx,model,"The education section lists Northwestern University - Kellogg School of Management twice with the same graduation date, apparently a formatting duplication"
-vikram-shah,Vikram Shah,Vikram-Shah.docx,model,"A Bachelor of Science in Business Administration is attributed to the Kellogg School of Management, which is a graduate-only school; Northwestern's undergraduate business programme is not Kellogg"
-vikram-shah,Vikram Shah,Vikram-Shah.docx,model,"The Goldman Sachs role ends September 2021 in the same month the Cinctive role begins, so there may be a one-month overlap"
-vikram-shah,Vikram Shah,Vikram-Shah.docx,model,No programming languages are listed despite alternative data work being described
+vikram-shah,Vikram Shah,Vikram-Shah.docx,model,"Location of candidate not stated explicitly, only employer locations"
+vikram-shah,Vikram Shah,Vikram-Shah.docx,model,Strategy classification for J.P. Morgan Asset Management and J.P. Morgan Chase & Co. roles is unclear due to lack of investment research or portfolio management duties
 viktor-sharat,Viktor Sharat,Viktor-Sharat.docx,rule,No email address found
 viktor-sharat,Viktor Sharat,Viktor-Sharat.docx,rule,No phone number found
-viktor-sharat,Viktor Sharat,Viktor-Sharat.docx,model,"The resume gives tenure as durations only ('8 years 10 months', '10 months', '2 months') with no start or end dates anywhere, so chronology, current employment status and gaps cannot be determined"
-viktor-sharat,Viktor Sharat,Viktor-Sharat.docx,model,"No email address, phone number or contact details are present"
-viktor-sharat,Viktor Sharat,Viktor-Sharat.docx,model,"Experience is stored in Word tables with horizontally merged cells, so every row was duplicated up to four times in raw extraction and required de-duplication"
-viktor-sharat,Viktor Sharat,Viktor-Sharat.docx,model,The order of roles in the document is assumed to be reverse-chronological but this is not stated
-viktor-sharat,Viktor Sharat,Viktor-Sharat.docx,model,"CFA Level III is described as completed but charterholder status is not claimed, so has_cfa is recorded as false"
-viktor-sharat,Viktor Sharat,Viktor-Sharat.docx,model,The PGDM grade of 2.5/4 is comparatively low and worth noting for screening
-viktor-sharat,Viktor Sharat,Viktor-Sharat.docx,model,"The candidate has an unusual biotech and bioinformatics background (M.Tech, cancer research, ML publication) alongside sell-side equity research"
-viktor-sharat,Viktor Sharat,Viktor-Sharat.docx,rule,Model reported low extraction confidence
-zara-al-rashid,Zara Al-Rashid,Zara-Al-Rashid.docx,rule,No usable dates for role at J.P. Morgan Securities
+viktor-sharat,Viktor Sharat,Viktor-Sharat.docx,model,No email or phone contact details provided.
+viktor-sharat,Viktor Sharat,Viktor-Sharat.docx,model,No explicit candidate location stated; only employer locations implied as India.
+viktor-sharat,Viktor Sharat,Viktor-Sharat.docx,model,"Date ranges given as durations only, no exact start/end dates, so tenure is approximate."
+viktor-sharat,Viktor Sharat,Viktor-Sharat.docx,model,"Multiple roles overlap in dates due to duration-only format, exact chronology unclear."
+viktor-sharat,Viktor Sharat,Viktor-Sharat.docx,model,Primary strategy type classified as Fundamental based on research analyst roles and activities described.
+viktor-sharat,Viktor Sharat,Viktor-Sharat.docx,model,Role at ICICI Securities Limited classified as Sell-Side due to employer type and research analyst role.
+viktor-sharat,Viktor Sharat,Viktor-Sharat.docx,model,Role at BioAnalytics Research India Ltd. classified as Academic / Research with Unclear strategy due to research focus and lack of investment context.
 zara-al-rashid,Zara Al-Rashid,Zara-Al-Rashid.docx,rule,No email address found
 zara-al-rashid,Zara Al-Rashid,Zara-Al-Rashid.docx,rule,No phone number found
 zara-al-rashid,Zara Al-Rashid,Zara-Al-Rashid.docx,rule,Role at DataFlow Research India Pvt. Limited contains a bullet referring to employment at 'leerink' - possible employer mismatch
-zara-al-rashid,Zara Al-Rashid,Zara-Al-Rashid.docx,model,"The DataFlow Research India entry states membership of a U.S. Healthcare Services research team 'at Leerink Partners', naming a second firm inside one role, so the true employer relationship is ambiguous"
-zara-al-rashid,Zara Al-Rashid,Zara-Al-Rashid.docx,model,No email address or phone number is present anywhere in the document
-zara-al-rashid,Zara Al-Rashid,Zara-Al-Rashid.docx,model,Gap between the Kotak Securities role ending April 2020 and the Prism Financial Services role starting October 2020
-zara-al-rashid,Zara Al-Rashid,Zara-Al-Rashid.docx,model,"A long gap sits between the 2011 Cipla internship and the 2015 DataFlow role, partly covered by the MBBS (2010) and PGDM (2012) qualifications"
-zara-al-rashid,Zara Al-Rashid,Zara-Al-Rashid.docx,model,"The J.P. Morgan Securities entry lists three discrete short assignments (Sep'13, Dec'13, Nov'14) rather than continuous employment, so it cannot be treated as a normal tenure"
-zara-al-rashid,Zara Al-Rashid,Zara-Al-Rashid.docx,model,"The candidate holds an M.B.B.S medical degree alongside a finance PGDM, which is a distinctive healthcare research profile"
-zara-al-rashid,Zara Al-Rashid,Zara-Al-Rashid.docx,model,The 35% brokerage commission uplift attributed to one recommendation is a self-reported and unverifiable claim
+zara-al-rashid,Zara Al-Rashid,Zara-Al-Rashid.docx,rule,Region not stated on the resume - inferred as 'Asia-Pacific' from role location 'Noida' at DataFlow Research India Pvt. Limited; confirm against the source document
+zara-al-rashid,Zara Al-Rashid,Zara-Al-Rashid.docx,model,No email or phone contact details provided
+zara-al-rashid,Zara Al-Rashid,Zara-Al-Rashid.docx,model,Candidate location not stated
+zara-al-rashid,Zara Al-Rashid,Zara-Al-Rashid.docx,model,"Dates for education are years only, so tenure is approximate"
+zara-al-rashid,Zara Al-Rashid,Zara-Al-Rashid.docx,model,No explicit self-reported years of experience
+zara-al-rashid,Zara Al-Rashid,Zara-Al-Rashid.docx,model,"Firm type for Meridian Research Partners, Prism Financial Services, Kotak Securities, and DataFlow Research India Pvt. Limited inferred as Asset Manager based on role and context"
+zara-al-rashid,Zara Al-Rashid,Zara-Al-Rashid.docx,model,J.P. Morgan Securities classified as Investment Bank - Sell-Side Research based on employer name and role
+zara-al-rashid,Zara Al-Rashid,Zara-Al-Rashid.docx,model,"Strategy type classified as Fundamental based on equity research, financial modeling, and company meetings"
+zara-al-rashid,Zara Al-Rashid,Zara-Al-Rashid.docx,model,No explicit geographic markets covered except India and U.S. inferred from text
+zara-al-rashid,Zara Al-Rashid,Zara-Al-Rashid.docx,model,No certifications or licenses listed
+zara-al-rashid,Zara Al-Rashid,Zara-Al-Rashid.docx,model,No programming languages listed
 chen-li-alex,Chen Li (Alex),Chen-Li-Alex.docx,rule,Career gap: Not currently employed - 35 months since 2023-09
-marina-silva-costa,Marina Silva Costa,MARINA-SILVA-COSTA.docx,rule,Career gap: 20 month gap between 2019-12 and 2021-08 - overlaps Master of Business Administration (MBA) at MIT Sloan School of Management
+marina-silva-costa,Marina Silva Costa,MARINA-SILVA-COSTA.docx,rule,Career gap: 20 month gap between 2019-12 and 2021-08 - overlaps Master of business administration (MBA) at MIT Sloan School of Management
 marcus-chen-rodriguez,Marcus Chen-Rodriguez,Marcus-Chen-Rodriguez-Resume.docx,rule,Career gap: 25 month gap between 2015-03 and 2017-04 - unexplained
 ryan-patel,Ryan Patel,RYAN-PATEL-Resume.pdf,rule,Career gap: 7 month gap between 2022-08 and 2023-03 - unexplained
+zara-al-rashid,Zara Al-Rashid,Zara-Al-Rashid.docx,rule,Career gap: 6 month gap between 2014-11 and 2015-05 - unexplained
 zara-al-rashid,Zara Al-Rashid,Zara-Al-Rashid.docx,rule,Career gap: 6 month gap between 2020-04 and 2020-10 - unexplained

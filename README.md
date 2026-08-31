@@ -20,23 +20,42 @@ score, compare and analyse candidates against a job requisition.
 # 1. install
 pip install -r requirements.txt
 
-# 2. build the dataset (uses committed extractions, no API key needed)
-python src/pipeline.py --seed-cache
+# 2. rebuild the dataset from the committed LLM responses (no API key needed)
+python src/pipeline.py
 
 # 3. run the app
 streamlit run app.py          # http://localhost:8501
 
 # optional: run the test suite
-python -m pytest tests/ -q    # 25 tests
+python -m pytest tests/ -q    # 30 tests
 ```
 
-To run the extraction live against a real LLM API:
+To re-run the extraction live against the API:
 
 ```bash
+pip install -r requirements-llm.txt
 export OPENAI_API_KEY=sk-...            # or ANTHROPIC_API_KEY=sk-ant-...
 export OPENAI_MODEL=gpt-4.1-mini        # optional
 python src/pipeline.py --refresh        # bypasses cache, calls the API for all 10 resumes
 ```
+
+## Extraction provenance
+
+The committed dataset in `outputs/` was produced by **live OpenAI API calls**, not by
+rule-based parsing. Every file in `data/llm_cache/` records the provider, model and real
+token counts for its document, so any record can be traced back to the call that made it.
+
+| Live run (`python src/pipeline.py --refresh`) | Value |
+| --- | --- |
+| Documents parsed via API | 10 / 10, zero failures |
+| Model | `gpt-4.1-mini` (`gpt-4.1-mini-2025-04-14`) |
+| Structured output | `response_format: json_schema`, temperature 0 |
+| Prompt version | `v4` (`PROMPT_VERSION` in `src/parser.py`) |
+| Input / output tokens | 35,661 / 13,431 (mean 3,566 / 1,343 per resume) |
+| Schema-repair retries needed | 0 |
+| Cost at $0.40 / $1.60 per 1M tokens | **$0.0358 total, $0.0036 per resume** |
+| Findings raised | 68 reported by the model, 25 by validation rules |
+| Mean data-quality score | 0.644 |
 
 The provider is selected automatically from whichever key is present. An
 OpenAI-compatible endpoint works by also setting `OPENAI_BASE_URL`.
@@ -75,10 +94,11 @@ app.py                     Streamlit requisition search, scoring, comparison, an
 | `outputs/candidates.csv` | Flat one-row-per-candidate table |
 | `outputs/candidates_roles.csv` | One row per role, for tenure and firm-level analysis |
 | `outputs/data_quality_report.csv` | One row per validation finding |
-| `data/reference_extractions.json` | Committed LLM extraction output, used to seed the offline cache |
+| `data/reference_extractions.json` | The live LLM extraction output for all 10 resumes, in one file; seeds the offline cache |
 | `data/raw_text/` | Text as the model received it, for auditability |
-| `tests/test_pipeline.py` | 25 unit tests over the validation and document-cleaning rules |
+| `tests/test_pipeline.py` | 30 unit tests over the validation and document-cleaning rules |
 | `build_notebook.py` | Generates the submission notebook from the live source files, so the code shown to a reviewer is byte-identical to the code that produced the outputs |
+| `tools/capture_screenshots.py` | Regenerates the app screenshots from a running instance, so documentation cannot drift from the data |
 | `INTERVIEW_NOTES.md` | Design decisions and defence of every trade-off |
 
 ## Design decisions
@@ -111,12 +131,13 @@ forces a fresh extraction.
 
 ## Reproducibility
 
-`data/reference_extractions.json` holds the extraction output for the 10 sample
-resumes, produced with the prompt in `src/parser.py` (`PROMPT_VERSION = "v3"`) and
-validated against the schema. `--seed-cache` writes it into `data/llm_cache/` so the
-notebook and app run without credentials. `--refresh` ignores the cache entirely and
-exercises the live API path. All experience calculations use a fixed `AS_OF_DATE`
-(configurable in `src/config.py`) so results do not drift with the calendar.
+`data/llm_cache/` holds the actual API responses from the live run, keyed by a hash of
+prompt version plus document text, with the provider, model and token counts attached.
+`data/reference_extractions.json` is the same 10 profiles in one file, and `--seed-cache`
+rebuilds the cache from it. Because the responses are committed, `python src/pipeline.py`
+reproduces the exact dataset with no credentials and no API spend, while `--refresh`
+ignores the cache and re-runs the live API path. All experience calculations use a fixed
+`AS_OF_DATE` (configurable in `src/config.py`) so results do not drift with the calendar.
 
 ## Repository layout
 
@@ -124,13 +145,14 @@ exercises the live API path. All experience calculations use a fixed `AS_OF_DATE
 2025_ds_case_study_resume_platform.ipynb   submission notebook (executed, with outputs)
 app.py                                     Streamlit application
 src/                                       pipeline modules
-tests/                                     25 unit tests over the deterministic rules
+tests/                                     30 unit tests over the deterministic rules
 resumes/                                   the 10 sample resumes
-data/reference_extractions.json            committed extraction output (seeds the cache)
+data/reference_extractions.json            live extraction output (seeds the cache)
 data/raw_text/                             text as the model received it, for auditability
 outputs/                                   JSON + CSV exports and app screenshots
 web-mirror/                                static browser port of the app (no backend)
 build_notebook.py                          regenerates the notebook from the source files
+tools/capture_screenshots.py               regenerates the app screenshots from a running app
 ```
 
 ## Running the browser mirror
@@ -164,6 +186,7 @@ the same way.
 
 ## Requirements
 
-Python 3.10+. See `requirements.txt`. The pipeline runs without API credentials using the
-committed extraction cache; set a key in `.env` (see `.env.example`) to exercise the live
-LLM path with `python src/pipeline.py --refresh`.
+Python 3.10+. See `requirements.txt`. The pipeline reproduces the committed dataset
+without API credentials by replaying the cached responses; install `requirements-llm.txt`
+and set a key in `.env` (see `.env.example`) to re-run the live extraction path with
+`python src/pipeline.py --refresh`.

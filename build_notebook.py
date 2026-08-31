@@ -52,7 +52,7 @@ users search, score, compare and analyse candidates against a job requisition.
 
 | Requirement from the brief | Where it is met |
 | --- | --- |
-| Parse resume data from PDF/Word using LLM models via API | Sections 2-4: `document_loader.py`, `llm_client.py`, `parser.py` |
+| Parse resume data from PDF/Word using LLM models via API | Sections 2-4: `document_loader.py`, `llm_client.py`, `parser.py`. All 10 resumes were parsed by live `gpt-4.1-mini` API calls with strict JSON-schema structured output; per-document provider, model and token counts are recorded in `data/llm_cache/` (section 5) |
 | Create parsed resume data as JSON, CSV, etc. | Section 6: `outputs/candidates.json`, `candidates.csv`, `candidates_roles.csv` |
 | Streamlit web app with multi-criteria search | Section 7: `app.py`, 14 filters plus keyword search |
 | Visualise candidate distributions and insights | Section 7: six charts plus requisition coverage-gap analysis |
@@ -65,13 +65,21 @@ users search, score, compare and analyse candidates against a job requisition.
 
 ```bash
 pip install -r requirements.txt
-python src/pipeline.py --seed-cache     # build the dataset
+python src/pipeline.py                  # rebuild the dataset from the committed LLM responses
 streamlit run app.py                    # launch the app
 ```
 
+That reproduces the committed dataset exactly, with no credentials and no API spend. To
+re-run the live extraction path instead:
+
+```bash
+pip install -r requirements-llm.txt
+export OPENAI_API_KEY=sk-...            # or ANTHROPIC_API_KEY
+python src/pipeline.py --refresh        # calls the API for all 10 resumes
+```
+
 Running this notebook top to bottom recreates every source file and reproduces every
-output. To exercise the live LLM path, set `OPENAI_API_KEY` or `ANTHROPIC_API_KEY` and
-run section 5 with `refresh=True`.
+output.
 
 ## Design thesis
 
@@ -317,6 +325,14 @@ roles only, so a student summer is never reported as unemployment. Any gap
 substantially covered by a stated study period is annotated as such rather than
 presented as unexplained - an MBA is an explanation, not a concern, and a recruiter
 should see that distinction without opening the file.
+
+**One deliberate exception to "flag, never fix".** The extraction prompt forbids the
+model from inferring a location, which is right - but one resume in this corpus never
+states where the candidate lives, only where her employers are. Leaving her region
+`Unknown` would make her invisible to the app's region filter, which is a worse outcome
+than a transparent inference. So validation derives the region deterministically from
+the current role's location and raises a flag saying exactly that it was inferred and
+from which string. The model never guesses; the rule is auditable; the reviewer is told.
 """))
 
 A(module_cell("src/validation.py"))
@@ -344,23 +360,73 @@ accent handling were fixed as a result.
 A(module_cell("tests/test_pipeline.py"))
 
 A(code("""
-!python -m pytest tests/ -q
+!{sys.executable} -m pytest tests/ -q
 """))
 
 A(md("""
 ### Running the pipeline
 
-`--seed-cache` writes the committed extraction output (`data/reference_extractions.json`)
-into the cache so this notebook is reproducible without credentials. Set
-`refresh=True` with an API key exported to bypass the cache entirely and call the live
-API for all 10 resumes.
+**The committed dataset was produced by live OpenAI API calls.** All 10 resumes were
+parsed with `gpt-4.1-mini` through `openai.chat.completions` with a strict JSON-schema
+`response_format`. Every entry in `data/llm_cache/` records the provider, model and real
+token counts from that run, so the provenance of each record is verifiable:
+
+```
+python src/pipeline.py --refresh        # the command that produced outputs/
+```
+
+```
+2. LLM extraction (10 documents, cache BYPASSED)
+  [ok   ] Omar-El-Hassan-202405.pdf          [ok   ] Priya-Nakamura_...docx
+  [ok   ] Chen-Li-Alex.docx                  [ok   ] Vikram-Shah.docx
+  [ok   ] MARINA-SILVA-COSTA.docx            [ok   ] Zara-Al-Rashid.docx
+  [ok   ] Michael-Rodriguez-CFA.docx         [ok   ] Viktor-Sharat.docx
+  [ok   ] Marcus-Chen-Rodriguez-Resume.docx  [ok   ] RYAN-PATEL-Resume.pdf
+  total tokens used this run: 49,092
+
+3. Validation and enrichment (10 profiles)
+  candidates: 10 | with_flags: 10 | total_flags: 87
+  mean_quality_score: 0.644 | high_confidence: 2 | currently_employed: 9
+```
+
+| Live run, measured | Value |
+| --- | --- |
+| Documents parsed via API | 10 / 10, zero failures |
+| Model | `gpt-4.1-mini` (`gpt-4.1-mini-2025-04-14`) |
+| Structured-output mode | `response_format: json_schema`, temperature 0 |
+| Prompt version | `v4` (`PROMPT_VERSION` in `parser.py`) |
+| Input tokens | 35,661 (mean 3,566 / resume) |
+| Output tokens | 13,431 (mean 1,343 / resume) |
+| Schema-repair retries needed | 0 |
+| Cost at $0.40 / $1.60 per 1M tokens | **$0.0358 total, $0.0036 per resume** |
+| Findings raised | 68 by the model, 25 by validation rules |
+
+The cell below re-runs from that cache, so a reviewer without credentials reproduces the
+identical dataset for free. Cache keys are hashes of prompt version plus document text,
+so changing either automatically forces a live re-parse rather than silently serving a
+stale record. Pass `refresh=True` with `OPENAI_API_KEY` exported to repeat the live run.
 """))
 
 A(code("""
 import pipeline
 
-candidates = pipeline.run(refresh=False, seed=True)
+# refresh=False replays the committed LLM responses; refresh=True calls the API again.
+candidates = pipeline.run(refresh=False)
 print(f"\\n{len(candidates)} candidates parsed and validated.")
+
+provenance = {}
+for path in sorted(Path(config.LLM_CACHE_DIR).glob("*.json")):
+    rec = json.loads(path.read_text())
+    provenance[rec["source_file"]] = (rec["provider"], rec["model"],
+                                      rec["prompt_tokens"], rec["completion_tokens"])
+
+print(f"\\n{'source file':46s} {'provider':9s} {'model':16s} {'in':>6s} {'out':>6s}")
+for name, (prov, model, tin, tout) in provenance.items():
+    print(f"{name:46s} {prov:9s} {model:16s} {tin:6,d} {tout:6,d}")
+tin = sum(v[2] for v in provenance.values())
+tout = sum(v[3] for v in provenance.values())
+print(f"\\ntotal {tin:,} in / {tout:,} out"
+      f"  ->  ${tin/1e6*0.40 + tout/1e6*1.60:.4f} at gpt-4.1-mini list price")
 """))
 
 # ------------------------------------------------------------------ 6. outputs
@@ -600,15 +666,21 @@ rather than speculation.
 | Schema drift | Pydantic validation on every record, including cache reads, so a stale cache entry re-parses instead of breaking |
 | UI responsiveness | `st.cache_data` on load, vectorised mask filtering, no per-row Python in the hot path |
 | Reproducibility | Fixed `AS_OF_DATE`, temperature 0, versioned prompt |
-| Regression safety | 25 unit tests over the validation and cleaning rules |
+| Regression safety | 30 unit tests over the validation and cleaning rules |
 
 ### Measured cost model
 
-At roughly 1,100 input and 900 output tokens per resume (measured on this corpus), a
-small frontier model at approximately $0.15 per million input and $0.60 per million
-output tokens costs about **$0.0007 per resume**, or roughly **$700 per million
-resumes** - and near zero for re-processing, because of the cache. Extraction cost is
-not the binding constraint; document acquisition and review capacity are.
+These are measurements from the live run, not estimates. Parsing the 10-resume corpus
+with `gpt-4.1-mini` consumed **35,661 input and 13,431 output tokens** - a mean of 3,566
+in and 1,343 out per resume. At list pricing of $0.40 per million input and $1.60 per
+million output tokens that is **$0.0036 per resume**, or **$3,600 per million resumes**,
+and effectively zero for re-processing because of the content-hash cache.
+
+Extrapolating honestly, three things change the number at scale and all of them reduce
+it: batch-API pricing (roughly half), prompt caching on the shared system prompt (which
+is about 60% of input tokens here), and routing only low-confidence documents to a
+stronger model. Extraction cost is not the binding constraint at any volume this team
+will see - document acquisition and human review capacity are.
 
 ### Migration path from 10 to 1,000,000
 

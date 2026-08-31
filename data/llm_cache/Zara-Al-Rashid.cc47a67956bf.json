@@ -1,11 +1,11 @@
 {
-  "prompt_version": "v3",
-  "content_hash": "44e89f63bd4b3481c461a56f2e44c5bdea2e1074351397ae9332c478f83fdde9",
+  "prompt_version": "v4",
+  "content_hash": "cc47a67956bf899e8c668db71fc281d3e07aab3d397045ff3b590e7a34fb80e7",
   "source_file": "Zara-Al-Rashid.docx",
-  "provider": "reference",
-  "model": "reference-extraction",
-  "prompt_tokens": 0,
-  "completion_tokens": 0,
+  "provider": "openai",
+  "model": "gpt-4.1-mini",
+  "prompt_tokens": 3586,
+  "completion_tokens": 1552,
   "profile": {
     "source_file": "Zara-Al-Rashid.docx",
     "source_agency": null,
@@ -13,28 +13,24 @@
     "honorific": "Dr.",
     "email": null,
     "phone": null,
-    "location_city": "Mumbai",
-    "location_country": "India",
-    "region": "Asia-Pacific",
+    "location_city": null,
+    "location_country": null,
+    "region": "Unknown",
     "current_employer": "Meridian Research Partners",
     "current_title": "Lead Analyst - Pharmaceuticals and Healthcare",
     "primary_strategy_type": "Fundamental",
-    "primary_market_side": "Sell-Side",
-    "primary_firm_type": "Investment Bank - Sell-Side Research",
+    "primary_market_side": "Buy-Side",
+    "primary_firm_type": "Asset Manager",
     "seniority_level": "Lead Analyst",
     "sectors_covered": [
       "Healthcare"
     ],
     "sector_specialisation_detail": [
-      "Indian healthcare and pharmaceuticals equity research, 28 stocks under coverage",
-      "Indian generics expansion, digital health, respiratory drug market and healthcare policy reform themes",
-      "U.S. Healthcare Services equity research team support",
-      "Healthcare databases: FDA, MedPAC, CMS, WHO, German DRG, USRDS, PubMed"
+      "Pharmaceuticals and Healthcare"
     ],
     "geographic_markets_covered": [
       "India",
-      "United States",
-      "United Kingdom"
+      "U.S."
     ],
     "self_reported_years_experience": null,
     "max_coverage_universe": 28,
@@ -42,14 +38,14 @@
       {
         "employer": "Meridian Research Partners",
         "title": "Lead Analyst - Pharmaceuticals and Healthcare",
-        "location": "India",
+        "location": null,
         "start_date": "2022-05",
         "end_date": "present",
         "duration_stated": null,
         "is_current": true,
         "is_internship": false,
-        "firm_type": "Investment Bank - Sell-Side Research",
-        "market_side": "Sell-Side",
+        "firm_type": "Asset Manager",
+        "market_side": "Buy-Side",
         "seniority": "Lead Analyst",
         "strategy_type": "Fundamental",
         "sectors": [
@@ -58,20 +54,20 @@
         "coverage_universe_size": 28,
         "aum_or_portfolio_size": null,
         "highlights": [
-          "Generates investment ideas and publishes equity research ratings with price targets on 28 Indian healthcare stocks"
+          "Generate investment ideas and publish equity research ratings with price targets on Indian healthcare sector companies across 28 stocks under coverage"
         ]
       },
       {
         "employer": "Prism Financial Services",
         "title": "Lead Analyst - Pharmaceuticals and Healthcare",
-        "location": "India",
+        "location": null,
         "start_date": "2020-10",
         "end_date": "2022-04",
         "duration_stated": null,
         "is_current": false,
         "is_internship": false,
-        "firm_type": "Investment Bank - Sell-Side Research",
-        "market_side": "Sell-Side",
+        "firm_type": "Asset Manager",
+        "market_side": "Buy-Side",
         "seniority": "Lead Analyst",
         "strategy_type": "Fundamental",
         "sectors": [
@@ -80,21 +76,21 @@
         "coverage_universe_size": null,
         "aum_or_portfolio_size": null,
         "highlights": [
-          "Voted by leading domestic institutional investors including Axis, SBI, Nippon Life, ICICI Prudential, Aditya Birla Sun Life, Reliance, LIC, Mirae, Invesco and Sundaram mutual funds",
-          "An investment recommendation adopted by a major institutional client was credited with a 35% increase in brokerage commission revenue"
+          "Voted by top domestic institutional investors: Axis Mutual Fund, SBI Mutual Fund, Nippon Life Asset Management, ICICI Prudential MF, Aditya Birla Sun Life MF, Reliance MF, LIC MF, Mirae Asset MF, Invesco MF, and Sundaram MF",
+          "Investment recommendation adopted by major institutional client resulting in 35% increase in brokerage commission revenue"
         ]
       },
       {
         "employer": "Kotak Securities",
         "title": "Lead Analyst - Pharmaceuticals and Healthcare",
-        "location": "India",
+        "location": null,
         "start_date": "2018-04",
         "end_date": "2020-04",
         "duration_stated": null,
         "is_current": false,
         "is_internship": false,
-        "firm_type": "Investment Bank - Sell-Side Research",
-        "market_side": "Sell-Side",
+        "firm_type": "Asset Manager",
+        "market_side": "Buy-Side",
         "seniority": "Lead Analyst",
         "strategy_type": "Fundamental",
         "sectors": [
@@ -103,21 +99,21 @@
         "coverage_universe_size": null,
         "aum_or_portfolio_size": null,
         "highlights": [
-          "Published sector thematic reports on Indian generics expansion, digital health, the respiratory drug market and healthcare policy reform",
-          "Organised a healthcare policy conference in Mumbai with key policymakers"
+          "Published sector thematic reports on Indian generics expansion, digital health initiatives, respiratory drug market, and healthcare policy reforms",
+          "Hosted Organized healthcare policy conference in Mumbai covering regulatory changes, generic drug policies, and government health initiatives with key policymakers"
         ]
       },
       {
         "employer": "DataFlow Research India Pvt. Limited",
         "title": "Manager - Equity Research",
-        "location": "Noida, India",
+        "location": "Noida",
         "start_date": "2015-05",
         "end_date": "2018-03",
         "duration_stated": null,
         "is_current": false,
         "is_internship": false,
-        "firm_type": "Investment Bank - Sell-Side Research",
-        "market_side": "Sell-Side",
+        "firm_type": "Asset Manager",
+        "market_side": "Buy-Side",
         "seniority": "Senior Analyst",
         "strategy_type": "Fundamental",
         "sectors": [
@@ -126,22 +122,22 @@
         "coverage_universe_size": null,
         "aum_or_portfolio_size": null,
         "highlights": [
-          "Member of the U.S. Healthcare Services equity research team (Institutional Investor runner-up) at Leerink Partners",
-          "Awarded 'Excellence in Research' recognition for analytical work and report quality in 2015"
+          "Member, U.S. Healthcare Services ER team (Institutional Investor (II) Runner up) at Leerink Partners",
+          "Awarded \"Excellence in Research\" recognition for superior analytical work and report quality (2015)"
         ]
       },
       {
         "employer": "J.P. Morgan Securities",
         "title": "Equity Research Associate",
-        "location": "London, United Kingdom",
-        "start_date": null,
-        "end_date": null,
-        "duration_stated": "Sep'13, Dec'13 and Nov'14 - three short assignments",
+        "location": "London",
+        "start_date": "2013-09",
+        "end_date": "2014-11",
+        "duration_stated": null,
         "is_current": false,
         "is_internship": false,
         "firm_type": "Investment Bank - Sell-Side Research",
         "market_side": "Sell-Side",
-        "seniority": "Associate",
+        "seniority": "Analyst",
         "strategy_type": "Fundamental",
         "sectors": [
           "Healthcare"
@@ -149,15 +145,15 @@
         "coverage_universe_size": null,
         "aum_or_portfolio_size": null,
         "highlights": [
-          "Assisted team transition during replacement of a research associate",
-          "Attended meetings and calls with company IR, institutional investors and industry experts",
-          "Attended a company investor day at the LSE and prepared a key takeaways note for publication"
+          "Assist in team transition during replacement of a research associate and to work closely with the team",
+          "Attended meetings & calls with company IRs, institutional investors, & industry experts",
+          "Attended a company investor day at LSE and prepared a key takeaways note for publication"
         ]
       },
       {
         "employer": "Cipla Pharmaceuticals",
         "title": "Summer Intern",
-        "location": "Mumbai, India",
+        "location": "Mumbai",
         "start_date": "2011-04",
         "end_date": "2011-05",
         "duration_stated": null,
@@ -166,14 +162,15 @@
         "firm_type": "Corporate / Industry",
         "market_side": "Corporate",
         "seniority": "Intern",
-        "strategy_type": "Unclear",
+        "strategy_type": "Fundamental",
         "sectors": [
           "Healthcare"
         ],
         "coverage_universe_size": null,
         "aum_or_portfolio_size": null,
         "highlights": [
-          "Built a competitive positioning strategy for a newly launched generic using perceptual mapping; the brand subsequently ranked second in its category"
+          "Competitive Positioning strategy for newly launched generic Calpol T using MDS (Perceptual Mapping)",
+          "Formulated competitive positioning strategy & communication tactics as a result of which Calpol T had overtaken more than 90 brands in same category and is currently holding the 2nd rank"
         ]
       }
     ],
@@ -182,41 +179,41 @@
         "institution": "Indian School of Business Management (ISBM), Pune",
         "degree": "PGDM (Finance)",
         "field_of_study": "Finance",
-        "location": "Pune, India",
+        "location": "Pune",
         "start_year": null,
         "end_year": 2012,
         "gpa": "7.2/10",
         "honors": null
       },
       {
-        "institution": "K.J. Somaiya Medical College",
+        "institution": "K.J. Somaiya Medical College, Mumbai",
         "degree": "M.B.B.S",
-        "field_of_study": "Medicine",
-        "location": "Mumbai, India",
+        "field_of_study": null,
+        "location": "Mumbai",
         "start_year": null,
         "end_year": 2010,
         "gpa": "63.87%",
         "honors": null
       },
       {
-        "institution": "Mithibai College",
-        "degree": "XII Std. (PCMB)",
-        "field_of_study": "Physics, Chemistry, Maths, Biology",
-        "location": "Mumbai, India",
+        "institution": "Mithibai College, Mumbai",
+        "degree": "XII Std.(PCMB)",
+        "field_of_study": "PCMB",
+        "location": "Mumbai",
         "start_year": null,
         "end_year": 2004,
-        "gpa": "89.00%",
-        "honors": "Top 0.2% Maharashtra state board"
+        "gpa": "89.00% (Top 0.2% Maharashtra state board)",
+        "honors": null
       },
       {
-        "institution": "St. Xavier's High School",
+        "institution": "St. Xavier's High School, Mumbai",
         "degree": "X Std.",
         "field_of_study": null,
-        "location": "Mumbai, India",
+        "location": "Mumbai",
         "start_year": null,
         "end_year": 2002,
-        "gpa": "90.43%",
-        "honors": "Top 5% Maharashtra state board"
+        "gpa": "90.43% (Top 5% Maharashtra state board)",
+        "honors": null
       }
     ],
     "certifications": [],
@@ -226,10 +223,10 @@
     "licenses": [],
     "programming_languages": [],
     "tools_and_platforms": [
-      "Bloomberg",
-      "FactSet",
-      "Reuters",
       "MS Office",
+      "Bloomberg",
+      "Factset",
+      "Reuters",
       "FDA",
       "MedPAC",
       "CMS",
@@ -242,13 +239,16 @@
     "publications": [],
     "extraction_confidence": "medium",
     "extraction_notes": [
-      "The DataFlow Research India entry states membership of a U.S. Healthcare Services research team 'at Leerink Partners', naming a second firm inside one role, so the true employer relationship is ambiguous",
-      "No email address or phone number is present anywhere in the document",
-      "Gap between the Kotak Securities role ending April 2020 and the Prism Financial Services role starting October 2020",
-      "A long gap sits between the 2011 Cipla internship and the 2015 DataFlow role, partly covered by the MBBS (2010) and PGDM (2012) qualifications",
-      "The J.P. Morgan Securities entry lists three discrete short assignments (Sep'13, Dec'13, Nov'14) rather than continuous employment, so it cannot be treated as a normal tenure",
-      "The candidate holds an M.B.B.S medical degree alongside a finance PGDM, which is a distinctive healthcare research profile",
-      "The 35% brokerage commission uplift attributed to one recommendation is a self-reported and unverifiable claim"
+      "No email or phone contact details provided",
+      "Candidate location not stated",
+      "Dates for education are years only, so tenure is approximate",
+      "No explicit self-reported years of experience",
+      "Firm type for Meridian Research Partners, Prism Financial Services, Kotak Securities, and DataFlow Research India Pvt. Limited inferred as Asset Manager based on role and context",
+      "J.P. Morgan Securities classified as Investment Bank - Sell-Side Research based on employer name and role",
+      "Strategy type classified as Fundamental based on equity research, financial modeling, and company meetings",
+      "No explicit geographic markets covered except India and U.S. inferred from text",
+      "No certifications or licenses listed",
+      "No programming languages listed"
     ]
   }
 }

@@ -204,3 +204,78 @@ def test_clean_record_scores_near_one():
     result = enrich(profile)
     assert result.data_quality_score >= 0.9
     assert result.data_quality_flags == []
+
+
+# ------------------------------------------------- region fallback (unstated location)
+def test_region_is_inferred_from_current_role_location_and_flagged():
+    """Marina Silva Costa's resume never states where she lives.
+
+    The extraction prompt forbids the model from inferring a location, so `region`
+    arrives as "Unknown". A candidate with an unknown region is invisible to the app's
+    region filter, so validation derives one deterministically from the current role's
+    location - and flags it, so the reviewer knows it was not stated on the resume.
+    """
+    c = enrich(_profile(
+        region="Unknown", location_city=None, location_country=None,
+        roles=[Role(
+            employer="Vanguard Group", title="Equity Research Analyst",
+            location="Boston, USA / London, United Kingdom",
+            start_date="2021-08", end_date="present", is_current=True,
+        )],
+    ))
+    assert c.region == "North America"
+    assert any("inferred as 'North America'" in f for f in c.data_quality_flags)
+
+
+def test_region_stays_unknown_when_no_location_evidence_exists():
+    c = enrich(_profile(
+        region="Unknown", location_city=None, location_country=None,
+        roles=[Role(employer="Undisclosed Fund", title="Analyst", location=None,
+                    start_date="2020-01", end_date="2023-01")],
+    ))
+    assert c.region == "Unknown"
+    assert "Region could not be determined" in c.data_quality_flags
+
+
+def test_stated_region_is_never_overwritten_by_the_fallback():
+    c = enrich(_profile(
+        region="Asia-Pacific",
+        roles=[Role(employer="Fund", title="Analyst", location="New York, USA",
+                    start_date="2020-01", end_date="present", is_current=True)],
+    ))
+    assert c.region == "Asia-Pacific"
+    assert not any("inferred as" in f for f in c.data_quality_flags)
+
+
+def test_region_fallback_prefers_the_most_recent_role_not_resume_order():
+    """Zara Al-Rashid: London in 2013, India ever since.
+
+    Walking roles in resume order picked the 2013 London posting and labelled a
+    long-standing India-based analyst as European - exactly the kind of silent error that
+    makes a filter untrustworthy. Evidence is now walked newest-first.
+    """
+    c = enrich(_profile(
+        region="Unknown", location_city=None, location_country=None,
+        roles=[
+            Role(employer="J.P. Morgan Securities", title="Equity Research Associate",
+                 location="London", start_date="2013-09", end_date="2014-11"),
+            Role(employer="DataFlow Research India", title="Manager - Equity Research",
+                 location="Noida", start_date="2015-05", end_date="2018-03"),
+            Role(employer="Meridian Research Partners", title="Lead Analyst",
+                 location="Mumbai", start_date="2022-05", end_date="present", is_current=True),
+        ],
+    ))
+    assert c.region == "Asia-Pacific"
+    assert any("Meridian Research Partners" in f for f in c.data_quality_flags)
+
+
+def test_region_falls_back_to_the_city_inside_an_institution_name():
+    """Indian resumes often carry the city in the institution name and nowhere else."""
+    c = enrich(_profile(
+        region="Unknown", location_city=None, location_country=None,
+        roles=[Role(employer="ICICI Securities", title="Lead Healthcare Analyst",
+                    location=None, start_date="2023-05", end_date="present", is_current=True)],
+        education=[Education(institution="Mumbai Institute of Management Studies", end_year=2013)],
+    ))
+    assert c.region == "Asia-Pacific"
+    assert any("education entry" in f for f in c.data_quality_flags)

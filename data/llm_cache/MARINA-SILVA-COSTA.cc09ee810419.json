@@ -1,0 +1,169 @@
+{
+  "prompt_version": "v4",
+  "content_hash": "cc09ee81041993b5bd03fb889ef6ff9caa7fb793eba9080e7afca14ad4b151e4",
+  "source_file": "MARINA-SILVA-COSTA.docx",
+  "provider": "openai",
+  "model": "gpt-4.1-mini",
+  "prompt_tokens": 3502,
+  "completion_tokens": 1225,
+  "profile": {
+    "source_file": "MARINA-SILVA-COSTA.docx",
+    "source_agency": null,
+    "full_name": "Marina Silva Costa",
+    "honorific": null,
+    "email": "marina.costa.finance@gmail.com",
+    "phone": "+44 (785) 429-1673",
+    "location_city": null,
+    "location_country": null,
+    "region": "Unknown",
+    "current_employer": "Vanguard Group",
+    "current_title": "Equity Research Analyst",
+    "primary_strategy_type": "Fundamental",
+    "primary_market_side": "Buy-Side",
+    "primary_firm_type": "Asset Manager",
+    "seniority_level": "Analyst",
+    "sectors_covered": [
+      "Healthcare",
+      "Consumer",
+      "Media & Telecom"
+    ],
+    "sector_specialisation_detail": [
+      "healthcare, consumer discretionary an telecom companies operating primarily in emerging Latam and EMEA",
+      "water technology publicly traded companies"
+    ],
+    "geographic_markets_covered": [
+      "Emerging Latam",
+      "EMEA"
+    ],
+    "self_reported_years_experience": null,
+    "max_coverage_universe": null,
+    "roles": [
+      {
+        "employer": "Vanguard Group",
+        "title": "Equity Research Analyst",
+        "location": "Boston, USA / London, United Kingdom",
+        "start_date": "2021-08",
+        "end_date": "present",
+        "duration_stated": null,
+        "is_current": true,
+        "is_internship": false,
+        "firm_type": "Asset Manager",
+        "market_side": "Buy-Side",
+        "seniority": "Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare",
+          "Consumer",
+          "Media & Telecom"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Develops investment recommendations on publicly traded companies through fundamental research including financial modeling and proprietary studies, focused on healthcare, consumer discretionary an telecom companies operating primarily in emerging Latam and EMEA."
+        ]
+      },
+      {
+        "employer": "Vanguard Group",
+        "title": "Equity Research Summer Analyst",
+        "location": "Boston, USA / London, United Kingdom",
+        "start_date": "2020-06",
+        "end_date": "2020-08",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": true,
+        "firm_type": "Asset Manager",
+        "market_side": "Buy-Side",
+        "seniority": "Intern",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Technology"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Developed investment recommendations on water technology publicly traded companies through fundamental research including financial modeling and proprietary studies"
+        ]
+      },
+      {
+        "employer": "Bain & Company",
+        "title": "Business Analyst",
+        "location": "Sao Paulo, Brazil",
+        "start_date": "2016",
+        "end_date": "2019",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Consulting",
+        "market_side": "Unknown",
+        "seniority": "Analyst",
+        "strategy_type": "Unclear",
+        "sectors": [
+          "Consumer",
+          "Industrials",
+          "Financial Services"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Analyzed growth potential of e-commerce sales at major electronics retailer by proposing and estimating the impact of digital transformation initiatives such as omnichannel strategy, enhanced product recommendations and optimized logistics network",
+          "Examined market and consumer trends affecting retail technology company for next 8 years, by consulting industry expert networks and identifying best practices; strategic framework was published in internal knowledge repository",
+          "Built a dynamic pricing tool for a major consumer electronics company, to recommend price adjustments for each of the 35 main product categories, across 4 distribution channels and 180+ regional markets",
+          "Redesigned customer service processes for major retail chain, creating standardized protocols, optimizing staffing levels, and developing workforce scheduling tool; during pilot implementation, coached store managers to ensure successful change management",
+          "Implemented strategic sourcing transformation at major grocery chain, leading cross-functional teams of 3-4 client members in each product category to deliver ~4 percentage points of gross margin improvement",
+          "Supervised progress of initiatives in supply chain optimization engagement for retail client, and in digital transformation program for logistics provider, managing junior client teams and ensuring execution excellence",
+          "Developed a recommendation for a major infrastructure player regarding entrance in a new segment, by mapping main players, margins, current and potential market size, capabilities required, and investment needed",
+          "Investigated structure and functioning of more than 15 loyalty programs, by interviewing colleagues from all over the world, and reaching out to market experts, to redesign loyalty program of a banking client",
+          "Managed progress of 200+ initiatives in a large-scale lean manufacturing engagement for an aerospace player, by coordinating work of directors and managers of the company",
+          "Led launch of McKinsey's first case competition, receiving 3.300 applications to an in-person event that mobilized +50 consultants from McKinsey Brazil"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "MIT Sloan School of Management",
+        "degree": "Master of business administration (MBA)",
+        "field_of_study": null,
+        "location": "Cambridge, MA, United States",
+        "start_year": 2019,
+        "end_year": 2021,
+        "gpa": null,
+        "honors": "Investment Management Club Co-President; Latin America Conference 2020 organizer"
+      },
+      {
+        "institution": "Fundacao Getulio Vargas",
+        "degree": "BS",
+        "field_of_study": "Economics",
+        "location": "Sao Paulo, Brazil",
+        "start_year": 2013,
+        "end_year": 2016,
+        "gpa": null,
+        "honors": "Manager of CJE-FF - a student-run equity fund - and the Investment Committee"
+      }
+    ],
+    "certifications": [],
+    "has_cfa": false,
+    "cfa_status": null,
+    "has_medical_degree": false,
+    "licenses": [],
+    "programming_languages": [
+      "Python",
+      "R",
+      "Advanced Excel/VBA"
+    ],
+    "tools_and_platforms": [],
+    "languages_spoken": [
+      "Portuguese",
+      "English",
+      "Spanish"
+    ],
+    "publications": [],
+    "extraction_confidence": "medium",
+    "extraction_notes": [
+      "No candidate location city or country stated explicitly",
+      "Region set to Unknown due to lack of explicit location",
+      "Bain & Company role strategy type classified as Unclear due to consulting nature and lack of investment focus",
+      "Sector classification for Bain & Company role includes Consumer, Industrials, Financial Services based on described projects",
+      "Duration for Bain & Company role given as years only, so tenure is approximate"
+    ]
+  }
+}

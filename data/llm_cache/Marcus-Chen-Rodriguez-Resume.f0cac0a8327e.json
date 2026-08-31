@@ -1,0 +1,192 @@
+{
+  "prompt_version": "v4",
+  "content_hash": "f0cac0a8327e3e18c74962ea3f7aefab325a33a222820a9d55b23f8187ee7096",
+  "source_file": "Marcus-Chen-Rodriguez-Resume.docx",
+  "provider": "openai",
+  "model": "gpt-4.1-mini",
+  "prompt_tokens": 3509,
+  "completion_tokens": 1385,
+  "profile": {
+    "source_file": "Marcus-Chen-Rodriguez-Resume.docx",
+    "source_agency": null,
+    "full_name": "Marcus Chen-Rodriguez",
+    "honorific": null,
+    "email": "rchen@hotmail",
+    "phone": "(745) 156-1879",
+    "location_city": null,
+    "location_country": null,
+    "region": "North America",
+    "current_employer": "Coatue Management",
+    "current_title": "Healthcare Analyst, Investment Team",
+    "primary_strategy_type": "Fundamental",
+    "primary_market_side": "Buy-Side",
+    "primary_firm_type": "Hedge Fund",
+    "seniority_level": "Senior Analyst",
+    "sectors_covered": [
+      "Healthcare",
+      "Credit"
+    ],
+    "sector_specialisation_detail": [
+      "Life Sciences Tools & Diagnostics",
+      "MedTech",
+      "Therapeutics & Services",
+      "Digital Health & AI-enabled diagnostics",
+      "Structured credit",
+      "Growth equity",
+      "Royalty financings"
+    ],
+    "geographic_markets_covered": [
+      "North America"
+    ],
+    "self_reported_years_experience": null,
+    "max_coverage_universe": null,
+    "roles": [
+      {
+        "employer": "Coatue Management",
+        "title": "Healthcare Analyst, Investment Team",
+        "location": "New York, NY",
+        "start_date": "2019-10",
+        "end_date": "present",
+        "duration_stated": null,
+        "is_current": true,
+        "is_internship": false,
+        "firm_type": "Hedge Fund",
+        "market_side": "Buy-Side",
+        "seniority": "Senior Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": "$40B multi-strategy platform",
+        "highlights": [
+          "Managed public (long/short) and private (growth/venture) healthcare investment portfolio",
+          "Provided comprehensive sector coverage across Life Sciences Tools & Diagnostics, MedTech, Therapeutics & Services with primary specialization in Digital Health & AI-enabled diagnostics (60% time allocation)",
+          "Generated 340bps of outperformance versus healthcare sector benchmarks with 85% hit rate on long recommendations",
+          "Served as Board Observer at two portfolio companies: MedFlow Diagnostics and GeneTech Analytics, having sourced and co-led the latter's $150M Series B financing round",
+          "Led due diligence on 12 potential investments with total transaction value of $2.1B across public and private healthcare opportunities"
+        ]
+      },
+      {
+        "employer": "Goldman Sachs",
+        "title": "Senior Associate, Investment Team",
+        "location": "New York, NY",
+        "start_date": "2019-01",
+        "end_date": "2019-09",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Banking / Markets",
+        "market_side": "Buy-Side",
+        "seniority": "Associate",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare",
+          "Credit"
+        ],
+        "coverage_universe_size": 9,
+        "aum_or_portfolio_size": "$18B platform's $4.2B strategy",
+        "highlights": [
+          "Responsible for investment diligence, underwriting & asset management for $18B platform's $4.2B strategy focused on structured credit, growth equity and royalty financings in public and private companies",
+          "Created comprehensive financial models, investment analyses and board presentations while collaborating with third-party consultants, medical experts, and regulatory advisors",
+          "Presented investment recommendations to senior investment committee, portfolio managers and limited partner advisory boards",
+          "Generated 280bps of outperformance versus healthcare benchmarks across 9 active investments during tenure"
+        ]
+      },
+      {
+        "employer": "Goldman Sachs",
+        "title": "Associate, Investment Team",
+        "location": "New York, NY",
+        "start_date": "2017-04",
+        "end_date": "2018-12",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Banking / Markets",
+        "market_side": "Buy-Side",
+        "seniority": "Associate",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare",
+          "Credit"
+        ],
+        "coverage_universe_size": 9,
+        "aum_or_portfolio_size": "$18B platform's $4.2B strategy",
+        "highlights": [
+          "Responsible for investment diligence, underwriting & asset management for $18B platform's $4.2B strategy focused on structured credit, growth equity and royalty financings in public and private companies",
+          "Created comprehensive financial models, investment analyses and board presentations while collaborating with third-party consultants, medical experts, and regulatory advisors",
+          "Presented investment recommendations to senior investment committee, portfolio managers and limited partner advisory boards",
+          "Generated 280bps of outperformance versus healthcare benchmarks across 9 active investments during tenure"
+        ]
+      },
+      {
+        "employer": "Credit Suisse",
+        "title": "Analyst, Healthcare Investment Banking Group",
+        "location": "New York, NY",
+        "start_date": "2013-06",
+        "end_date": "2015-03",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Sell-Side Research",
+        "market_side": "Sell-Side",
+        "seniority": "Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Provided client coverage in therapeutics, medical devices and healthcare services for acquisitions and financings across mid-cap and large-cap healthcare companies",
+          "Responsible for financial modeling and creating presentations on corporate valuation, transaction implications and industry dynamics for colleagues, management teams, investors, rating agencies and internal committees",
+          "Recognized for outstanding performance with invitation to Healthcare Investment Banking recruiting committee for 2013 summer analyst class",
+          "Executed 8 transactions with combined deal value of $12B+ across M&A, IPOs, and follow-on offerings"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Harvard University",
+        "degree": "Bachelor of Arts",
+        "field_of_study": "Economics",
+        "location": "Cambridge, MA",
+        "start_year": null,
+        "end_year": 2013,
+        "gpa": null,
+        "honors": "Magna Cum Laude"
+      },
+      {
+        "institution": "Stanford University",
+        "degree": null,
+        "field_of_study": "Healthcare Innovation, Biotechnology Commercialization",
+        "location": null,
+        "start_year": null,
+        "end_year": null,
+        "gpa": null,
+        "honors": null
+      }
+    ],
+    "certifications": [],
+    "has_cfa": false,
+    "cfa_status": null,
+    "has_medical_degree": false,
+    "licenses": [],
+    "programming_languages": [],
+    "tools_and_platforms": [],
+    "languages_spoken": [],
+    "publications": [],
+    "extraction_confidence": "medium",
+    "extraction_notes": [
+      "Email address appears malformed (missing domain suffix)",
+      "No location city or country stated for candidate",
+      "Goldman Sachs roles overlap in dates but likely represent promotions within the same team",
+      "Goldman Sachs roles have same coverage universe size and AUM, suggesting same strategy focus",
+      "No explicit self-reported years of experience found",
+      "Sector specialisation detail includes sub-sectors explicitly stated in resume",
+      "Primary strategy type classified as Fundamental based on investment diligence, financial modeling, long/short public and private investing",
+      "Primary market side classified as Buy-Side based on investment team roles at Coatue and Goldman Sachs",
+      "Primary firm type classified as Hedge Fund due to current employer Coatue Management"
+    ]
+  }
+}

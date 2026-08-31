@@ -1,0 +1,206 @@
+{
+  "prompt_version": "v4",
+  "content_hash": "58c62d10b20fb8f2f6fd8a7b5dd3192734d920d1e619e61b6ee9300320767714",
+  "source_file": "Vikram-Shah.docx",
+  "provider": "openai",
+  "model": "gpt-4.1-mini",
+  "prompt_tokens": 3574,
+  "completion_tokens": 1388,
+  "profile": {
+    "source_file": "Vikram-Shah.docx",
+    "source_agency": null,
+    "full_name": "Vikram Shah",
+    "honorific": null,
+    "email": "Vshah@gmail.com",
+    "phone": "267-328-0909",
+    "location_city": null,
+    "location_country": null,
+    "region": "North America",
+    "current_employer": "Cinctive Capital Management",
+    "current_title": "Investment Analyst",
+    "primary_strategy_type": "Fundamental",
+    "primary_market_side": "Buy-Side",
+    "primary_firm_type": "Hedge Fund",
+    "seniority_level": "Analyst",
+    "sectors_covered": [
+      "Technology",
+      "Media & Telecom"
+    ],
+    "sector_specialisation_detail": [
+      "cloud computing",
+      "digital advertising",
+      "cloud infrastructure",
+      "e-commerce platforms",
+      "digital advertising",
+      "streaming services",
+      "enterprise software",
+      "mobility platforms",
+      "online marketplaces",
+      "social media",
+      "digital entertainment"
+    ],
+    "geographic_markets_covered": [
+      "U.S."
+    ],
+    "self_reported_years_experience": null,
+    "max_coverage_universe": 75,
+    "roles": [
+      {
+        "employer": "Cinctive Capital Management",
+        "title": "Investment Analyst",
+        "location": "New York, NY",
+        "start_date": "2021-09",
+        "end_date": "present",
+        "duration_stated": null,
+        "is_current": true,
+        "is_internship": false,
+        "firm_type": "Hedge Fund",
+        "market_side": "Buy-Side",
+        "seniority": "Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Technology",
+          "Media & Telecom"
+        ],
+        "coverage_universe_size": 75,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Work directly with portfolio managers to deploy long/short equity strategy across ~75 Technology/Media stocks under coverage (with primary focus on cloud computing and digital advertising sectors)",
+          "Source investment ideas through fundamental research, financial KPI analysis, alternative data tracking, and macroeconomic trend analysis across covered sectors",
+          "Conduct quarterly management meetings to discuss strategic initiatives, growth opportunities, operational efficiency programs, and competitive positioning within industry verticals",
+          "Develop tactical trading strategies around earnings events and create detailed investment previews highlighting recommended actions based on consensus expectations, proprietary data analysis, valuation metrics, and catalyst timing"
+        ]
+      },
+      {
+        "employer": "Goldman Sachs",
+        "title": "Equity Research, U.S. Internet & Interactive Entertainment - Associate",
+        "location": "New York, NY",
+        "start_date": "2019-02",
+        "end_date": "2021-09",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Sell-Side Research",
+        "market_side": "Sell-Side",
+        "seniority": "Associate",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Technology",
+          "Media & Telecom"
+        ],
+        "coverage_universe_size": 40,
+        "aum_or_portfolio_size": "$4.5 trillion combined market capitalization",
+        "highlights": [
+          "Supporting coverage of technology and media sectors for Institutional Investor ranked equity analyst team covering 40+ stocks with over $4.5 trillion in combined market capitalization",
+          "Built comprehensive financial models and conducted fundamental analysis to generate investment recommendations using DCF, comparable company, and sum-of-the-parts valuation methodologies",
+          "Maintained relationships with institutional investor clients including hedge funds and mutual funds, providing sector insights, company-specific research, and investment forecasting to support their decision-making processes",
+          "Supported IPO due diligence for eight investment banking transactions, contributing to pre-marketing investor education, financial model construction, valuation analysis, and research coverage initiation"
+        ]
+      },
+      {
+        "employer": "J.P. Morgan Asset Management",
+        "title": "U.S. Equity, Business Management - Associate",
+        "location": "New York, NY",
+        "start_date": "2017-07",
+        "end_date": "2019-02",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Asset Manager",
+        "market_side": "Buy-Side",
+        "seniority": "Associate",
+        "strategy_type": "Unclear",
+        "sectors": [
+          "Multi-Sector / Generalist"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Coordinated research vendor relationships for 120+ Portfolio Managers and Research Analysts across 180+ external research providers, implementing process improvements following regulatory changes",
+          "Analyzed assets under management and capital flows with Chief Investment Officers to determine optimal capacity targets and strategic positioning across 50+ active investment strategies",
+          "Managed vendor relationships with research networks, data providers, and analytics platforms to enhance investment decision-making capabilities"
+        ]
+      },
+      {
+        "employer": "J.P. Morgan Chase & Co.",
+        "title": "Office of the CFO, Strategy and Analytics - Analyst",
+        "location": "New York, NY",
+        "start_date": "2016-05",
+        "end_date": "2017-07",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Commercial / Corporate Bank",
+        "market_side": "Corporate",
+        "seniority": "Analyst",
+        "strategy_type": "Unclear",
+        "sectors": [
+          "Multi-Sector / Generalist"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Analyzed the firm's expense drivers (such as strategic investments, headcount growth, and location presence) and partnered with business lines to forecast a three year budget that aligned with the CFO's key priorities"
+        ]
+      },
+      {
+        "employer": "PwC",
+        "title": "Corporate Development & Transaction Services (CDTS) - Analyst",
+        "location": "New York, NY",
+        "start_date": "2014-08",
+        "end_date": "2016-05",
+        "duration_stated": null,
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Consulting",
+        "market_side": "Unknown",
+        "seniority": "Analyst",
+        "strategy_type": "Unclear",
+        "sectors": [
+          "Multi-Sector / Generalist"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Developed comprehensive financial models (P&L, balance sheet, cash flow projections) supporting origination of complex client engagements and strategic transaction advisory services"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Northwestern University - Kellogg School of Management",
+        "degree": "Bachelor of Science in Business Administration",
+        "field_of_study": null,
+        "location": "Evanston, IL",
+        "start_year": null,
+        "end_year": 2014,
+        "gpa": "3.44/4.00",
+        "honors": "Dean's Honor List (Fall 2012 - Spring 2014), Greek Award of Distinction (2011, 2012)"
+      }
+    ],
+    "certifications": [
+      "CFA Charterholder"
+    ],
+    "has_cfa": true,
+    "cfa_status": "Charterholder",
+    "has_medical_degree": false,
+    "licenses": [],
+    "programming_languages": [],
+    "tools_and_platforms": [
+      "Bloomberg",
+      "FactSet",
+      "Microsoft Office",
+      "Financial Modeling"
+    ],
+    "languages_spoken": [
+      "Mandarin",
+      "Cantonese"
+    ],
+    "publications": [],
+    "extraction_confidence": "high",
+    "extraction_notes": [
+      "Location of candidate not stated explicitly, only employer locations",
+      "Strategy classification for J.P. Morgan Asset Management and J.P. Morgan Chase & Co. roles is unclear due to lack of investment research or portfolio management duties"
+    ]
+  }
+}

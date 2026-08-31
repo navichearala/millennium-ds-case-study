@@ -1,11 +1,11 @@
 {
-  "prompt_version": "v3",
-  "content_hash": "e059641c3614fc51c4308597248ae0313fd59949caffc2f58a7e44d83342e03f",
+  "prompt_version": "v4",
+  "content_hash": "bf047632ad206a842e134a9d9b05275f53cae0898fa4080a765b53b21ddf8cf8",
   "source_file": "Omar-El-Hassan-202405.pdf",
-  "provider": "reference",
-  "model": "reference-extraction",
-  "prompt_tokens": 0,
-  "completion_tokens": 0,
+  "provider": "openai",
+  "model": "gpt-4.1-mini",
+  "prompt_tokens": 3220,
+  "completion_tokens": 953,
   "profile": {
     "source_file": "Omar-El-Hassan-202405.pdf",
     "source_agency": null,
@@ -13,29 +13,25 @@
     "honorific": null,
     "email": "o.elhassan15@gmail.com",
     "phone": "+33678924531",
-    "location_city": "Paris",
-    "location_country": "France",
+    "location_city": null,
+    "location_country": null,
     "region": "Europe",
     "current_employer": "BNP Paribas CIB",
     "current_title": "Quantitative Developer",
     "primary_strategy_type": "Systematic / Quantitative",
-    "primary_market_side": "Sell-Side",
+    "primary_market_side": "Buy-Side",
     "primary_firm_type": "Investment Bank - Banking / Markets",
     "seniority_level": "Analyst",
     "sectors_covered": [
-      "Macro / Rates & FX",
-      "Credit"
+      "Multi-Sector / Generalist"
     ],
     "sector_specialisation_detail": [
-      "R&D Front Office Fixed Income pricing library development in C++",
-      "One-factor Gaussian copula model implementation",
-      "Exotic payoffs (local spread option), scenario analysis and Greeks computation for trading desks",
-      "Momentum-based systematic strategy development and backtesting",
-      "Yield curve construction algorithm performance optimisation"
+      "R&D Front Office Fixed Income team, quantitative development in the pricing library (C++)",
+      "Development and back testing of momentum-based trading strategies",
+      "Performance optimization of yield curve construction algorithms"
     ],
     "geographic_markets_covered": [
       "France",
-      "Europe",
       "Morocco"
     ],
     "self_reported_years_experience": null,
@@ -47,50 +43,48 @@
         "location": "Paris, France",
         "start_date": "2022-05",
         "end_date": "present",
-        "duration_stated": "Since May 2022",
+        "duration_stated": null,
         "is_current": true,
         "is_internship": false,
         "firm_type": "Investment Bank - Banking / Markets",
-        "market_side": "Sell-Side",
+        "market_side": "Buy-Side",
         "seniority": "Analyst",
         "strategy_type": "Systematic / Quantitative",
         "sectors": [
-          "Macro / Rates & FX",
-          "Credit"
+          "Multi-Sector / Generalist"
         ],
         "coverage_universe_size": null,
         "aum_or_portfolio_size": null,
         "highlights": [
-          "Quantitative development in the C++ pricing library for the R&D Front Office Fixed Income team",
-          "Introduced a new one-factor Gaussian copula model",
-          "Implemented a new exotic payoff (local spread option)",
-          "Delivered trading desk features including scenario analysis and Greeks computation"
+          "Introduction of a new model (one factor Gaussian copula model)",
+          "Implement a new exotic payoff (local spread option)",
+          "Implementation of new features for trading desks (Scenario analysis, C++ Greeks computation)"
         ]
       },
       {
         "employer": "BNP Paribas CIB",
-        "title": "Internship - Quantitative Development",
+        "title": "Internship",
         "location": "Paris, France",
         "start_date": "2022-04",
         "end_date": "2022-08",
-        "duration_stated": "April 2022 to August 2022",
+        "duration_stated": null,
         "is_current": false,
         "is_internship": true,
         "firm_type": "Investment Bank - Banking / Markets",
-        "market_side": "Sell-Side",
+        "market_side": "Buy-Side",
         "seniority": "Intern",
         "strategy_type": "Systematic / Quantitative",
         "sectors": [
-          "Macro / Rates & FX"
+          "Multi-Sector / Generalist"
         ],
         "coverage_universe_size": null,
         "aum_or_portfolio_size": null,
         "highlights": [
-          "Built an automated testing framework in C# for derivatives pricing validation"
+          "Built automated testing framework in C# for derivatives pricing validation"
         ]
       },
       {
-        "employer": "Societe Generale - SGATS (SGCIB)",
+        "employer": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale - SGATS (SGCIB)",
         "title": "Quantitative Strategist - Intern",
         "location": "Rabat, Morocco",
         "start_date": "2021-06",
@@ -99,30 +93,30 @@
         "is_current": false,
         "is_internship": true,
         "firm_type": "Investment Bank - Banking / Markets",
-        "market_side": "Sell-Side",
+        "market_side": "Buy-Side",
         "seniority": "Intern",
         "strategy_type": "Systematic / Quantitative",
         "sectors": [
-          "Macro / Rates & FX"
+          "Multi-Sector / Generalist"
         ],
         "coverage_universe_size": null,
         "aum_or_portfolio_size": null,
         "highlights": [
-          "Developed and backtested momentum-based trading strategies",
-          "Optimised the performance of yield curve construction algorithms"
+          "Development and back testing of momentum-based trading strategies",
+          "Performance optimization of yield curve construction algorithms"
         ]
       }
     ],
     "education": [
       {
         "institution": "INSA Lyon",
-        "degree": "Diplome d'Ingenieur",
+        "degree": "Dipl\u00f4me d'Ing\u00e9nieur",
         "field_of_study": "Financial Engineering",
         "location": "France",
         "start_year": 2019,
         "end_year": 2022,
         "gpa": null,
-        "honors": "Academic projects: Monte Carlo pricer for European and American options (C++); systematic strategy backtester (C#); neural network implemented with gradient descent (C#)"
+        "honors": null
       },
       {
         "institution": "Universite Lyon",
@@ -132,13 +126,13 @@
         "start_year": 2021,
         "end_year": 2022,
         "gpa": null,
-        "honors": "Coursework: stochastic calculus, differential equations, probability theory, statistics, Monte Carlo, Modern Portfolio Theory"
+        "honors": null
       },
       {
-        "institution": "Ecole Royale Navale",
+        "institution": "\u00c9cole Royale Navale Casablanca",
         "degree": "Preparatory Classes",
         "field_of_study": "Mathematics and Physics",
-        "location": "Casablanca, Morocco",
+        "location": "Morocco",
         "start_year": 2017,
         "end_year": 2019,
         "gpa": null,
@@ -153,15 +147,13 @@
     "programming_languages": [
       "C++",
       "C#",
-      ".NET",
       "Python",
       "Java",
       "R",
-      "SQL",
-      "MongoDB"
+      "SQL"
     ],
     "tools_and_platforms": [
-      "Machine Learning",
+      "MongoDB",
       "Excel"
     ],
     "languages_spoken": [
@@ -171,11 +163,12 @@
     "publications": [],
     "extraction_confidence": "medium",
     "extraction_notes": [
-      "The full-time role is stated as beginning May 2022 while an internship at the same employer runs April 2022 to August 2022, which is contradictory",
-      "The source PDF lost the 'ti' ligature throughout, so job titles and skills required character repair before parsing",
-      "The document is single-column visually but the PDF text layer interleaves the skills sidebar into the experience section, so skills and roles had to be separated by context",
-      "French is not listed among languages despite the candidate being based in Paris; no inference was made",
-      "The INSA Lyon engineering degree (2019-2022) and the Universite Lyon master's (2021-2022) overlap, which is normal for a French double-degree track but is not explained in the document"
+      "No explicit candidate location provided",
+      "Region inferred as Europe based on employer locations",
+      "Strategy type classified as Systematic / Quantitative based on quantitative development, backtesting, and model implementation",
+      "Sectors classified as Multi-Sector / Generalist due to lack of explicit sector focus",
+      "No self-reported years of experience stated",
+      "Some date ranges given as months and years, no contradictions found"
     ]
   }
 }

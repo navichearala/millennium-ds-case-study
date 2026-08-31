@@ -57,6 +57,55 @@ GRADUATE_ONLY_SCHOOLS = [
     "booth school", "harvard business school", "stanford graduate school of business",
 ]
 
+# Country / city substrings mapped onto the config.REGIONS vocabulary. Used only as a
+# fallback when a resume never states where the candidate is based: the extraction
+# prompt forbids the model from inferring a location, which is correct, but a candidate
+# whose region is "Unknown" is invisible to the app's region filter. Rather than let the
+# model guess, the fallback is derived deterministically from the location attached to
+# the candidate's current or most recent role, and it always raises a flag recording
+# that the value was inferred rather than stated.
+REGION_BY_PLACE = {
+    "North America": [
+        "united states", "usa", "u.s.", "canada", "new york", "boston", "chicago",
+        "san francisco", "los angeles", "toronto", "stamford", "greenwich", "texas",
+    ],
+    "Europe": [
+        "united kingdom", "england", "london", "france", "paris", "germany",
+        "frankfurt", "munich", "switzerland", "zurich", "geneva", "netherlands",
+        "amsterdam", "ireland", "dublin", "spain", "madrid", "italy", "milan", "sweden",
+        "stockholm", "poland", "warsaw",
+    ],
+    "Asia-Pacific": [
+        "singapore", "hong kong", "china", "shanghai", "beijing", "shenzhen", "japan",
+        "tokyo", "osaka", "india", "mumbai", "navi mumbai", "bengaluru", "bangalore",
+        "delhi", "noida", "gurgaon", "gurugram", "pune", "hyderabad", "chennai",
+        "kolkata", "ahmedabad", "maharashtra", "australia", "sydney", "melbourne",
+        "korea", "seoul", "taiwan", "taipei", "jakarta", "manila", "bangkok",
+        "kuala lumpur", "ho chi minh", "hanoi", "auckland", "wellington",
+    ],
+    "Latin America": [
+        "brazil", "sao paulo", "s\u00e3o paulo", "mexico", "chile", "santiago", "argentina",
+        "buenos aires", "colombia", "bogota",
+    ],
+    "Middle East & Africa": [
+        "dubai", "abu dhabi", "united arab emirates", "qatar", "doha",
+        "saudi", "riyadh", "israel", "tel aviv", "south africa", "johannesburg",
+        "nigeria", "lagos", "egypt", "cairo", "kenya", "nairobi",
+    ],
+}
+
+
+def region_from_place(text: str | None) -> str | None:
+    """Map a free-text location onto config.REGIONS, or return None if unrecognised."""
+    if not text:
+        return None
+    blob = f" {text.lower()} "
+    for region, needles in REGION_BY_PLACE.items():
+        if any(needle in blob for needle in needles):
+            return region
+    return None
+
+
 # Institutions and firms named often enough in this corpus to make an internal
 # contradiction detectable, e.g. a Bain role whose bullet credits McKinsey.
 KNOWN_FIRMS = [
@@ -327,7 +376,36 @@ def enrich(profile: CandidateProfile) -> EnrichedCandidate:
         flags.append("No sector coverage could be determined")
     if profile.primary_strategy_type == "Unclear":
         flags.append("Investment strategy style could not be classified")
-    if profile.region == "Unknown":
+    # Region fallback, in order of evidence quality. Recency matters: a candidate who
+    # spent 2013 in London and the last decade in Mumbai is an Asia-Pacific candidate, so
+    # role evidence is walked newest-first rather than in resume order.
+    resolved_region = profile.region
+    if resolved_region == "Unknown":
+        def _recency(role) -> tuple:
+            start = parse_ym(role.start_date)
+            return (1 if role.is_current else 0, to_months(start) if start else -1)
+
+        evidence: list[tuple[str, str]] = []
+        for role in sorted(profile.roles, key=_recency, reverse=True):
+            if role.location:
+                evidence.append((f"role location '{role.location}' at {role.employer}", role.location))
+        # Indian and other non-US resumes routinely carry the city inside the institution
+        # name rather than in a separate field, so search the whole education string.
+        for edu in sorted(profile.education, key=lambda e: e.end_year or 0, reverse=True):
+            blob = " ".join(filter(None, [edu.location, edu.institution])).strip()
+            if blob:
+                evidence.append((f"education entry '{blob}'", blob))
+
+        for description, text in evidence:
+            inferred = region_from_place(text)
+            if inferred:
+                resolved_region = inferred
+                flags.append(
+                    f"Region not stated on the resume - inferred as '{inferred}' from "
+                    f"{description}; confirm against the source document"
+                )
+                break
+    if resolved_region == "Unknown":
         flags.append("Region could not be determined")
 
     # Model-reported ambiguities feed the same flag stream, tagged by origin.
@@ -366,6 +444,7 @@ def enrich(profile: CandidateProfile) -> EnrichedCandidate:
 
     base = profile.model_dump()
     base.pop("max_coverage_universe", None)  # recomputed below from role-level evidence
+    base["region"] = resolved_region        # stated value, or the flagged fallback above
     return EnrichedCandidate(
         **base,
         candidate_id=re.sub(r"[^a-z0-9]+", "-", profile.full_name.lower()).strip("-"),

@@ -1,0 +1,207 @@
+{
+  "prompt_version": "v4",
+  "content_hash": "01e88bba6ddfe0ac90b63caaf3b145fa26ddb9c635b48764b6f66fe98a185648",
+  "source_file": "Viktor-Sharat.docx",
+  "provider": "openai",
+  "model": "gpt-4.1-mini",
+  "prompt_tokens": 3434,
+  "completion_tokens": 1205,
+  "profile": {
+    "source_file": "Viktor-Sharat.docx",
+    "source_agency": null,
+    "full_name": "Viktor Sharat",
+    "honorific": null,
+    "email": null,
+    "phone": null,
+    "location_city": null,
+    "location_country": null,
+    "region": "Asia-Pacific",
+    "current_employer": "Axis Mutual Fund",
+    "current_title": "Research Analyst",
+    "primary_strategy_type": "Fundamental",
+    "primary_market_side": "Buy-Side",
+    "primary_firm_type": "Asset Manager",
+    "seniority_level": "Lead Analyst",
+    "sectors_covered": [
+      "Healthcare",
+      "Energy",
+      "Industrials",
+      "Consumer",
+      "Multi-Sector / Generalist"
+    ],
+    "sector_specialisation_detail": [
+      "Pharmaceuticals and Specialty Chemicals",
+      "Renewable energy",
+      "Healthcare, Oil&Gas, Logistics and Alcobev",
+      "Digital health platforms and renewable energy companies"
+    ],
+    "geographic_markets_covered": [
+      "India"
+    ],
+    "self_reported_years_experience": null,
+    "max_coverage_universe": 42,
+    "roles": [
+      {
+        "employer": "Axis Mutual Fund",
+        "title": "Research Analyst",
+        "location": null,
+        "start_date": null,
+        "end_date": "present",
+        "duration_stated": "2 months",
+        "is_current": true,
+        "is_internship": false,
+        "firm_type": "Asset Manager",
+        "market_side": "Buy-Side",
+        "seniority": "Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare"
+        ],
+        "coverage_universe_size": 38,
+        "aum_or_portfolio_size": "US$1.2 billion+",
+        "highlights": [
+          "Tracked 38 companies within the healthcare fund portfolio and conducted meetings with various stakeholders (management teams, buy-side analysts) to provide strategic inputs to senior fund managers."
+        ]
+      },
+      {
+        "employer": "Meridian Capital",
+        "title": "Research analyst",
+        "location": null,
+        "start_date": null,
+        "end_date": null,
+        "duration_stated": "10 months",
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Asset Manager",
+        "market_side": "Buy-Side",
+        "seniority": "Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Multi-Sector / Generalist"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Completed comprehensive sector report on renewable energy (~120 pages) within 3 months of joining and began receiving institutional votes within first quarter.",
+          "Published detailed analysis on Indian infrastructure sector.",
+          "Applied sector-agnostic investment approach focusing on company fundamentals regardless of market capitalization constraints."
+        ]
+      },
+      {
+        "employer": "ICICI Securities Limited",
+        "title": "Research Analyst",
+        "location": null,
+        "start_date": null,
+        "end_date": null,
+        "duration_stated": "8 years 10 months",
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Investment Bank - Sell-Side Research",
+        "market_side": "Sell-Side",
+        "seniority": "Lead Analyst",
+        "strategy_type": "Fundamental",
+        "sectors": [
+          "Healthcare",
+          "Energy",
+          "Industrials",
+          "Consumer"
+        ],
+        "coverage_universe_size": 42,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Maintained active coverage of 42 stocks across multiple sectors.",
+          "Advanced from research associate to lead analyst within 3 years.",
+          "Consistently received top performance ratings throughout tenure.",
+          "Initiated coverage reports on digital health platforms and renewable energy companies, generating superior returns for institutional clients over time."
+        ]
+      },
+      {
+        "employer": "BioAnalytics Research India Ltd.",
+        "title": "Biomodeller Trainee",
+        "location": null,
+        "start_date": null,
+        "end_date": null,
+        "duration_stated": "7 months",
+        "is_current": false,
+        "is_internship": false,
+        "firm_type": "Academic / Research",
+        "market_side": "Academic",
+        "seniority": "Other",
+        "strategy_type": "Unclear",
+        "sectors": [
+          "Healthcare"
+        ],
+        "coverage_universe_size": null,
+        "aum_or_portfolio_size": null,
+        "highlights": [
+          "Contributing member of team developing AI-based drug target identification system for precision medicine applications."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Mumbai Institute of Management Studies and Research",
+        "degree": "PGDM",
+        "field_of_study": null,
+        "location": null,
+        "start_year": null,
+        "end_year": 2015,
+        "gpa": "2.5/4",
+        "honors": null
+      },
+      {
+        "institution": "Padmashree Dr.D.Y.Patil Institute of Biotechnology and Bioinformatics, Navi Mumbai",
+        "degree": "M.Tech(Integrated)",
+        "field_of_study": null,
+        "location": "Navi Mumbai",
+        "start_year": null,
+        "end_year": 2010,
+        "gpa": "68%",
+        "honors": null
+      },
+      {
+        "institution": "Bharti Vidyapeeth junior college, Navi Mumbai",
+        "degree": "HSC",
+        "field_of_study": null,
+        "location": "Navi Mumbai",
+        "start_year": null,
+        "end_year": 2006,
+        "gpa": "72%",
+        "honors": null
+      },
+      {
+        "institution": "Don Bosco High School, Navi Mumbai",
+        "degree": "SSC",
+        "field_of_study": null,
+        "location": "Navi Mumbai",
+        "start_year": null,
+        "end_year": 2004,
+        "gpa": "73%",
+        "honors": null
+      }
+    ],
+    "certifications": [
+      "Chartered Financial Analyst Level 3 (CFA, USA)"
+    ],
+    "has_cfa": true,
+    "cfa_status": "Charterholder",
+    "has_medical_degree": false,
+    "licenses": [],
+    "programming_languages": [],
+    "tools_and_platforms": [],
+    "languages_spoken": [],
+    "publications": [
+      "Machine Learning Applications in Biomarker Discovery for Targeted Cancer Therapy, Journal of Computational Biology and Bioinformatics (ISSN:2456-7891)"
+    ],
+    "extraction_confidence": "medium",
+    "extraction_notes": [
+      "No email or phone contact details provided.",
+      "No explicit candidate location stated; only employer locations implied as India.",
+      "Date ranges given as durations only, no exact start/end dates, so tenure is approximate.",
+      "Multiple roles overlap in dates due to duration-only format, exact chronology unclear.",
+      "Primary strategy type classified as Fundamental based on research analyst roles and activities described.",
+      "Role at ICICI Securities Limited classified as Sell-Side due to employer type and research analyst role.",
+      "Role at BioAnalytics Research India Ltd. classified as Academic / Research with Unclear strategy due to research focus and lack of investment context."
+    ]
+  }
+}
