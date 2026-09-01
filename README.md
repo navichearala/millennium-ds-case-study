@@ -164,6 +164,8 @@ data baked into `web-mirror/js/data.js`:
 ```bash
 cd web-mirror && python -m http.server 8790   # then open http://localhost:8790
 ```
+```web link
+https://millennium-ds-case-study-hqvfr4iirqkxre4kgk5vrj.streamlit.app/```
 
 Regenerate its data bundle after re-running the pipeline:
 
